@@ -1,0 +1,33 @@
+Join a team recognized for leadership, innovation and diversity
+The future is what you make it. When you join Honeywell, you become a member of our global team of thinkers, innovators, dreamers and doers who make the things that make the future. That means changing the way we fly, fueling jets in an eco-friendly way, keeping buildings smart and safe and even making it possible to breathe on Mars. Working at Honeywell isnt just about developing cool things. Thats why all of our employees enjoy access to dynamic career opportunities across different fields and industries. Are you ready to help us make the future?
+We are committed to helping you reach your professional, personal, and financial goals. We offer competitive compensation that aligns with our business strategies and comprehensive benefits to help you live your healthiest. We are committed to building an inclusive and diverse culture that engages as well as values the different backgrounds and experiences of our employee, which, in turn, spurs innovation, generates creative solutions and enhances our customer relations.
+The Data Scientist will be responsible for driving predictive analytics, segmentation modeling and deep dive analysis on customer behaviors across digital and non-digital touchpoints. The Data Scientist will provide insights, data analysis, experimentation and predictive analytics in support of customer experience initiatives. The Data Scientist, Customer Experience will be a member of the HBT Customer Experience team reporting to the Director, CX Data Analytics.
+If you share our passion for inspiring progress for bringing about bold shifts in how people, economies, and societies operate then you belong with Honeywell and part of our growing team.
+Key Responsibilities:
+Provide insights, data analysis, experimentation and predictive analytics in support of customer experience initiatives (i.e. eCommerce, VOC , Customer Satisfaction, Lifetime Customer Value and other operational metrics).
+Design and implement statistical and ML based methods to create segmentation models, identify changes in customer behavior and forecast financials results.
+Present data-based recommendations and tell the story that enables decisions to optimize Operations, Customer Service and Technical Support effectiveness.
+Provide thought leadership as it relates to analytics and algorithms on our recommendation engine platform for cross-sell / up-sell capabilities.
+This role MUST be located in Atlanta, GA.
+YOU MUST HAVEBachelor's Degree
+3+ years practical experience with statistical and machine learning modeling
+3+ years of experience using SQL and working with large datasets
+3+ years of experience programming in Python or R
+WE VALUEBachelors degree in Computer Science, Engineering, Applied Mathematics or related field highly preferred
+2 years of experience with data visualization platforms like Tableau
+Strong analytical skills: ability to assess data, derive insights and make recommendations
+Understanding of business and ability to translate data into business insights for business stakeholders
+Visualization, storytelling & presentation
+Collaboration & communication
+Self-starter with strong organization, prioritization and time management skills
+High attention to detail
+Passionate about the use of data to drive decision-making and inform strategy
+Ambition and motivation to accelerate the company's analytics capabilities
+Effective teamwork, partnering and collaboration skills
+Positive attitude and willingness to be both tactical and strategic
+Additional Information
+JOB ID: HRD111357
+Category: Information Technology
+Location: 715 Peachtree Street, N.E.,Atlanta,Georgia,30308,United States
+Exempt
+Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, or veteran status.

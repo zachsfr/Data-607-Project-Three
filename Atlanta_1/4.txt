@@ -1,0 +1,30 @@
+Job detailsJob TypeFull-timeFull Job DescriptionJob Description
+At VMware, we are preparing for the transformation of VMware to an even more customer-centric, cloud-ready company, which has resulted in a newly created and unified Customer Experience and Success Team. This has been as a result of many months of talking to our customers, as well as studying best practices in the software industry. This new organization will help to take VMware to the next level of customer satisfaction and success. This newly formed group has brought together various key functions and roles that are crucial to our customer experience. This includes Customer Success, Global Services, Technical Support, Premier Support, Technical Account Management and Professional Services.
+Our goal is to create an integrated and agile team that can deliver a best-in-class customer experience at scale, across our five solution areas. We lead with putting the customer at the center of everything we do. This new organization will be better positioned to transition to proactively and prescriptively guide our customers to value realization outcomes. We will do so through designed and reconciled winning customer experiences. Our team will lead the way servicing our customers programmatically and help scale customer success to do the same. Furthermore, we expect this team and with laser-focus commitment to our customers to help accelerate VMware’s evolution to a software-as-a-service company and significantly raise VMware’s Net Promoter Score (NPS).
+What is in it for you?
+You'll be a key member of the VMware team that has built a rare business environment - one of energy, creativity, collegiality and collaboration
+You will join an atmosphere that is fun, casual and inviting. In keeping with VMware's roots as a successful entrepreneurial, start up.
+You will have the opportunity deliver impactful results to the Customer Experience and Success team while building your skillset and experience
+Job Requirements
+Design and create models and algorithms to measure the customer experience
+Measure and report on the impact and effectiveness of all phases of the customer journey
+Measure and report on the impact and effectiveness of adoption and consumption campaigns leading to higher retention and customer growth
+Leverage statistical analysis and machine learning to understand the effectiveness of VMware’s post-sale operating model
+Partner with stakeholders on ways to improve the customer journey that enable the business to deliver value realization to VMware customers
+Predict customer situations who will “fall out” of the journey
+Collaborate inter and intra-departmentally on data from several different (disparate) data sources
+Deliver customer insights and analytics to help improve on customer experience and deliver ROI to customers
+Create and deliver customer sentiment research analysis strategy and process
+Qualifications
+6+ years of experience in solving complex business problems using advanced analytics, statistical analysis, machine learning, and algorithms that result in customer adoption, improved sentiment, and value realization
+3+ years of experience in extracting, cleansing and working with structured and unstructured data sets
+5+ years of experience working in agile environments with versioned or iterate development
+Advanced Python/R knowledge and hands on statistical programming
+Comfortable working in a dynamically and changing environment
+Comfortable working with loosely defined requirements where you exercise your creativity and analytical skills to deliver best in class solutions
+Well versed in solving complex problems and communicating complex results to leadership and stakeholders
+Deep experience budling NLP models
+Excellent written and verbal communication, especially with articulating vision, planning, analysis process, and results in business terms.
+“This job requisition is not eligible for employment-based immigration sponsored by VMware.”Category : Engineering and TechnologySubcategory: Data ScienceExperience: Manager and ProfessionalFull Time/ Part Time: Full TimePosted Date: 2021-03-20
+VMware Company Overview: At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our cloud, mobility, and security software form a flexible, consistent digital foundation for securely delivering the apps, services and experiences that are transforming business innovation around the globe. At the core of what we do are our people who deeply value execution, passion, integrity, customers, and community. Shape what’s possible today at http://careers.vmware.com.
+Equal Employment Opportunity Statement: VMware is an Equal Opportunity Employer and Prohibits Discrimination and Harassment of Any Kind: VMware is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at VMware are based on business needs, job requirements and individual qualifications, without regard to race, color, religion or belief, national, social or ethnic origin, sex (including pregnancy), age, physical, mental or sensory disability, HIV Status, sexual orientation, gender identity and/or expression, marital, civil union or domestic partnership status, past or present military service, family medical history or genetic information, family or parental status, or any other status protected by the laws or regulations in the locations where we operate. VMware will not tolerate discrimination or harassment based on any of these characteristics. VMware encourages applicants of all ages. Vmware will provide reasonable accommodation to employees who have protected disabilities consistent with local law.

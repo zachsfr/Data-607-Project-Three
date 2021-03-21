@@ -1,0 +1,64 @@
+Job detailsJob TypeFull-timeFull Job DescriptionJob Title
+Data Analyst/Data Scientist
+Job Description
+Position Description
+Position:
+Data Analyst / Data Scientist (External Title)
+Department:
+Operational Excellence
+ Work Location:
+Marietta, GA
+Hay Level:
+60/70 (experience dependent)
+ Date Prepared:
+27 Jan 2021
+Reports To:
+Head of Operational Excellence
+ Prepared by:
+Stephen Kramar
+About Vanderlande
+As a subsidiary of Toyota Industries (TICO), Vanderlande North America is enjoying rapid growth and extraordinary market demand. Vanderlande is a global market leader in material handling system manufacturing, design, installation, and service. Vanderlande Systems employ the latest in robotic, mechanical, and software technology. Vanderlande’s customers are household names in e-commerce, package delivery, and air transportation.
+We are currently looking for a Data Analyst that will be supporting the North America Warehouse Solutions Operational Excellence Team.
+The Data Analyst is responsible for gathering information from various systems and then analyzing and interpreting the data in order to report findings to multiple levels of the organization. This role will play a part in data governance, maintenance, and improving company efficiency.
+The Data Analyst can see the bigger picture and can easily drill down into details, being the subject matter expert in the access to and reporting of our data. In this role you assist the WS business continually improve through the mining, reporting, and analysis of data using various tools. You are in close contact with the (global) business for access to the data from our Enterprise Data Warehouse, using a SSAS Tabular model and external sources. You will be working closely together with Sales, Operations, Engineering, Supply Chain, Services, HR, and other departments through the creation and maintenance of performance dashboards and reports.
+Essential Functions (Job Duties and Responsibilities):
+Support improvement projects from data perspective
+Work on ad hoc projects as requested driving toward continuous improvement
+Building and testing models to estimate project costs and hours
+Implement statistical hypothesis tests to measure model performance
+Build visual dashboards for department manager to track key metrics
+Perform reporting and analysis to Upper Management business partners
+Perform ad-hoc analysis for various departments (PowerBI, R, Tableau, Excel)
+Use standard software offering (Microsoft) to simplify queries to make repetitive work easier and trustworthy in quality when peers need to daily utilize the solution offered
+Validate source data, document and communicate scope of business application requests.
+Identify and quantify root-cause data quality issues within the organization and assist in the development of plans toward resolution.
+Ability to train, audit and measure adoption of new processes to assure adherence and identify adjustment and improvement opportunities.
+Ability to extract, validate and analyze data from business systems
+Required Qualifications:
+Bachelor’s degree level of thinking in Technology, Data Science or IT focus area.
+Previous experience in a data analyst or business analyst role
+High level of organization and detail-oriented, accurate in work produced
+Drive to continuously improve
+An excellent team player with a global mind-set
+A pro-active personality, focusing on cooperation and relationships
+Ability to adapt to different situations/Flexible
+Must have great customer service and willingness to serve internal customers
+Ability to work independently
+Preferred Qualifications:
+Bachelor’s degree in Data Science
+4+ years experience as Business analysis
+Experience with PowerBI, PowerApps and DAX
+Superior Excel skills including VBA, Power Pivot and Power Query
+Knowledge of Python, R and SQL
+Strong in system thinking, analyzing, planning and organizing, accuracy, orientation on results.
+High analytical skills with the ability to adapt the approach based on a good set of organizational sensitivity so you are able to understand processes, IT, human and organizational consequences/needs.
+Position Type / Expected Workdays:
+This is a full-time position, Monday through Friday.
+Travel:
+This position is not expected to require travel.
+Supervisory Responsibility:
+This position does not have supervisory responsibilities.
+Other Duties:
+Please note this job description is not designed to cover or contain a comprehensive listing of activities, duties or responsibilities that are required of the employee for this job. Duties, responsibilities and activities may change at any time with or without notice.
+Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.
+Vanderlande is an equal opportunity/affirmative action employer. Qualified applicants will be considered without regards to race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.

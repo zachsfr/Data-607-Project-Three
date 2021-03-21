@@ -1,0 +1,32 @@
+Job detailsJob TypeFull-timeFull Job DescriptionWe are launching a new business that leverages data to provide transparency, insights and improvements in efficiency. Be a part of a brand new, highly collaborative team whose mission it is to bring innovation to the industry.
+
+Aderant, is a software house providing business management software for legal firms. Our talented and enthusiastic staff mean that we have become a trusted partner to firms of all sizes, from boutique firms based in one office, to global organizations spanning four continents. While our legacy has been providing on-premises software, we’re also embracing the opportunities presented by cloud services and taking advantage of them.
+
+As a Data Scientist, you will have the opportunity to be part of a new team and bring new and innovative insights to law firms globally, leveraging data about cases, timekeeping, financials and other operations. Your work will impact all members of the law firm from lawyers to the finance department.
+
+Responsibilities:
+Applying data mining techniques and statistical analysis to large amounts of internal data that has historically been highly underleveraged
+Consulting and building the ideal data environment that will enable data insights to be delivered in reports and fully integrated modules within products
+Working with product and cloud operations teams to determine how best to utilize resources
+Leverage machine learning and NLP technology to develop sophisticated data models
+Enhancing data collection procedures to include information that is relevant for building analytic systems
+Processing, cleansing and verifying the integrity of data used for analysis
+Conducting ad-hoc analysis and presenting results in a clean, clear and actionable manner
+Creating automated anomaly detection systems and constant tracking of its performance
+Skills & Qualifications:
+A Master’s degree or foreign equivalent in: Applied Mathematics, Statistics, Economics, Data Science, Information Systems, Computer Science or other relevant degree
+4 years experience using statistical data analysis techniques on business projects
+Experience working with large, complex data sets, normalizing and building training sets and models
+Expertise in translating strategic questions into tactical work plans and outputs
+Using advanced machine learning techniques to combine and compare large data sets
+Experience with common data science toolkits, such as R, Python, Weka, MatLab, etc.
+Experience with data visualization tools
+Proficiency in using query languages such as SQL
+Strong applied statistics skills, such as distributions, statistical testing, regression, etc.
+Strong scripting and programming skills
+Experience with machine learning and NLP techniques and algorithms a plus
+Culture:
+
+Our purpose is to help law firms excel and to improve people’s lives. Our commitment to each other is to foster a culture of innovation, collaboration and personal growth where challenging the norm is celebrated.
+
+Culture unites and defines our global company. We encourage our diverse workforce to bring their whole selves to work – ideas, experience and passion to drive our business forward. From entry level to experienced professional, our environment supports connection, the human kind.

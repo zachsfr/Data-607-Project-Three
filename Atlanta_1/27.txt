@@ -1,0 +1,24 @@
+QUALIFICATIONS
+Bachelor’s or master’s degree in a technical or quantitative field (mathematics, statistics, computer science, engineering, etc.); advanced degree strongly preferred
+3+ years of advanced hands-on data science & analytics experience using Python and R; some exposure to SQL
+Experience in defense/national security is a plus
+Familiarity with major Department of Defense data & environment security requirements (e.g. FedRamp, NIST 800-171) is a plus
+Knowledge and experience applying common data science methods including linear models, tree-based models, SVMs, ensemble methods (e.g. random forest) and unsupervised/clustering methods
+Experience with descriptive statistics and exploratory data analysis (EDA)
+Experience working with large datasets in flat files, relational databases and distributed systems (Spark/Hadoop); some exposure to AWS, Azure, and/or GCP is desirable
+Experience in visualization tools (e.g. Python, Tableau, Tibco Spotfire, Qlik) is highly desirable
+Experience in creating scalable and/or generalizable models and analyses that can be applied to data set of varying size and complexity
+Passion for applying analytics methods to improve mission and business decisions
+Ability to communicate complex ideas effectively, both verbally and in writing
+SECRET or TS/SCI clearance is a plus
+U.S. sitizenship
+WHO YOU'LL WORK WITH
+You will be based in one of our North America office as a member of the product team, (together with a solution leader, tech lead, product engineers, designers, data scientist) shaping and building a new analytics hub to create and deploy analytics solutions across the Department of Defense (DoD). You will have exposure to the client leadership team serving DoD and national security clients, senior McKinsey leaders and consultants serving the DoD as the solution is developed and brought to new clients.
+In addition to the defense analytics product team, you will work with our broader ecosystem of data and analytics experts within the Social, Healthcare and Public Entities (SHaPE) practice. The team has grown to 300+ colleagues globally over the last four years. It is a unique mix of public sector and healthcare experts, statisticians, engineers, data scientists and more.
+We are redefining what it means for clients to work with McKinsey by driving innovation through advanced analytics, user experience design thinking, and new product development.
+WHAT YOU'LL DO
+You will be a trusted technical expert within the defense analytics group, partnering with cross-functional team members to design, develop and maintain software applications and data services.
+You will bring forward your development and big data expertise to build products within the Defense Analytics Doman (DAD) to better serve clients in the Department of Defense. As an early member of the team, you will have the opportunity to shape the solution at its inception.
+In this role, you will have the opportunity to build analytical models that are part of an end-to-end digital platform serving secure and impactful products for the DoD. You will be involved in creating solutions from the initial MVP stage to a robust and mature product. You will help identify key hypotheses, metrics and insights, and have the opportunity to define and drive the analytical scope and method for projects including formulating and shaping the models brought to defense clients. You will create scalable solutions and insights that can be tailored and brought to different groups within the DoD to drive impact across a variety of stakeholders.
+You will communicate complex analytics concepts in a clear and concise manner to defense leaders. You will use math, stats and machine learning to derive key insights across various topics within defense and security. You will write highly optimized code to advance our internal Defense Analytics Domain and you'll develop world-class data science products for our clients.
+This role requires US citizenship and the ability to obtain a certain level of security clearance mandated by the relevant U.S. government branch or agency.

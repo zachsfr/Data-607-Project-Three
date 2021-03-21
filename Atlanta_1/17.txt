@@ -1,0 +1,13 @@
+The Operations Analysis & Performance (OAP) team at Delta provides analytical support across all major operations areas of the company. OAP's newly formed decision science team seeks a data science analytics leader to take on developing insights, models and solutions aimed at continually improving airline performance and decision making.
+An appropriate candidate will have a proven experience in data model building, optimization, machine learning techniques and other analytics solution building. The candidate should have excellent organizational and communication skills and feel comfortable in a fast-paced environment. The role will support the delivery of an analytics transformation at Delta Air Lines. Primary Functions:
+
+Identify and develop high-impact insights and data models
+Develop optimization solutions for complex business problems (large network based environment)
+Inspire and execute data analytics transformation at Delta Air Lines
+Partner with Information Technology to optimize and enhance the database environment for optimal efficiency and best practices
+Provide technical leadership to the Delta's business units
+Leverage emerging technologies and identify efficient and meaningful ways to disseminate data and analysis in order to satisfy the business needs
+Mentor junior members in technical proficiency and business acumen
+Lead complex process improvement and project management engagements for both individual business units and cross-divisional initiatives.
+Interface with business unit leaders to develop and maintain internal customer relationships
+Practices safety-conscious environment resulting in employee safety and well-being

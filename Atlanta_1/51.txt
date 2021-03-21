@@ -1,0 +1,20 @@
+Job detailsJob TypeFull-timeFull Job DescriptionPremier Research helps highly innovative biotech and specialty pharma companies transform life-changing ideas into reality. We have positioned ourselves right in the middle of the action, targeting unmet needs in analgesia, neuroscience, oncology, pediatrics, and rare diseases.
+We’re looking for a talented and energetic Principal Data Scientist to join our team! This is an exciting opportunity to join a dynamic and innovative team and grow with a forward-thinking organization, changing the course of medicine.
+Working at Premier Research means being an individual - you will be recognized for what you do and the impact you make. You will be working in a friendly environment with colleagues who are genuinely supportive, regardless of location or seniority.
+Premier Research is on an exciting journey - there is a true buzz throughout the company. Come be part of it!
+As a Lead Data Scientist with Premier Research, you’ll have the opportunity to work very closely with the Project Manager on studies as the point of contact for all data management responsibilities on multiple studies, including serving as the program or portfolio manager for a key client.
+What you’ll be doing:
+Oversee the preparation of data management plans, data entry guidelines, data management reports and other documents required for preparing and completing databases
+Review draft protocols and CRFs for potential data collection and representation, database structure or data entry problems, and provides feedback to the project team; Reviews CRFs, data listings, and database to ensure all captured data follow the rules outlined by the protocol and data management plan; track CRFs as they are processed through the Data Management department
+Generate queries to appropriate internal or external personnel (investigational sites, vendors, Clinical Research Associates, client representatives) to resolve problematic data identified during every aspect of the data management process
+Review responses to queries for appropriateness, resolves any discrepancies and modifies the database accordingly
+Mentor Data Coordinators and junior Leads
+Support new business opportunities, including contribution to study budgets, proposals, and bid defense meetings
+You’ll need this to be considered:
+Minimum of a Bachelor's Degree, preferably in Science, Engineering, or Math, or RN, RPh, or LPN certification preferred along with a minimum of 8 years of mastery in data management/science/analytics/informatics and at least 3 years leading studies
+Proven expertise in ICH/GCP and/or ISO14155 requirements; knowledge of site and institution specific contract requirements; clinical trials support or pharmaceutical industry experience; working knowledge of medical terminology and experience with clinical research; working knowledge of FDA Guidance Documents and clinical monitoring procedures; proficient in the development and review of Informed Consent Form templates
+Understanding and experience at least one Database Management System (e.g., Medidata Rave, DataLabs EDC, Oracle RDC or Inform, etc.); knowledge of web based communication tools for conferences
+Known for being customer-focused in approach to work and communications with the ability to professionally Interact with site, clients, vendors and other functional areas; strong verbal and written communication and negotiation skills
+Maintains a positive, results-oriented work environment; excellent team player, collaborative and able to build an effective team.
+Excellent organizational and time-management skills, able to prioritize work to meet deadlines; ability to multitask and work effectively in a fast-paced environment with changing priorities; accountable, dependable and strongly commited.
+#LI-BL1

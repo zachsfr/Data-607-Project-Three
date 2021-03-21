@@ -1,0 +1,25 @@
+SiriusXM and Pandora have joined together to create the leading audio entertainment company in the U.S. Together, we are uniquely positioned to lead a new era of audio entertainment by delivering the most compelling subscription and ad-supported audio experiences to millions of listeners - in the car, at home and on the go. Our talent, content, technology and innovation continue to be at the forefront, and we want you to be a part of it! Check out our current openings below and at www.siriusxm.com/careers.
+Position Summary:
+In this role you'll be working on a team designing, building, and testing the next innovations that will delight millions of listeners. You will have access to billions of hours of music listening history across hundreds of millions of listeners who have provided a hundred billion thumbs on their stations and playlists. And truly unique to SiriusXM + Pandora, you'll be working with extremely rich and diverse interlinked music metadata, including annotations of our expert musicologists with the Music Genome Project's 450+ musical characteristics. With these resources at your fingertips, we want your help to make sure we always pick that perfect next song for our listeners.
+Duties and Responsibilities:
+Design, build, and A/B-test improvements and innovations to SiriusXM + Pandora’s algorithmic radio, playlist, and recommendations products.
+Improve upon SiriusXM + Pandora’s content understanding capabilities through audio and metadata analysis.
+Partner closely with product, analytics, and engineering
+Supervisory Responsibilities:
+None
+Minimum Qualifications:
+Masters Degree in a quantitative field (CS, EE, Statistics, Physics, Math, etc.)
+Preferred Qualifications:
+PhD Degree in a quantitative field (CS, EE, Statistics, Physics, Math, etc.) or 2+ years industry experience working as a Data Scientist
+Requirements and General Skills:
+Experience designing and building machine learning systems or recommender systems or music information retrieval systems.
+Solid understanding of A/B testing concepts.
+Demonstrated ability to work well in a small team.
+Excellent communication skills with both technical and non-technical audiences.
+Technical Skills:
+Proficiency with Python, Scala, or Java.
+Experience with SQL (or equivalent).
+Experience with distributed computed systems (e.g., Spark, etc.).
+Familiarity with common machine learning libraries (e.g., scikit-learn, Tensorflow, etc.).
+Our goal at SiriusXM+Pandora is to provide and maintain a work environment that fosters mutual respect, professionalism and cooperation. SiriusXM+Pandora is an equal opportunity employer that does not discriminate on the basis of actual or perceived race, creed, color, religion, national origin, ancestry, alienage or citizenship status, age, disability or handicap, sex, gender identity, marital status, familial status, veteran status, sexual orientation or any other characteristic protected by applicable federal, state or local laws.
+The requirements and duties described above may be modified or waived by the Company in its sole discretion without notice.

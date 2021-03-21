@@ -1,0 +1,27 @@
+Job detailsJob TypeFull-timeInternshipFull Job DescriptionDescription
+SHIFT: Day Job
+SCHEDULE: Full-time
+The Anthem Technology Intern Program allows undergraduate students to gain real-world work experience in their academic field. During the summer months, interns will engage in challenging projects evolving around the rapidly changing healthcare tech industry. Interns are paired with industry professionals and mentors and will be given opportunities to stretch their skills and enrich their knowledge base to achieve a greater understanding within technology. If the intern performs well throughout the internship, there will be opportunities for fulltime employment once the intern graduates.
+Interns will participate in activities to enhance connection to the company as a whole and encourage personal growth. Some of these activities include:
+Formal onboarding event for all students to ensure integration to the organization and program
+A one on one mentorship with a leader for the duration of the program
+Cadenced Learning series to build student’s acumen and focus on learning the business
+Opportunities to grow and develop through social and networking events
+What we are looking for:
+Analytics Interns will be assigned to a specific group within Digital and Information Technology based on skill set and need of the business. Undergraduate students should have experience and education in:
+Python, R, Java, C/C++, C#, Angular, HTML
+Working on public cloud (AWS, Azure or GCP)
+Knowledge of SAS SQL Databases, database modeling and other Querying languages
+Experience in writing solutions using Python & SQL
+Text Analytics and Natural Language Processing, Sequence Labeling
+Knowledge of Data science & Artificial Intelligence/Machine learning, Probabilistic and Statistical Learning Methods
+Strong communication and cross functional collaboration skills
+Qualifications
+Undergraduate student in applied math, statics, scientific computing, data and analytics, business analytics, or related field
+First or second year undergraduate student with a graduation date between August 2021 to May 2022.
+GPA of 3.0 or above
+Must be available to participate in the intern program from June to August.
+Advanced user of Excel, PowerPoint, and Word
+Energetic self-starter with willingness to work hard, take on significant and multiple responsibilities, and with dedication towards excellence and achieving results.
+Currently enrolled in an undergraduate level degree-seeking program related to data science, statistics, mathematics, artificial intelligence or similar program.
+Anthem, Inc. is ranked as one of America’s Most Admired Companies among health insurers by Fortune magazine and has been named a 2019 Best Employers for Diversity by Forbes. To learn more about our company and apply, please visit us at careers.antheminc.com. An Equal Opportunity Employer/Disability/Veteran. Anthem promotes the delivery of services in a culturally competent manner and considers cultural competency when evaluating applicants for all Anthem positions.
