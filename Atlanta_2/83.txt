@@ -1,0 +1,38 @@
+When you join Verizon
+Verizon is a leading provider of technology, communications, information and entertainment products, transforming the way we connect across the globe. We’re a diverse network of people driven by our ambition and united in our shared purpose to shape a better future. Here, we have the ability to learn and grow at the speed of technology, and the space to create within every role. Together, we are moving the world forward – and you can too. Dream it. Build it. Do it here.
+What you’ll be doing...
+In this technical lead role, you will use machine learning/deep learning technical expertise and commercial implementation experience in developing and scaling data science and Artificial Intelligence capabilities (five hundred million dollars plus business applications). You will focus on designing large scale AI capabilities that cut across multiple business domains working with and leading the technical roadmap for the data scientist and machine learning engineer teams.
+You will work closely with data science and engineering teams and the entire data scientist community at Verizon in proactively designing and developing AI capabilities. These AI capabilities will include predictive, prescriptive and adaptive applications for all predictions and inferences at Verizon. Models will typically get implemented on premise, in cloud and/or on the edge and in both real-time and batch mode depending upon the business applications.
+At Verizon, we are on a multi-year journey to industrialize our data science and AI capabilities. Very simply, this means that AI will fuel all decisions and business processes across the company. At hundred and thirty billion dollars plus in annual revenue, this is a pioneering opportunity to design and shape AI at scale in the Telco industry. With our leadership in bringing 5G network nationwide, the opportunity for AI will only grow exponentially in going from enabling billions of predictions to possibly trillions of predictions that are automated and real-time. Therefore, it will be critical that this candidate possess previous experience in research and validation of AI and data science techniques.
+Develop the next generation of AI that protects the privacy of our customers and ensures that our modeling practices are ethical and bias free.
+Test and validate all AI methods for industrial scale. Deploy and manage models throughout the model lifecycle.
+Bring thought leadership in this space by introducing ways of identifying and testing for and eliminating biases in our models.
+Operate as an expert and thought leader both within Verizon and externally within industry.
+Serve as trusted advisor to all stakeholders at Verizon.
+Coach and mentor our high potential talent.
+Partner with academia and startup ecosystem to identify and potentially bring in new AI approach that can be of value to Verizon.
+Stay informed on the latest advancements in AI and technology space, finding ways to deliver value by applying and customizing these to our specific problem space.
+Help create an environment where our scientists are engaged in pioneering work that can be shared with the world in a number of ways like open source, publications, etc.
+Lead the way in creating AI applications designed with bias considerations and that promotes ethical AI both within Verizon and externally with Verizon’s partners.
+Support and further our best practices and governance routines to ensure adherence to model management policies, peer reviews, and compliance to our policy standards for privacy, ethics, and bias.
+What we’re looking for...
+You are a master at analyzing big data. You thrive in an environment where enormous volumes of data are generated at rapid speed. You’re a creative thinker who likes to explore, and uncover the issues. You are decisive. You are great at influencing up, down, and across groups, and you take satisfaction in mentoring others.
+You’ll need to have:
+Bachelor’s degree or four or more years of work experience.
+Six or more years of relevant work experience.
+Five or more years of experience in scaling AI in areas like personalization, forecasting, experimentation, computer vision, etc.
+Five plus years of developing models and algorithms independently, writing your own code, developing strategy for algorithmic experimentation, and deploying in production.
+Coding experience with demonstrated expertise in Python, Java, R, etc.
+Knowledge of AI/ML models, frameworks (keras, pytorch, etc.) and libraries/packages/apis (e.g., scikit).
+Experience with both batch and streaming models in production.
+Knowledge of math, probability, statistics, and models.
+Experience with Hadoop, AWS or other distributed compute services.
+Even better if you have:
+Bachelor’s/Master’s degree or PHD in mathematics, statistics, physics, engineering, computer science, or economics.
+Knowledge of data structures, data modeling and software architecture skills.
+Knowledge and ability to explain both the code and the underlying math used algorithms/models.
+Cross-functional collaboration skills.
+Analytical and problem solving skills.
+Communication skills, critical thinking, and strategic thinking skills above and beyond the technical knowledge and commercial implementation experience.
+Equal Employment Opportunity
+We're proud to be an equal opportunity employer - and celebrate our employees' differences, including race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, and Veteran status. At Verizon, we know that diversity makes us stronger. We are committed to a collaborative, inclusive environment that encourages authenticity and fosters a sense of belonging. We strive for everyone to feel valued, connected, and empowered to reach their potential and contribute their best.Check out our diversity and inclusion page to learn more.

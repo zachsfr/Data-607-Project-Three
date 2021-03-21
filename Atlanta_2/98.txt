@@ -1,0 +1,26 @@
+Bitcoin Depot is seeking a Senior Data Analyst who will support operational reporting the entire business and facilitate a higher level of responsiveness in supporting internal customers who may have inquiries or concerns about report logic, accuracy and reporting needs.
+
+Bitcoin Depot is one of the largest multi-cryptocurrency ATM Networks in the world offering users the ability to buy and sell Bitcoin, Litecoin, and Ethereum instantly at thousands of locations. Our mission is to provide the most secure, convenient, and fastest cryptocurrency transaction. Our vision is to bring cryptocurrency market to the masses.
+
+Essential Duties and Responsibilities:
+Develop, test, and maintain reports that satisfy the requirements of internal end users
+Efficiently deliver information to internal customers using Tableau, SQL Server, and Microsoft Excel, achieving automation where practical
+Produce accurate, visually appealing, fully documented reports that are clear and actionable
+Create SQL queries, or database stored procedures to assemble necessary data from the AWS tables or other sources
+Work with business interests in refining and documenting reporting requirements. Create dynamic, static and adhoc reports to support the needs of internal departments
+Develop an understanding of operational processes and data flows pertaining to relevant products and systems
+Communicate results and insights completely and clearly to management
+Requirements:
+3+ years of experience with SQL
+3+ years of experience report development using Tableau
+Knowledge of KPI, measures, parameters, filters, aggregations, and dimensions
+Benefits
+Competitive Salary
+Generous PTO
+Health benefits offered with a company contribution towards premiums
+Wellness benefits
+Casual dress environment when in office
+Monthly company celebrations
+Advancement opportunities based on results
+Weekly catered lunches
+Premium coffee and tea provided by Buckhead Beans

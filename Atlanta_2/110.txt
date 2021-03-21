@@ -1,0 +1,70 @@
+POSITION PURPOSE
+Working at the world's fourth largest retailer mixes the best of many worlds: cutting-edge technologies applied to business problems, solving real needs for customers who spend billions of dollars across our stores in North America. QuoteCenter is an application Home Depot store associates use to build a wide range of orders from large, complex orders to small drop-in orders for products across The Home Depot's supply chain.
+
+Data analysis is the key to effective decision making. What decisions need to be made? What are our options? What is the potential impact of the decisions? What was the result of our decisions? Did we make the right decisions? We are actively working to establish data analytics as a key discipline within The Home Depot QuoteCenter.
+
+What is it like to work at The Home Depot QuoteCenter?
+
+We were a startup once upon a time and much of our startup culture still exists: the agility of a small operation, the impact that comes with being a leader in our industry. Our team uses the latest technologies to build new products that facilitate 10-figure annual sales volumes at The Home Depot.
+
+We are in search of a Senior Data Analyst to join the analytics team. In this role, you will be deployed to one of our cross-functional product teams and be responsible for connecting team members with data/analytics to help define strategy, plan the product road map, make decisions about application development & tactical efforts, monitor/measure results & KPIs, set goals, and communicate results.
+
+In this role, you'll leverage tools like Tableau, SSMS, JIRA, Confluence, and other emerging open source tools to document, acquire, analyze, and present data. You'll do data deep dives to find meaning in the data, you'll answer questions of the day, collaborate with the BI engineering team to ensure data quality and help define requirements for the BI platform to facilitate self-service data and automation of data.
+MAJOR TASKS, RESPONSIBILITES AND KEY ACCOUNTABILITIES
+35% - Serve as the primary data/analytics resource on a cross-functional product team (work product includes, but not limited to: data mining/query writing; defining & documenting data/reporting requirements; conduct and approve testing for your product area, analyze complex problems, present data/findings in a meaningful way.
+
+25% - Help mature the data analytics discipline at QuoteCenter by contributing to the definition of processes, selection of productivity tools, acquisition of data, knowledge sharing, and general use of data as a decision making tool
+
+15% - Complete major projects on the road map for the Data Analyst discipline in accordance with respective product area road map and ensure alignment with the over arching QuoteCenter road map
+
+15% - Contribute to the improvement of data quality/integrity by participating in testing, defining test scripts, documenting workflows and data flows
+
+10% - Ensure data needs are met in a timely and accurate manner for your assigned cross-functional product team and help keep designers/programmers/business users focused on delivering against the product road map
+NATURE AND SCOPE
+This position reports to Manager Business Analytics.
+
+ENVIRONMENTAL JOB REQUIREMENTS
+Environment:
+
+Located in a comfortable indoor area. Any unpleasant conditions would be infrequent and not objectionable.
+Travel:
+
+Typically requires overnight travel less than 10% of the time.
+MINIMUM QUALIFICATIONS
+Must be eighteen years of age or older.
+Must be legally permitted to work in the United States.
+Education Required:
+The knowledge, skills and abilities typically acquired through the completion of a high school diploma and/or GED.
+Years of Relevant Work Experience: 2 years
+Physical Requirements:
+Most of the time is spent sitting in a comfortable position and there is frequent opportunity to move about.
+
+On rare occasions there may be a need to move or lift light articles.
+Preferred Qualifications:Proven ability to digest high level problems and move through the process of questioning, analyzing, and troubleshooting to defining potential solutions, gaining stakeholder buy-in and collaborating with necessary teams to execute strategy.
+Experience defining & supporting operational objectives in the following areas: Technology, Business Strategy, Operations, and End Users.
+Proven history of working with stakeholders, users and subject matter experts to gain a functional understanding of business problems and technical solutions then documenting business knowledge, defining, and prioritizing requirements.
+Prior experience defining and implementing standards/templates and establishing data analysis as an organizational discipline
+Demonstrated data-driven approach to prioritization and managing product roadmaps in an Agile SDLC.
+Ability to decompose complex business problems into digestible pieces, pair with meaningful data and work back up to holistic solution recommendation.
+Ability to communicate effectively with both technical and non-technical users.
+Background implementing/supporting data governance is required.
+JIRA, Confluence, Slack, or other comparable tools
+Tableau Desktop/Server
+PowerBI
+Google Cloud/Analytics
+SSIS
+SSMS
+Strong understanding of data modeling concepts
+MS Visio
+MS Office
+Minimum high school education (prefer a Bachelor's degree in Business, Computer Science or equivalent).
+Knowledge, Skills, Abilities and Competencies:
+Excellent communicator in both verbal and written form.
+
+Polished presentation skills, creating materials and presenting to various levels of management.
+
+Big picture thinker able to operate effectively at 30,000 foot view, but also able to get into the details when necessary.
+
+Strong story teller, is able to formulate cohesive messages with meaningful and impactful points that resonate with target audience.
+
+Self-starter, requires little to no direction to be effective at role.

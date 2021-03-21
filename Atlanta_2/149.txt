@@ -1,0 +1,41 @@
+Job detailsJob TypeFull-timeFull Job DescriptionThe Georgia Tech Research Institute's Machine Learning and Analytics Branch is looking for candidates experienced in computer programming that are interested and capable of supporting, developing, and/or deploying machine learning and artificial intelligence approaches to various applications, including computer vision, perception, and/or decision making.
+
+Since our projects involve cutting-edge research and development, there are diverse opportunities including the development of scalable infrastructure for existing algorithms towards new applications as well as the development of new algorithms.
+
+Job Duties
+
+Responsibilities may include:
+The development of infrastructure to support the evaluation of machine learning algorithms,
+The implementation of novel machine learning algorithms,
+Supporting real-world application domains (e.g, image analysis or various decision-making tasks).
+Travel Requirements
+
+<10% travel
+
+Education & Length of Experience
+
+Research Engineer/Scientist I
+A Bachelor's degree in Computer Science, Electrical and Computer Engineering, or a related field of study.
+Research Engineer/Scientist II
+A Master’s degree in Computer Science, Electrical and Computer Engineering, or a related field of study and three (3) years of relevant full-time experience after completion of that degree,
+A Master’s degree in Computer Science, Electrical and Computer Engineering, or a related field of study and five (5) years of relevant full-time experience after completion of a Bachelor’s degree, or
+A Doctoral degree in Computer Science, Electrical and Computer Engineering, or a related field of study.
+Required Minimum Qualifications
+Candidates currently enrolled in an accredited Bachelor's degree program relevant to this position will be considered
+As the position will involve research and development from the fast prototyping and programming of novel algorithms to the generation of research reports, publications, proposals, and briefs to customers, excellent written and verbal communication skills are required
+Have extensive, demonstrated python programming skills
+Have an interest in expanding their knowledge in machine learning
+Preferred Qualifications
+Exposure to machine learning, artificial intelligence, reinforcement learning, or related areas
+Experience with deep learning frameworks such as TensorFlow and PyTorch
+Hands-on experience applying state-of-the-art algorithms to complex data
+Familiarity with approaches for sequential decision-making (reinforcement learning) and/or active learning
+U.S. Citizenship Requirements
+
+Due to our research contracts with the US federal government, candidates for this position are required to be US Citizens.
+
+Clearance Type Required
+
+Ability to obtain Secret Clearance upon hire
+
+Diversity & Inclusion

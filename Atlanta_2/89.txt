@@ -1,0 +1,30 @@
+Job detailsJob TypeFull-timeFull Job DescriptionPosition Mission:
+The U.S. Automotive Parts Group of Genuine Parts Company is seeking a Senior Pricing Analyst, Pricing Science and Technology to provide meaningful, actionable pricing analysis that helps the company set competitive and profitable pricing for the marketplace.
+Responsibilities:
+Pursue analysis and mining of data to understand, evaluate, improve, and project business results
+Run analytical experiments in a methodical manner, and regularly evaluate alternate models and theoretical approaches
+Lead analytic project development, prioritize activities and drive initiatives to completion
+Partner with 3rd party pricing optimization software firms to implement new solutions, including design, implementation, and change management
+Provide leadership to provide analytical insights into the business by taking advantage of statistics and the latest technologies
+Work with IT teams, management and/or data scientists to determine organizational goals
+Mine data from primary and secondary sources
+Clean and prune data to discard irrelevant information
+Analyze and interpret results using standard statistical tools and techniques
+Pinpoint trends, correlations and patterns in complicated data sets
+Provide concise data reports and clear data visualizations for management
+Present results of data analysis
+Learn and train others on statistical and machine learning techniques
+Other duties assigned
+Experience, Education, and Abilities
+Bachelors or Masters Degree in a Business, Economics, Supply Chain, Science, applied Mathematics, Engineering or related discipline.
+Experience in conducting data analysis and building models using SQL, Excel, R, Python, SAS, SPSS, Alteryx, or equivalent software.
+Expertise in data science libraries and familiarity with machine learning, participation in data science programs as part of college experience or work experience.
+Knowledge or experience in retail or wholesale business is desirable.
+Ability to be self-directed, prioritize opportunities, and perform multiple tasks
+Ability to maintain demanding timelines.
+Possess strong organizational skills and attention to detail.
+Ability to establish and maintain effective working relationships with co-workers, managers, and customers.
+Experience working for a retailer or consulting in a retail environment.
+Experience with pricing.
+Desire to learn with the motivation to continue to grow in this fast paced environment.
+Work performed in typical office environment.

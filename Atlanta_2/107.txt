@@ -1,0 +1,17 @@
+Senior Data Analyst
+Our client is seeking to hire a Senior Data Analyst to join their team in Atlanta, GA!
+This person will be responsible for ingesting, cleaning, mining and transforming data.Here' s what you' ll be doing:Performing data analysis and validation on various forms of data (e.g. raw data, base data, 3rd party data, metrics)
+Translating data into meaningful insights
+Developing reports and data visualizations to present insights in the most effective way to enable decision making
+Monitoring and analyzing key metrics, and executing recurring analyses and reporting
+Mining and interpreting data, monitoring data quality and analyzing key metrics and interpreting performance and providing insight into the data and metrics generated
+Handling data preparation and data analysis portions of various projects
+Writing, maintaining and/or updating queries to develop analyses in response to queries from internal customers
+Here' s what our ideal candidate has:5+ years of performing analysis and building data processes
+Bachelor' s degree in math, science, computer science, economics or statistics
+PPT, Visio, SQL query tools, Rally or equivalent Agile Tools, Informatica, AWS
+Power user of the MS Office suite, including Excel and PowerPoint, for doing business analysis
+Understanding of data science and product management
+Passion for analysis, focus on business results, and an entrepreneurial mindset
+Effective written, listening and oral communications
+Collaborative nature and the ability to balance vision and execution

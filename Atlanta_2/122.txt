@@ -1,0 +1,39 @@
+We are Aaron’s - an industry leader in the sales and lease-to-own retail industry known for quality brand names and superior customer service. We provide our team members the opportunity to reach their full potential in a team-oriented, high-energy, recognition-based environment with competitive pay and benefits. This is much more than a job – it is a career with purpose.
+The Senior Manager of Data Science provides leadership in areas of direct mail marketing and risk management. The Sr. Manager develops and manages customer engagement and prospect models using modern data science methods. Develops selection criteria for direct marketing campaigns to improve conversion and performance. Requires the ability to partner with marketing, IT and other business units to deliver improvements to the current processes. An individual with a strong technical background, strong business acumen and collaborative pro-active mindset will be successful in this role.Duties and Responsibilities:
+
+Develops a framework for direct marketing model development, selection criteria and ROI optimization.
+Manages and implements statistical and machine learning models.
+Performs data studies with internal and external data sources to evaluate lift from inclusion of the data sources and improve model efficiency.
+Works closely with business units across the organization.
+Maintains robust documentation on data sources and data science models.
+Assists with risk and decisioning related initiatives.
+Engages with business leaders across Aaron’s to support data driven decision making.
+
+Education and Experience:
+Master’s degree or higher required.
+5+ years of experience in data science required.
+No certifications required.
+
+Required Skills and Competencies:
+
+Strong creative problem solving and communication skills.
+Ability to work independently or lead a team of data scientists.
+Strong understanding of statistics, econometrics and machine learning concepts.
+Experience with statistical techniques such as OLS and logistic regression.
+Experience with machine learning and artificial intelligence algorithms.
+Experience developing models in Python, R or SAS.Rewards
+Team members enjoy access to career training and advancement opportunities, and are rewarded with competitive compensation and a comprehensive benefits package, which includes:
+Paid time off including vacation days, sick days and holidays
+Medical, dental & vision insurance
+Maternity and Paternity Leave
+401(k) plan with company match
+Flexible spending accounts
+Life insurance
+Disability benefits
+Stock Purchase Plan
+Team Member purchase discounts
+About Aaron’s
+At Aaron’s we offer sales and lease-to-ownership of specialty items including furniture, consumer electronics, home appliances, and accessories throughout the United States and Canada. Our customers shop at Aaron’s for the same reason you should choose us for the next step in your career – our ability to positively influence people’s lives. If you are looking for a company with the passion and dedication to make a difference in the lives of customers and team members alike, join us today.
+
+Aaron's is committed to creating a diverse and inclusive work environment, celebrates our team members' differences, and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, pregnancy, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, military duty, gender expression, genetic information, or any other protected class. Candidates who require accommodation during the recruitment process should contact hrsupport@aarons.com.
+Aaron's is an Equal Opportunity Employer
