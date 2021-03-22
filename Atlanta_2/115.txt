@@ -1,0 +1,35 @@
+Job detailsJob TypeTemporaryContractFull Job DescriptionThe Opportunity:
+
+We are seeking a talented Data Scientist Lead to be a senior researcher primarily responsible for building new analytical capabilities for the benefit of internal business partners and credit unions. The Lead is insatiably curious about data and uses that passion to find insights hidden within the trillions of credit union transactions we have access to. The role will join a team of data scientists that provide solutions to all business verticals within CO-OP with the mission to provide analytical solutions that enable business leaders to make better decisions quickly.
+What You Can Look Forward to:
+Collaborates with stakeholders throughout the business to understand existing processes and identify opportunities for leveraging data to drive solutions.
+Provides oversight and guidance when required to other data science team members. Recommends training opportunities to further advance individuals and the CO-OP Data Science practice.
+Designs and builds custom AI driven data models and algorithms to optimize products and processes.
+Works as a cross-functional team member adhering to Agile principles and philosophies to help complete and deliver the team commitments.
+Interprets data analysis and model results for business and technical teams.
+Communicates with CO-OP stakeholders at all levels including senior level executives and clients.
+Coordinates with business and technical teams to monitor and implement models.
+Develops processes and tools to monitor and analyze model performance.
+Manages, monitors and reports risks, including Information Security risks.
+Identifies opportunities to monetize our rich and diverse dataset.
+Responsible for reporting risks that are identified to the appropriate team and/or management. Additionally, responsible for managing, monitoring and reporting risks within the scope of your work area, to include, but not limited to Information Security risks.
+Actively supports our CO-OP culture and embraces our core values of Work as Partners, Communicate Openly and Honestly, Demonstrate Excellence and Champion Change in all interactions.
+What Youâll Need to Succeed:
+Statistical mindset and a strong curiosity about business processes and data.
+Excellent verbal and written communication skills. Strong ability to tell a story with data and visualizations.
+3+ years of experience with SQL and relational databases.
+3+ years of exposure to cloud and big data technologies.
+5+ years of experience with open source statistical programs (R/Python/Scala).
+5+ years of experience as a Data Scientist, Quantitative Analyst, Statistician or similar role is required, preferably 10+ years at a financial services company.
+MS degree in Statistics, Operations Research or a similar quantitative discipline is required, PhD is preferred.
+Why Join CO-OP?:
+
+CO-OP is committed to fostering a workplace where every employee feels valued, respected, and connected. We are dedicated to understanding, attracting and engaging a diverse workforce; ensuring that our employee base reflects the consumers we serve; cultivating a workplace in which every employee can live up to their full potential. The result of this effort is an inclusive environment where diverse talent thrives. You will be part of an organization that focuses on a strong culture and embodies the credit union movement philosophy of People Helping People. CO-OP’s commitment to reflecting our own core values and purpose extends beyond how we serve our clients and the products that we deliver.
+With more than 35 years of industry leadership, CO-OP Financial Services is the largest, most comprehensive credit union service organization in the nation. CO-OP serves as THE credit union technology engine, bringing payments solutions, engagement services and strategic counsel to help credit unions optimize member experiences to consistently provide seamless, personalized multi-channel offerings, while delivering secure, sophisticated fraud mitigation service.
+CO-OP serves more than 3,000 client credit unions, with 60 million debit and credit cardholders, nearly 30,000 surcharge-free ATMs and more than 5,600 shared branches nationwide. Our vast technological ecosystem facilitates more than 6.5 billion transactions every year and equips credit unions of all sizes to deepen member engagement and prosper in the fast-paced world of fintech.
+The Perks:
+Fun, challenging and, collaborative work environment with passionate colleagues that care deeply about the intersection of technology and human-centered financial services.
+Great Work/Life Benefits – Paid Time Off (PTO), Maternity, Parental, Family Care, Adoption Leave Programs, Community Volunteer Time Off, and 10 Paid Holidays.
+Health benefits – medical, dental, & vision plus wellness programs and gym reimbursements.
+401K with generous company match.
+Tuition reimbursement.

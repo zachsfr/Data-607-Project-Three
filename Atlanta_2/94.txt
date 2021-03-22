@@ -1,0 +1,15 @@
+Job detailsJob TypeFull-timeFull Job DescriptionjobDescription
+Dorabot develops automated warehouse solutions using cutting-edge AI and robotics, including computer vision, motion planning, mobility and deep learning, etc. Covering automation solutions such as induction, sorting, transportation and loading for logistics, express, e-commerce, seaports, airports, manufacturing and other scenarios. Our systems pick, place, load, sort, and transport items of various shapes and sizes using cutting-edge deep learning, motion planning, grasp planning, navigation, and SLAM technologies. Unique among early-stage startups, Dorabot employs engineers and business professionals from over 10 different countries, and we're united by our boundless drive to create, learn, share, and grow.1. Research on novel machine learning and deep learning topics that have high value and impact on academia and industry problems.
+2. Lead problem definition and propose research plans.
+3. Conduct and record research progress, report and present research status and results clearly and efficiently both internally and externally, verbally and in writing.
+4. Collaborate with the engineering team to apply research results to real-world applications with high quality implementation and integrate the resulting system/software into existing Dorabot Platform.
+positionRequirements
+1. Strong background in machine learning and deep learning knowledge and applications in computer vision and other fields.
+2. Ph.D. in Mathematics, Computer Science, Mechanical Engineering, Electrical Engineering or related fields, or B.S./M.S. in related quantitative fields with 3+ years of relevant experience.
+3. Good publication records, research papers published in well-known journals or top conferences.
+4. Good programming skills, experience with large and complex software projects.
+5. A real passion for robotics and has a good grasp of modern robotic concepts and techniques.
+6. Strong self-management capability. Able to work independently, and has strong research and problem solving skills.
+preferredQualifications
+1. Knowledge with logistic and supply chain management.
+2. Management experience of research and development.

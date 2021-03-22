@@ -1,0 +1,41 @@
+Job detailsJob TypeFull-timeFull Job DescriptionAbout NCR
+NCR Corporation (NYSE: NCR) is a leading software- and services-led enterprise provider in the financial, retail and hospitality industries. NCR is headquartered in Atlanta, Georgia, with 36,000 employees globally. NCR is a trademark of NCR Corporation in the United States and other countries.Title: Sr. Data Scientist
+Location: Atlanta, GA
+Job Description:
+NCR Corporation (NYSE: NCR) is the global leader in consumer transaction technologies, turning everyday interactions with businesses into exceptional experiences. With its software, hardware, and portfolio of services, NCR enables nearly 700 million transactions daily across retail, financial, travel, hospitality, telecom and technology, and small business. NCR solutions run the everyday transactions that make your life easier. NCR is headquartered in Atlanta, Georgia, with approximately 29,000 employees and does business in 180 countries.
+
+The NCR AI/ML Center of Excellence is in search of a qualified Sr. Data Scientist. As a part of managed services product management team, this person will support our Digital Connected Services (DCS) offers with insights gained from analyzing NCR services data generated from the Internet of things (IOT) events and service management platform across all industries (Reteail, Hospitality, and Finance) and any other contextual data required. This person’s primary responsibility is to productize machine learning models as analytics engine to power DCS offers and applications.
+The ideal candidate is adept at using large data sets to find opportunities for product and process optimization and using models to test the effectiveness of different courses of action. They must have strong experience using a variety of data mining/data analysis methods, using a variety of data tools, building and implementing models, using/creating algorithms and creating/running simulations. They must have a proven ability to drive business results with their data-based insights. They must be comfortable working with a wide range of stakeholders and functional teams. The right candidate will have a passion for discovering solutions hidden in large data sets and working with stakeholders to improve business outcomes using predictive analytics and machine learning.
+KEY AREAS OF RESPONSIBILITY:
+Translate NCR’s data asset into business opportunities through prototyping of machine learning models
+Design and develop a repeatable process and scalable infrastructure to bring ML models into production at a fast pace in collaboration with data engineers, software engineers and IT partners.
+Develop metrics to assess business implication and communicate results with stakeholders including interpretation of machine learning models.
+Develop new features and techniques build upon the latest results from the research community.
+Mentor junior data scientists and help to grow the team
+BASIC QUALIFICATIONS:
+Strong inferential skills with an ability to succinctly communicate complex topics to business stakeholders.
+Industry experience with writing production level code (e.g., Python, Scala, PySpark, Java) and taking ML models and algorithms to production.
+Experience with machine learning frameworks (e.g., Keras, PyTorch), libraries (e.g., scikit-learn, tensorflow) and platforms (e.g., MLflow).
+Knowledge of a variety of machine learning techniques (Regression, GLM, clustering, neural networks, etc.) and their real-world advantages/drawbacks.
+Experience with cloud-based data ecosystem (e.g., Kafka, Spark, Hadoop etc).
+Excellent written and verbal communication skills for coordinating across teams.
+Experience visualizing/presenting data for stakeholders using PowerBI or Tableau.
+A drive to learn and master new technologies and techniques.
+PREFFERED QUALIFICATIONS:
+We’re looking for someone with 5-7 years of develop and productize machine learning models, has a postgraduate degree in Industrial Engineering, Computer Science, Physics, Neuron Science or another quantitative field.
+Experience to develop predictive analytic model based on IoT data in the industrial sector.
+Experience to build machine learning pipeline including model training, tuning, deployment and serving using managed services on Azure (e.g., Azure Data Factory, Azure Databricks, Azure Machine Learning, Azure Monitor, Azure Kubernetes Service, Azure Function)
+Offers of employment are conditional upon passage of screening criteria applicable to the job.
+Full time employee benefits include :
+Medical Insurance
+Dental Insurance
+Life Insurance
+Vision Insurance
+Short/Long Term Disability
+Paid Vacation
+401k
+EEO Statement
+
+Integrated into our shared values is NCR's commitment to diversity and equal employment opportunity. All qualified applicants will receive consideration for employment without regard to sex, age, race, color, creed, religion, national origin, disability, sexual orientation, gender identity, veteran status, military service, genetic information, or any other characteristic or conduct protected by law. NCR is committed to being a globally inclusive company where all people are treated fairly, recognized for their individuality, promoted based on performance and encouraged to strive to reach their full potential. We believe in understanding and respecting differences among all people. Every individual at NCR has an ongoing responsibility to respect and support a globally diverse environment.Statement to Third Party Agencies
+
+To ALL recruitment agencies: NCR only accepts resumes from agencies on the NCR preferred supplier list. Please do not forward resumes to our applicant tracking system, NCR employees, or any NCR facility. NCR is not responsible for any fees or charges associated with unsolicited resumes.

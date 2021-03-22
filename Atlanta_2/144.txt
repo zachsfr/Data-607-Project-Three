@@ -1,0 +1,50 @@
+Job detailsJob TypeFull-timeFull Job DescriptionThe data scientist/engineer in the Performance Optimization Branch will perform digital modeling, simulation, analysis, performance optimization, and machine learning tasks to support electronic warfare research and development. Electronic warfare applications include aircraft self-protection, missile warning, hostile fire indication, laser warning, countermeasures, scene generation, atmospheric phenomena, and electro-optical/infrared (EO/IR) signature modeling. The data scientist/engineer will be on an agile team that performs software optimization, verification, validation, and system simulation using dedicated high-performance computing clusters to support sponsor missions.
+
+Job Duties:
+Develop innovative algorithms and apply machine learning/deep learning methods to EW applications such as object detection, object recognition, and time series classification
+Research novel methods in the field of automated machine learning and algorithm design to solve problems of today and challenges of tomorrow
+Create large robust curated datasets from limited real-world supervised examples through simulation, augmentation techniques, and more modern approaches such as GANs
+Deliver full trade space of algorithmic solutions within sponsor performance specifications using multiple-objective optimization and analysis techniques
+Write and perform software tests supporting software verification and document outcomes
+Lead technical tasks, projects, and/or technical teams
+Build and deliver technical presentations to stakeholders/sponsors
+Perform other duties as assigned
+Travel Requirements
+
+10% - 25% travel
+
+Education & Length of Experience
+
+Research Engineer/Scientist II
+A Master’s degree in electrical engineering, computer engineering, computer science, or a related technical discipline and three (3) years of relevant full-time experience after completion of that degree,
+A Master’s degree in electrical engineering, computer engineering, computer science, or a related technical discipline and five (5) years of relevant full-time experience after completion of a Bachelor’s degree, or
+A Doctoral degree in electrical engineering, computer engineering, computer science, or a related technical discipline.
+Senior Research Engineer/Scientist
+A Master’s degree in electrical engineering, computer engineering, computer science, or a related technical discipline and seven (7) years of relevant full-time experience after completion of that degree,
+A Master’s degree in electrical engineering, computer engineering, computer science, or a related technical discipline and nine (9) years of relevant full-time experience after completion of a Bachelor’s degree, or
+A Doctoral degree in electrical engineering, computer engineering, computer science, or a related technical discipline and four (4) years of relevant full-time experience after completion of a Bachelor's degree.
+Required Minimum Qualifications
+Experience with machine learning and/or genetic programming methods
+Experience with Python (including numPy, sciPy, pandas, matplotlib) and C++
+Experience with Linux
+Experience with version control systems (Eg. Git)
+Educational background to qualify as Research Engineer/Scientist II or Senior Research Engineer/Scientist
+3+ years of relevant work experience
+Preferred Qualifications
+Experience with Evolutionary Multi-objective Algorithm Design Engine (EMADE) tool set
+Experience in the fields of remote sensing, machine learning, or computer vision
+Experience with machine learning tools such as Tensorflow, Scikit-learn, Keras, or PyTorch
+Experience with Perl, Matlab, Fortran, or Ada
+Experience leading tasks, projects, and/or technical teams
+Active DoD security clearance
+A PhD in electrical engineering, computer engineering, computer science, or a related technical discipline
+8+ years of relevant work experience
+U.S. Citizenship Requirements
+
+Due to our research contracts with the US federal government, candidates for this position are required to be US Citizens.
+
+Clearance Type Required
+
+Candidates must be able to obtain and maintain an active security clearance.
+
+Diversity & Inclusion

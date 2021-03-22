@@ -1,0 +1,31 @@
+We Light the Way!
+Acuity Brands (NYSE: AYI) is transforming the lighting industry. We take pride in our 12,000 employees, and they take pride in working with the best in the industry. Join a team committed to lighting the way to a more brilliant, connected, and productive world. Individually we are talented, but together we are unstoppable.
+About this Team
+The Data Science and Analytics team at Acuity Brands, Inc. is engaged in exploiting the power of data and analytics in optimizing Acuity’s business operations spanning pricing to supply chain. The team is also responsible for leveraging the power of data and machine learning to unlock digital twins of Acuity’s lighting and control devices to enable intelligent IOT as foundational pillars for building management solutions providing services that optimize energy and enhance end customer experience while reducing costs.
+The Senior Data science and analytics engineer is a critical role that will be responsible for developing AI and machine learning algorithms, pipelines implementing them and their exploitation across our data & analytics platform. If you are passionate about driving impact through data while developing business, technical, and leadership acumen, then this is an exciting opportunity to work on in an amazing team and deliver exceptional results.
+How you will contribute:Leverage understanding of domain and data to identify opportunities to improve and optimize existing processes and services
+Exploit telemetry and multiple sources of data - design, test, and deploy AI/ML solutions, collaborate with other data scientists & engineers to build continuous deep learning based capabilities for prediction, early alerting, and prescriptive recommendations
+Define appropriate business metrics to measure the impact of AI/ML solutions within the platform
+Design and conduct rigorous A/B/N experiments and evaluate results
+Write scalable, concurrent, distributed and highly efficient code, in languages such as Python, Scala, Java and other coding languages.
+Qualified Applicants will have:Basic Qualifications
+MS or PhD in Computer Science, Statistics, Mathematics, or related field, or equivalent professional experience
+Experience in building end-to-end analytics solutions, operationalizing them by adopting container ecosystem of Docker, Kubernetes.
+Demonstrated AI/ML pipeline development with relevant code experience using one or more of the following: TensorFlow, Keras, PyTorch, SparkML, etc.
+Experience using one or more of the following frameworks: Spark (structured Streaming), Akka, Kafka, etc.
+Experience in end to end A|B Testing
+Experience working in a data intensive environment and translating business needs into data requirements
+Excellent problem solving, critical thinking, and communication skills
+Initiative and passion for finding solutions to hard problems at scale and operationalizing them
+Demonstrated ability to work in ambiguous situations and across organizational boundaries.
+Respect, Accountability, Integrity and a Positive Can-Do attitude
+Preferred Qualifications
+M.S. degree in Computer Science, Engineering, Machine Learning, or other quantitative fields with 5+ years of industry experience
+Ph.D. in Machine Learning, Engineering, Computer Science, or other quantitative field with 2+ years of industry experience
+Experience with productionizing algorithms for real-time systems
+Proficiency in Scala or Python
+#LI-remote
+We invite you to apply today to join us as We Light the Way to a Brilliant, Productive, and Connected World!
+We value diversity and are an equal opportunity employer. All qualified applicants will be considered for employment without regards to race, color, age, gender, sexual orientation, gender identity and expression, ethnicity or national origin, disability, pregnancy, religion, covered veteran status, protected genetic information, or any other characteristic protected by law.
+Please click here and here for more information.Accommodation for Applicants with Disabilities: As an equal opportunity employer, Acuity Brands is committed to providing reasonable accommodations in its application process for qualified individuals with disabilities and disabled veterans. If you have difficulty using our online system due to a disability and need an accommodation, you may contact us at (770) 922-9000. Please clearly indicate what type of accommodation you are requesting and for what requisition.Any unsolicited resumes sent to Acuity Brands from a third party, such as an Agency recruiter, including unsolicited resumes sent to an Acuity Brands mailing address, fax machine or email address, directly to Acuity Brands employees, or to Acuity Brands resume database will be considered Acuity Brands property. Acuity Brands will NOT pay a fee for any placement resulting from the receipt of an unsolicited resume.
+Acuity Brands will consider any candidate for whom an Agency has submitted an unsolicited resume to have been referred by the Agency free of any charges or fees. This includes any Agency that is an approved/engaged vendor, but does not have the appropriate approvals to be engaged on a search.

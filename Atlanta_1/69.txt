@@ -1,0 +1,37 @@
+Strength in Trust
+
+Our goal at OneTrust is to bring the power of trust to companies all over the world. Using cutting-edge technology and a real-world approach to ethics, compliance, privacy, security, and third-party risk, we've created a no-nonsense platform to help supercharge the global push for trust.
+
+The Challenge
+
+We are a looking for a Researcher/Data Scientist to drive the OneTrust research team. This person will be responsible for designing and developing various statistical models and simulations to power Athena's decisions to optimize our customer's privacy and security programs.
+
+Your Mission
+Develop working models that can be integrated into OneTrust application and leveraged by customers at scale
+Functionally work across engineering teams to take problems the team has and convert/drive solutions for predictive analytics, AI intelligence to the problem in a practical way
+Articulate the model and drive the patent portfolio of patenting designs and algorithms for use of the technology
+Set the vision for developing complex analytics, data classification and NLP/NLU technologies
+You Are
+Someone who can design, code, build working prototypes to validate ideas and concepts
+Someone who has strong math/statistic skills for how to analyze data sets
+Someone who has a strong foundation of engineering skills to pick up and understand any technology, system, etc.
+Able to understand the different types of trained and untraded AI models and when to appropriately use different techniques based on use case
+Self-learning and a self-starter - you have a drive to learn and master new technologies and techniques
+Your Experience Includes
+PhD or Master's Degree in a quantitative discipline (e.g. statistics, mathematics, financial engineering)
+5+ years of relevant experience in designing quantitative models to assess business risks and/or data classification modeling
+Experience using statistical computer languages: Python, R, SQL, etc.
+Knowledge and/or experience with several languages: Java, JavaScript, etc.
+Experience with Azure, AWS or similar cloud computing environment
+Expertise with Natural Language Processing/Natural Language Understanding, Deep Learning, Machine Learning, Data Mining, and (robust) statistics
+An inclination to solve problems systematically via infrastructure and automation
+Strong understanding of data classification, sensitivity, PII, and personal data modeling techniques
+Experience in designing data pipelines and products for real world applications
+Experience with modern/emerging scalable computing platforms and languages (e.g. Spark)
+Extra Awesome
+Any modeling work related to Privacy, Security, Compliance that is relevant to the OneTrust market (e.g. NLP work on privacy policies or consent models, risk modeling for ISO compliance)
+Our Commitment to You
+
+When you join OneTrust you are stepping onto a launching pad — the countdown has begun. The destination? A career without boundaries working alongside a diverse and inclusive crew who is passionate about doing meaningful work. As a pioneer, your voice and expertise will help chart the direction of an entirely new industry — Trust. Our commitment to putting people first starts with you. Your growth is part of the mission. Our goal is to give you the power to embark on the next phase of your uniquely, unique career
+
+OneTrust provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.

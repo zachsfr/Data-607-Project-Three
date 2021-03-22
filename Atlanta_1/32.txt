@@ -1,0 +1,33 @@
+Join the industry leader to design the next generation of breakthroughs
+Honeywell is charging into the Industrial IoT revolution with the establishment of Honeywell Connected Enterprise (HCE), building on our heritage of invention and deep, on-the-ground industry expertise. HCE is the leading industrial disruptor, building and connecting software solutions to streamline and centralize the assets, people and processes that help our customers make smarter, more accurate business decisions. Moving at the speed of software, we are creating, innovating and delivering solutions fast, challenging the way things have always been done, piloting new ways for all of us to work, and expecting our successes to set new standards for our customers and for Honeywell.Honeywell International is building a world that’s safer and more secure, more comfortable and energy efficient, more innovative and productive. For more information, please visit Honeywell.com or follow us @HoneywellNow.
+Who You Are
+We’re looking for a new team member who is motivated by cracking tough challenges with data, trained in problem solving, and with an unending thirst for learning.
+As a Senior Data Scientist, you will join a high-performing, global team, and assist with designing, developing, and deploying data driven solutions for all Honeywell business groups and functions. You will work closely with application architects to integrate results into operational platforms including containerized microservices and distributed compute and storage architectures.
+Additionally, the Senior Data Scientist role is expected to work within Honeywell to identify opportunities for new growth and efficiencies based on data analyses both in adjacencies based on previous engagements, as well as larger industry developments.
+Specific Responsibilities
+Develop data modeling, mining, pattern analysis, data visualization and machine learning solutions to address customer needs.
+Foster relationships with business team members by being proactive, displaying a thorough understanding of the business processes and by recommending innovative solutions.
+Communicate project output in terms of customer value, business objectives, and product opportunity.
+Promote data science methods and processes across functions.
+Work with our businesses and infrastructure teams to develop a strategy that will clearly outline how our enterprise platforms can enable business growth & productivity.
+You must have:
+Master’s degree in Computer Science, Engineering, Applied Mathematics or related field
+Minimum of 5 years of Python programming experience
+Minimum of 3 years of Data Science prototyping experience
+Minimum of 3 years of experience with distributed storage and compute tools (e.g. Spark)
+Minimum of 2 years of bringing prototypes to production with CI/CD pipelines and monitoringWe value:
+PhD degree in Computer Science, Engineering, Applied Mathematics or related field
+Experience with Streaming Analytics
+Experience with developing and deploying Natural Language Processing/Understanding applications
+Experience with Recurrent Neural Network architectures
+Experience with Image Analytics
+Experience with SQL
+Experience with Tableau
+Experience working with remote and global teams
+Results driven with a positive can-do attitude.
+Additional Information
+JOB ID: HRD110768
+Category: Engineering
+Location: 715 Peachtree Street, N.E.,Atlanta,Georgia,30308,United States
+Exempt
+Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, or veteran status.

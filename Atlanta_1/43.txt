@@ -1,0 +1,57 @@
+Job detailsJob TypeFull-timeFull Job DescriptionJob Title
+Data Scientist
+Summary
+As a key member of our team at RiverStone, you will be collaborating with different engineering and operations teams and leading development machine learning solutions for a variety of tasks and projects. You will be responsible for delivering projects from end-to-end: problem statement and conceptualization, proof-of-concept, and participation in final deployment. You will also perform ad-hoc statistical and data science analyses. Our ideal candidates are smart, creative, analytical thinkers with attention to detail. You will also work closely with data engineers, developers and modeling analysts to generate seamless business solutions. You will be expected to present results of analyses to a wide range of audiences including executives.
+Essential Functions
+Collaborate with multiple business and information technology units to understand company needs and propose solutions
+Implement new statistical or other mathematical methodologies as needed for specific models or analysis.
+Organize and synthesize data into actionable business decisions, focused on insights.
+Related Functions:
+Establishes and maintains effective working relationships, both internally and externally
+Maintains and communicates on a regular basis the progress against department goals/objectives and priorities to Director of Data Science and Innovation
+Compile, review, verify and analyze related external and internal insurance data including completed models for benchmarking of results
+Organizational
+Develops creative ideas and solutions to real time business problems and/or business opportunities; takes reasonable, calculated risks even if failure is possible.
+Empowers self and teammates to continuously improve RiverStone’s business processes/ systems and develops and escalates ideas and solutions.
+Consistently delivers superior customer service to both internal and external business partners.
+Demonstrates alignment with RiverStone’s Commitments.
+Prioritizes and organizes work in self-directed manner.
+Attains and maintains knowledge of assigned department.
+Performs other duties as required, including supporting and coordinating with other department colleagues.
+Required Skills
+Ability to tell meaningful stories with data.
+Minimum four years of proven hands-on experience applying supervised and unsupervised machine learning techniques to build models integrated into applications.
+Minimum of two years working with unstructured data.
+Strong working knowledge of machine learning/data mining algorithms (deep learning, classification, clustering, etc), experience with Image Analysis/Computer Vision is a plus.
+Understand algorithms (be able to tweak them when needed) as well as infrastructure that enables fast iterations
+Strong software development skills with proficiency in Python and R. Experienced user of libraries such as scikit-learn, scipy, TM, Tidytext, NetworkX, Spacy, and NLTK.
+Good understanding of deep learning algorithms and workflows, and experience with CNTK, Caffe, MXNet or TensorFlow is a plus.
+Experience in Hadoop, Spark, Hive, Cassandra, Kafka and NoSQL databases is a plus
+Familiarity with SQL programing and regular expressions
+Experience
+3+ years’ experience applying machine learning techniques to real business problems
+Property & Casualty Insurance experience encouraged, but not required
+Experience in legal analytics a bonus
+Required Education
+Master of Applied Math, Machine Learning, Data Science, Statistics, Operations Research or related fields
+Preferred Education or Certification
+PhD of Applied Math, Machine Learning, Data Science, Statistics, Operations Research or related fields
+Supervisory Role
+None
+Travel
+Minimal, less than 10%
+Work Environment / Physical Demands
+This position operates in a professional cubicle based collaborative environment and must have the ability to timely produce thorough, accurate work with many competing demands, deadlines, and distractions. The position uses standard equipment such as phones, computers, copiers/printers and filing cabinets. Noise level is moderate. While this is a largely sedentary role, the employee is regularly required to talk or hear; stand; walk; bend; use hands to handle or feel; and reach with hands and arms. On occasion the individual must be able to lift and transport boxes weighing up to 30 pounds.
+Other Duties (Disclaimer Statement)
+RiverStone retains the right to change or assign other duties to this position as needed, OR
+Other duties or responsibilities may change or be assigned as needed.
+Core Competencies
+32.) Learning on the Fly: Learns quickly when facing new problems; a relentless and versatile learner; open to change; analyzes both successes and failures for clues to improvement; experiments and will try anything to find solutions; enjoys the challenge of unfamiliar tasks; quickly grasps the essence and the underlying structure of anything.
+51.) Problem Solving: Uses rigorous logic and methods to solve difficult problems with effective solutions; probes all fruitful sources for answers; can see hidden problems; is excellent at honest analysis; looks beyond the obvious and doesn’t stop at the first answers.
+52.) Process Management: Good at figuring out the processes necessary to get things done; knows how to organize people and activities; understands how to separate and combine tasks into efficient flow; knows what to measure and how to measure it; can see opportunities for synergy and integration where others can’t; can simplify complex processes; gets more out of fewer resources.
+56.) Sizing Up People: Is a good judge of talent; after reasonable exposure, can articulate the strengths and limitations of people inside or outside the organization; can accurately project what people are likely to do across a variety of situations.
+22.) Ethics and Values: Adheres to an appropriate (for the setting) and effective set of core values and beliefs during both good and bad times; acts in line with those values; rewards the right values and disapproves of others; practices what he/she preaches.
+61.) Technical Learning: Picks up on technical things quickly; can learn new skills and knowledge; is good at learning new industry, company, product, or technical knowledge – like internet technology; does well in technical courses and seminars.
+65.) Managing Vision and Purpose: Communicates a compelling and inspired vision or sense of core purpose; talks beyond today; talks about possibilities; is optimistic; creates mileposts and symbols to rally support behind the vision; makes the vision sharable by everyone; can inspire and motivate entire units or organizations.
+14.) Creativity: Comes up with a lot of new and unique ideas; easily makes connections among previously unrelated notions; tends to be seen as original and value-added in brainstorming settings.
+35.) Managing and Measuring Work: Clearly assigns responsibility for tasks and decisions; sets clear objectives and measures; monitors process, progress, and results; designs feedback loops into work.

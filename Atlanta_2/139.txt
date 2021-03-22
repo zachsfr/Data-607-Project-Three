@@ -1,0 +1,33 @@
+Make your mark for patients.
+We’re here because we want to build the future and transform patients’ lives for the better.
+At UCB, our people are our experiences and achievements, our passion and drive. That’s why we’re looking for talented individuals with diverse backgrounds and experiences - not just the best and brightest, but those who care about making a meaningful difference in the lives of patients. We promote an environment of diversity, openness, and respect where people can make valuable contributions.
+An exciting journey lies ahead. Will you join us in pushing the boundaries of what’s possible?
+To strengthen our G2M Analytics team, based in our Atlanta HQ, we are looking for a talented individual to fill the position of: Data Architect.
+You like to work in an environment where you can:
+Analyze business requirements to build the data blueprint by designing the data entities and taxonomies and the data flow underneath the business process.
+Collaborate with the rest of the Data and Platforms Groups for the design and build of a structured approach of data storage and access mechanism to data mart models.
+Provide support to frame the optimal flow for data - from capture to analysis- including interactions between people and processes.
+Partner with IT teams (Architecture, BI Center of Excellence, Operations and support teams) in various locations at all steps of project lifecycle to ensure consistency in tools and standards, smooth set up of solutions and appropriate transition to support and operations.You will contribute by:
+Proposing solutions, provide strategic direction, and prioritize on-going demands focused on Data Lake, Data Warehouse, Master Data Management and advanced analytics.
+Managing projects from start to finish and ensure successful implementation within agreed cost, schedule and quality targets.
+Providing thought leadership to the immediate business and technology organization
+Developing architecture specification deliverables that map customer business requirements into complete information systems (technologies, processes and people) or operational solutions.
+Developing enterprise architecture standards and facilitating the adherence and governance of related project activity through controls in PMO, Project/Solution Development Lifecycle, Change Management, and Procurement processes.
+Interested? For this position you’ll need the following education, experience and skills:Minimum Qualifications:
+Bachelor’s Degree
+Minimum of 7 years of professional experience in Business Intelligence, Analytics, Data Warehousing, Data Architecture
+Preferred Qualifications:
+Familiar with cloud technologies (Azure and AWS analytics stacks) and analytics workbenches (Jupyter, Qubole), Spark, Databricks, Scala, Azure DevOps etc.
+Familiar with most common advanced analytics IDE’s like pyCharm.
+Experience with a Master Data Management tool.
+Experience with latest analytics tools and technologies (tools, Big Data technologies, ETL (for example, Informatica, SAS DI), database query languages, data warehousing, dimensional modeling, data cleansing, OLAP design, data lakes, master data management, advanced analytics, enterprise application integration.
+Experience with performance optimization, large data volume architecture and design, relational and columnar databases, operations, data extracts, data refreshes and workflows.
+Experience with Business Intelligence, Reporting and Data Visualization architecture, design, tools and technologies is a plus.
+Experience in commercial organization/pharmaceutical industry is strongly preferred
+Up-to-date knowledge of market trends and developments in Artificial Intelligence, Data Science and related new technologies preferred to provide recommendations and deliver standard methodology solutions
+Why you should apply
+At UCB, we strive to attract passionate and outstanding talents who thrive on change and are ready to bring real value to patients. Working for us you’ll discover a place where you can grow and express your full potential. We place an emphasis on innovation, collaboration and impact. Through meaningful recognition and a motivating work atmosphere, we aim to provide an optimal experience by caring about and valuing our employees – just as we do for the patients we serve.If you believe you are the perfect match to join us on our pioneering adventure, then we invite you to apply and tell us more about your profile and motivation.
+About us.
+At UCB, we come together every day to work, laser-focused, on a simple question: How will this create value for people living with severe diseases? By putting patients at the heart of everything we do, our approach – from discovery to development to delivery – is continuously transformed and designed around patient needs and their journey.
+With a team of approximately 7,600 employees and worldwide operations in more than 40 countries, we are a global biopharmaceutical company investing more than a quarter of our revenue in cutting-edge scientific research. We are focused on addressing chronic, neurological, immunological, and bone diseases. We are looking for people with passion and empathy who develop a real understanding of patient’s needs and can deliver thoughtful solutions to decisionmakers across the heath care ecosystem.
+UCB and its subsidiaries encourage diversity and inclusion in the workplace; we are an Equal Opportunity Employer. We do not discriminate on the basis of race/color/religion/sex/national origin/veteran/disability/age/sexual orientation/gender identity.

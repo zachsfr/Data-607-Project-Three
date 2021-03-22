@@ -1,0 +1,24 @@
+The Data Science team is responsible for driving algorithmic innovation across the company. We combine elements of theory with the practical tools and techniques for exploring vast quantities of data, all with the aim of designing effective algorithms to achieve our goals. Data Science partners closely with Engineering, Business Groups, and Data Analytics to ensure that our solutions are solving the right business problem, are scaling as needed, and are achieving the expected results for our clients.
+ As a team, we have diverse set of backgrounds (math, physics, engineering, operations research, statistics, econometrics, political science) and a spectrum of credentials (many have PhDs). Our culture centers on collaborating, continuously learning and teaching, and producing effective solutions for our users, whether they rely on elegant theory or on simple heuristics and empirical evidence. We measure our efforts based on the impact and value we create for our internal clients and internal teammates.
+ The Data Scientist role is perfect for someone who is passionate about combining deep technical understanding, broad domain knowledge, and creative problem-solving skills to design products that make a measurable impact for our customers.
+About the job:
+Use machine learning techniques, visualizations, statistical analysis, etc. to gain insight into various data sets – some of which are readily available, and some of which you create and curate yourself
+Participate in the full lifecycle of algorithm-based feature development: researching and designing solutions, running tests with clients and performing deep analyses to understand results, implementing scalable solutions in production environments, and monitoring platform-wide impact
+Collaborate with team members, both to build out specific projects and to continuously teach and learn new technology and techniques
+Communicate findings and solutions clearly to a variety of audiences, e.g. writing clear, comprehensive specs for engineers or explaining algorithmic concepts to SMEs
+Actively seek out a broad understanding of our platform and products, and align design efforts with that context
+Work independently with minimal supervision but high accountability
+About your skills and experience:
+Bachelors of Science in Computer Science, Math or Scientific Computing; Data Analytics, Machine Learning or Business Analyst nanodegree; or equivalent experience.Typically requires 8 - 10 years of experience. Masters or PhD in a relevant quantitative field, or 1-3 years relevant applied research or industry experience preferred
+Basic programming experience – we primarily use Python and Scala, but you may have experience in R, MATLAB, or another language
+Experience with machine learning techniques is a plus
+Proven excellence at formulating, understanding, and solving complex, non-routine quantitative problems
+Aptitude for learning new theory and new technology
+Strong written and verbal communication skills
+Hands-on attitude toward problem-solving, including a willingness to dig into terabytes of data and quickly construct tools or models
+Ability to work in a highly interactive, collaborative, fluid environment
+More about you:
+You are passionate about a culture of learning and teaching. You love challenging yourself to constantly improve, and sharing your knowledge to empower others
+You are relentless when looking for solutions to complex problems, and your grit serves you well when analyzing and debugging the root cause of unexpected results
+You care about solving big, systemic problems. You look beyond the surface to understand root causes so that you can build long-term solutions for the whole ecosystem
+You believe in not only serving customers, but also empowering them by providing knowledge and tools

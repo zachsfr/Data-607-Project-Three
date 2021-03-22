@@ -1,0 +1,34 @@
+When you join Verizon
+You’ll have the power to go beyond – doing the work that’s transforming how people, businesses and things connect with each other. Not only do we provide the fastest and most reliable network for our customers, but we were first to 5G - a quantum leap in connectivity. Our connected solutions are making communities stronger and enabling energy efficiency. Here, you’ll have the ability to make an impact and create positive change. Whether you think in code, words, pictures or numbers, join our team of the best and brightest. We offer great pay, amazing benefits and opportunity to learn and grow in every role. Together we’ll go far.
+Diversity and Inclusion at Verizon
+At Verizon, we know that diversity makes us stronger. We are committed to a collaborative, inclusive environment that encourages authenticity and fosters a sense of belonging. We strive for everyone to feel valued, connected, and empowered to reach their potential and contribute their best. Check out our diversity and inclusion page to learn more.
+What you’ll be doing...
+We're adding a Data Engineer to work on a portfolio of innovative projects that will enable digital operational excellence within Verizon Business Group (VBG) Customer Operations. The program direction includes artificial intelligence, operations automation, and industry leading omnichannel technology to improve the efficiency and client experience of our services. You will critically analyze a global network operations environment to build data pipelines, transform data into actionable intelligence. As part of this effort, you will turn raw data into usable data pipelines and build data tools and products for effort automation and easy data accessibility. You will also diagnose the existing architecture, data maturity, and identify gaps. You will build data assets that enhance the quality of overall data structures feeding the data science program.
+You should be highly analytical and have the ability to transform complex data into easily understood, actionable information. You should flourish in a fast-paced environment and quickly adapt to changing priorities. You should also be flexible, highly curious with a dependability to work well individually and as part of a team.
+Gather requirements, assess gaps, and build roadmaps and architectures to help the analytics driven organization achieve its goals.
+Work closely with Data Analysts to ensure data quality and availability for analytical modelling.
+Explore suitable options and designs for specific analytical solutions.
+Define extract, load, and transform (ELT) based on jointly defined requirements.
+Prepare, clean, and massage data for use in modeling and prototypes
+Identify gaps and implement solutions for data security, quality, and automation of processes.
+Support maintenance, bug fixes and, performance analysis along data pipeline.
+What we’re looking for...
+You'll need to have:
+Bachelor’s degree or four or more years of work experience.
+Four or more years of experience as a data engineer
+Four or more years of experience finding, cleaning, and preparing data for use by Data Scientists
+Experience knitting disperate data sources together
+Four or more years of experience building data pipelines
+Experience using SQL (i.e., PL/SQL or T-SQL with RDBMSs like Teradata, MS SQL Server, Oracle, etc.)
+Experience in data engineering, databases, and data warehouses.
+Strong experience with data engineering in Python.
+Ability to travel occasionally
+Even better if you have:
+Master’s degree in Computer Science, Engineering, Statistics, IT, or related field.
+Experience with Scala, Julia, R, Python or other machine learning programming language
+Experience on Big Data platforms (i.e., Hadoop, Map/Reduce, Spark, HBase, CouchDB, Hive, etc.)
+Strong analytical and problem-solving skills.
+Experience working in a network operations center environment.
+Experience as an open source Contributor.
+Equal Employment Opportunity
+We're proud to be an equal opportunity employer - and celebrate our employees' differences, including race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, and Veteran status. Different makes us better.

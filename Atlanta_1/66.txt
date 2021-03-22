@@ -1,0 +1,35 @@
+As a Data Scientist-IoT & Databricks in the Azure Center of Excellence (Data & AI Pillar), you will build solutions using the Azure data science technical stack focusing on IoT data science development and Digital Twins. You will be key to pre-sales and kickstart IoT/ML skills for the regions and deliver lighthouse successes to drive scale.
+
+You are driven to innovate and strive to achieve performance targets and establish Avanade as a leader in Data & AI and as a #1 Employer of Choice.
+
+As a Data Scientist with an IoT & Databricks focus, you will help clients understand and extract insight and value from their data using sophisticated analytical tools and techniques. Working both independently and as part of a team, you will be involved in all phases of analytics projects including question formulation, design, research and development, implementation, and testing. You will be able to explore and understand data and build advanced analytical models independently, then present and converse about these models to any level of audience.
+Within a Highly Collaborative Environment You Will:Build analytics solutions and ensure long-term technical viability of new deployments
+Produce innovative solutions for Avanade's clients driven by exploratory data analysis from complex and high-dimensional datasets, both structured and unstructured, applying advanced statistical, data mining, and machine-learning techniques
+Apply knowledge of statistics, machine learning, time series modeling, programming, data modeling, simulation, deep learning, and advanced mathematics to recognize patterns, identify opportunities, pose business questions, and make valuable discoveries leading to better business decision making
+Use big data analytics techniques to extract value from large data sets using Databricks and Apache Spark. Familiarity with large IoT datasets and unlabeled data is preferred
+Use a flexible, analytical approach to design, develop, and evaluate predictive models and advanced algorithms that lead to optimal value extraction from the data
+Generate and test hypotheses as well as analyze and interpret the results of product experiments
+Communicate data-driven insights and deliver action plans that steer business strategy and decision-making for one or more business segments
+Work with Avanade's and client teams to translate prototypes into new products, services, and features and provide guidelines for large-scale implementations
+Provide input and guidance on data visualization techniques and opportunities
+Work with deal teams to provide subject matter expertise and solutioning support for client proposals and RFPs
+Identify new analytics tools and techniques and lead development and deployment of infrastructure for generating and analyzing information
+Required Experience:Working with SQL
+PowerShell scripting
+Best practices in Azure Databricks
+Read and write data within Azure Databricks
+Azure Databricks integration with other services
+Data & AI tools and technologies such as, Apache Spark, Python, Azure ML, Power BI, SQL, etc.
+Big Data components such as Kafka, Spark SQL, Data frames, HIVE DB etc. and their implementation using Azure Databricks
+Using Python, R, Spark, SharePoint, PowerPivot, SSRS, Excel - including pivot tables and macros
+Good understanding of Modern Data Warehouse/Lambda Architecture, Data warehousing concepts
+Growing responsibility in roles within professional services/management consulting or technology firms
+Passionate about the development and delivery of Data & AI solutions
+Ability to develop capabilities and to continue to support client deliveries
+Effort estimation in support of project delivery or pre-sales effort
+Structured problem solving
+You don’t hesitate to roll up your sleeves to solve code related issues
+Ability to explain complex analytical methodologies and concepts in a non-technical language
+Great project and people management
+Delivering business technology solutions to client organizations
+Bachelor’s degree in Applied Mathematics, Statistics, Data Science, Computer Science, or another relevant field, or an equivalent combination of education and relevant experience

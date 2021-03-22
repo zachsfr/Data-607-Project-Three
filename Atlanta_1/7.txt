@@ -1,0 +1,23 @@
+Next Insurance is a fast-growing startup based in Silicon Valley that is led by a team of experienced entrepreneurs with a history of successful outcomes. Our mission is to transform insurance for small businesses by combining world-class technology and phenomenal customer service to offer better insurance at a lower price. Next has raised over $630 million from top tier investors and is the valley's latest unicorn, valued at over $2 billion.
+
+Next Insurance is looking for explorers who are filled with curiosity, have the desire to travel the unbeaten path, and realize new heights in providing small business owners with the peace of mind to run their businesses. If you move fast, and are customer-focused and willing to challenge the status quo, Next Insurance might just be your next journey.
+
+We are looking for a driven Data Scientist to help us bring data modeling and machine learning to the SMB insurance industry. As an experienced innovator partnering with the marketing and growth teams, this is a massive opportunity to drive high growth impact at a hyper-growth startup. Your job is to be a full stack ML engineer, supercharging all aspects of the Machine Learning lifecycle: model scoping and definition, data pipelining, feature engineering, model training/management, scalable deployment of inference solutions, and model monitoring.
+
+You will be joining a newly created group inside of Next Insurance: Data Labs. The mandate of Data Labs is to build software and data solutions that meaningfully impact marketing, funnel, risk, and servicing/claims experiences.
+
+What You'll Do:
+Empower our team of data scientists to rapidly develop and deploy ML solutions.
+Leverage software engineering best-practices to create and deploy data-intensive and machine learning inference products.
+Understand the data and dig deep to extract actionable insights.
+Think creatively and outside the box to answer desired experimental questions as well as exposing opportunities to create business value.
+Work cross-functionally with marketing, engineering, product, senior management, and external partners.
+What We Need:
+5+ years of hands-on experience in the complete machine learning life-cycle: data analysis, data pipelining, machine learning modeling, model deployment & management
+Fluency with Python and the standard web development frameworks (e.g. Django, Flask, FastAPI)
+Fluency with database technologies, SQL, and Python data packages (e.g., numpy, pandas, dask, pyspark, etc.)
+Demonstrated experience deploying models and applications to a cloud inference environment using tools like Docker and Kubernetes
+Demonstrated experience with software engineering best-practices, such as Test-Driven Development and continuous integration/deployment pipelining, (bonus points for experience with GitLab)
+Experience with ML-oriented data pipelining tools (dbt, Airflow, Prefect, DVC, etc.)
+BS/MS in Computer Science, Statistics, Applied Math, or related areas from a top university
+One of our core values is 'Play as a Team'; this means making sure everyone has an equal chance to participate and make a difference. We win by playing together. Next Insurance is an equal opportunity employer and prioritizes building a diverse and inclusive workplace. We provide equal employment opportunities to all employees and applicants of any type and do not discriminate based on race, color, religion, national origin, gender, age, sexual orientation, physical or mental disability, genetic information or characteristic, gender identity and expression, veteran status, or other non-job related characteristics or other prohibited grounds specified in applicable federal, state, and local laws. Next's policy is to comply with all applicable laws related to nondiscrimination and equal opportunity and will not tolerate discrimination or harassment based on any of these characteristics. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation, and training.

@@ -1,0 +1,23 @@
+Job detailsJob TypeFull-timeFull Job DescriptionIt's truly an exciting time to be a part of GetInsured. Our vision has always been to make finding and enrolling in health insurance simple. GetInsured currently has the largest state-based marketplace footprint, and our consumer-friendly interface and decision support tools empower millions of consumers across the country to make better health plan decisions. GetInsured builds and operates award-winning cloud-based enrollment tools that serve state-based exchanges, brokers, insurers, and consumers. In addition to eligibility determination, plan selection, and enrollment technology for state agencies, the company delivers innovative agent marketing and call center tools and services.
+We are looking for a strong data analyst with a strategic viewpoint who can grow and adapt along with our fast-paced business. You must be passionate about working with data and developing compelling visualizations to tell stories; you're strong in communicating to business stakeholders and customers the insights from your reporting and analysis, and you do not shy away from being detail-oriented.
+This position is part of the Engineering and Business Intelligence Organization. Reporting to the Director of Business Intelligence & Analytics, this role will be responsible for executing the data & analytics strategy and maintenance of all data analytics and reporting for GetInsured and its customers. The Senior Data Analyst will be responsible for driving and implementing data solutions covering a broad range of skills including data extraction & transformation, data cleansing & validation, data visualization, and analytic techniques to answer a wide range of business questions and drive operational improvements. They are strong communicators who can independently drive projects from initiation to deployment.
+As a member of the Business Intelligence & Analytics team, you will:
+Wear multiple hats as a data engineer, data analyst, and visualization engineer
+Become a domain expert in GetInsured products and consumer data, develop analysis to provide insights, and create captivating visualizations to communicate and support your stories
+Develop robust and scalable data pipelines that can keep pace with data across several large-volume data systems (product, consumers, monitoring, etc.)
+Build compelling, clear, and powerful visualizations and analyses that are useful and appealing to users
+Support the team to drive the Business Intelligence and data culture within the organization
+Present findings and recommendations to business and customers
+What we offer:
+A challenging, consumer-facing problem space, where you can make an immediate impact. You'll be wearing multiple hats and working on various projects and teams. You will get your hands dirty with the latest technologies, learn to use new tools, and get the opportunity to have your say in the final product. You'll work alongside a great team that assumes the best intentions and makes every effort to show empathy and care in all interactions. We're a well-funded, stable stratus company with excellent salaries, medical/dental/vision coverage, and perks. GetInsured is an Equal Opportunity Employer.
+Benefits:
+Health, Dental, Vision, Life, Disability
+401k match
+Stock options
+Yearly Education allowance
+6+ years of relevant work experience in analyzing large datasets and generating insights, building enterprise-ready & customer-facing visualizations, and synthesizing data insights into actionable recommendations
+Advanced knowledge of SQL; experience building analysis and reporting with visualization tools such as Tableau or QlikView or other industry-standard BI tools is required
+Experience with industry-standard ETL tools (e.g. Pentaho, Informatica) required
+Strong knowledge of database systems (particularly Oracle and PostgreSQL) and Data Warehouse / Business Intelligence/analytics systems
+Good written, verbal, and interpersonal skills
+Experience in a SaaS environment is a big plus

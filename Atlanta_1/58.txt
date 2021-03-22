@@ -1,0 +1,36 @@
+Who You’ll Work With
+As a modernized technology company, we've never met a technical challenge we didn't like. We enable our clients to learn from their data, create incredible digital experiences, and make the most of new technologies. We blend design, engineering, and analytics expertise to build the future. We surround our technologists with interesting challenges, innovative minds and emerging technologies.
+What You’ll Do
+Solving our clients most critical and difficult problems with advanced technologies.
+Being an integral part in helping to grow our Data Engineering and Machine Learning team.
+Developing solutions to move clients to the cloud.
+Finding deep insights in mountains of data.
+Driving innovative data science and data engineering solutions to have a meaningful impact on diverse client business challenges
+Working with a fun, collaborative team where everyone can be themselves and are provided the opportunity to love their life.
+Minimum Qualifications
+BA/BS degree in Computer Science or related technical field or equivalent practical experience.
+2 years of relevant work experience in software development using Python.
+Experience with an open source modelling framework (ex. TensorFlow, Keras, Pytorch, Scikit-learn etc.)
+Knowledge of CI/CD and Infrastructure as Code tools (ex. Jenkins, Terraform, Ansible, etc.)
+2 years of relevant work experience with cloud technologies (AWS, GCP, Azure)
+A real passion for AI
+Preferred Qualifications
+MS or PhD degree in Computer Science, Artificial Intelligence, Machine Learning, or related technical field
+Experience designing and implementing end-to-end ML Ops solutions (Kubeflow, MLflow, etc)
+Experience collaborating with cross functional teams including data engineers and data scientists to deliver end-to-end solutions
+Experience in production model management
+Knowledge of automated testing and monitoring solutions
+Contributions to open source projects
+Technical Skills:
+Python
+Advanced SQL
+TensorFlow / Keras / Scikit-learn
+Kubeflow / MLflow
+AWS SageMaker, GCP AI Platform
+Terraform/Jenkins
+AWS ML Specialty Certification
+GCP ML Engineer Certification
+About Us
+Slalom is a modern consulting firm focused on strategy, technology, and business transformation. In 39 markets around the world, Slalom's teams have autonomy to move fast and do what's right. They are backed by regional innovation hubs, a global culture of collaboration, and partnerships with the world's top technology providers. Founded in 2001 and headquartered in Seattle, Slalom has organically grown to over 8,000 employees. Slalom has been named one of Fortune's 100 Best Companies to Work For five years running and is regularly recognized by employees as a best place to work. Learn more at slalom.com.
+Slalom prides itself on helping team members thrive in their work and life. As a result, Slalom is proud it invest in benefits that include: meaningful time off and paid holidays, parental leave, 401(k) with a match, a range of choices for highly subsidized health, dental, & vision coverage, adoption and fertility assistance, and short/long-term disability. We also offer additional benefits such as a yearly $350 reimbursement account for any well-being related expenses as well as discounted home, auto, and pet insurance. For recruiters posting internal and external jobs in Colorado - to comply with State law, benefit and pay ranges must disclosed within the job postings. Please change the above US benefit statement to include pay range. Please refer to Slalom comp ranges for the role you are posting; however, if you have a more specific target salary range for your role you can include this range.
+Slalom is an equal opportunity employer that is committed to diversity and inclusion in the workplace. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, disability status, protected veterans status, or any other characteristic protected by federal, state, or local laws, and will not be discriminated against on the basis of disability.

@@ -1,0 +1,32 @@
+Join the industry leader to design the next generation of breakthroughs
+Honeywell is charging into the Industrial IoT revolution with the establishment of Honeywell Connected Enterprise (HCE), building on our heritage of invention and deep, on-the-ground industry expertise. HCE is the leading industrial disruptor, building and connecting software solutions to streamline and centralize the assets, people and processes that help our customers make smarter, more accurate business decisions. Moving at the speed of software, we are creating, innovating and delivering solutions fast, challenging the way things have always been done, piloting new ways for all of us to work, and expecting our successes to set new standards for our customers and for Honeywell.
+Who You Are & What Your Responsibilities Will Be
+We’re looking for a new team member who is motivated by cracking tough challenges with data, trained in problem solving, and with an unending thirst for learning.
+As a Lead Data Scientist, you will join a high-performing, global team, and be responsible for designing, developing, and implementing data driven solutions for all Honeywell business groups and functions. You will work closely with application architects to integrate results into operational platforms, including Hadoop and NoSQL architectures.
+The Lead Data Scientist role is expected to work within Honeywell to identify opportunities for new growth and efficiency based on data analyses and foster relationships with business team members by being proactive, displaying a thorough understanding of the business processes.You will also be responsible for recommending innovative solutions by using various data science methods including hypothesis testing and also be responsible for defining the data acquisition strategy when required.
+After influencing scope and prioritizing the analytics pipeline, you will lead the technical execution of data science projects directing daily work of junior data scientists and will be responsible for the overall success of the project.
+This includes stakeholder management by presenting regular updates and final results to senior leadership of the customer organization.
+You will also be expected to actively participate in defining and governing our analytics strategy for Honeywell building out AI/ML capabilities of our Forge platform and promoting data science methods and processes across functions.
+You will report to the Data Science Site Leader in the Honeywell Industrial Analytics organization, part of the Connected Enterprise.You must have:
+Master’s degree in Computer Science, Engineering, Applied Mathematics or related field
+Minimum of 5 years of Data Science prototyping experience (Python and/or R tool-stack) using machine learning techniques and algorithms such as as k-means, k-NN, Naïve Bayes, SVM, Decision Trees
+Minimum of 5 years of Machine Learning experience of physical systems
+Minimum of 4 years of experience with distributed storage and compute tools (e.g. Hive and Spark)
+Minimum of 2 years of experience in deep learning frameworks like PyTorch, Keras
+Experience with designing, building models and deploying pipelines to production using containerized microservices and/or orchestrated batch runs
+We value:
+PhD degree in Computer Science, Engineering, Applied Mathematics or related field
+Experience with Natural Language Processing models
+Experience with Streaming Analytics (i.e. Spark Streaming)
+Experience with Recurrent Neural Network architectures
+Experience with Image Analytics
+Experience with SQL
+Experience with Tableau
+Experience working with remote and global teams
+Results driven with a positive can do attitude
+Additional Information
+JOB ID: HRD110766
+Category: Engineering
+Location: 715 Peachtree Street, N.E.,Atlanta,Georgia,30308,United States
+Exempt
+Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, or veteran status.

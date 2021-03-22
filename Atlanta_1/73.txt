@@ -1,0 +1,33 @@
+Job detailsJob TypeFull-timeFull Job DescriptionOur public health group is growing and we’re currently seeking a Statistician primarily using SAS to work with the CDC in Atlanta, GA.
+This position is temporarily based from home due to the COVID-19 pandemic. We will continue to make decisions pertaining to office access based on public health directives and guidance, practicality, and overall business requirements.
+The Division of HIV/AIDS Prevention Surveillance and Epidemiology (DHAP SE) provides national leadership for HIV prevention research and surveillance and the development and testing of effective biomedical interventions to reduce HIV transmission and HIV disease progression in the United States and internationally. The purpose of these activities is to guide the development, implementation, and evaluation of evidence-based HIV prevention programs serving persons affected by, or at risk for, HIV infection. Branches of DHAP-SE include:
+The Epidemiology Branch designs and conducts epidemiologic, behavioral, and biomedical intervention studies in the United States and internationally to determine risk factors and modes of transmission of HIV infection and to reduce HIV infection and disease progression.
+The HIV Incidence and Case Surveillance Branch conducts a national program of surveillance and research to monitor and characterize the HIV/AIDS epidemic, and its determinants and impact, to guide public health action at federal, state, and local levels. This program includes surveillance of HIV infection and AIDS in collaboration with state and local health departments to provide population-based data for research, evaluation, and prevention at the national, state, and local levels.
+The Behavioral and Clinical Surveillance Branch implements scientifically rigorous HIV research studies and surveillance systems that meet critical local, state, and national HIV prevention needs for characterizing persons who are at risk for HIV infection or who have recently acquired HIV or have HIV-related morbidities. The branch also develops and demonstrates best practices of laboratory and prevention technologies to efficiently move them from development into public health practice.
+Key Responsibilities:
+The Statistician, primarily using SAS, will manage and analyze quantitative surveillance data and provide output in the format requested. Some specific responsibilities include:
+Complete data analyses and produce complicated descriptive statistics tables to support monitoring the number & characteristics of persons who have been diagnosed with HIV.
+Complete statistical analyses to support monitoring HIV morbidity and mortality by demographic, geographic, and risk/behavior characteristics.
+Provide standardized case definitions, data collection forms, reporting software, and technical assistance to cooperative agreement recipients and training in the form of written materials, guidelines for program performance, field visits, and meetings and workshops.
+Assist cooperative agreement recipients to improve data completeness, evaluate data, and complete data analysis and dissemination of surveillance data.
+Conduct ancillary surveillance data analyses including in persons infected with HIV without risk information or with potential unusual exposures, variant strains, and occupational exposures, and assess laboratory data reporting completeness.
+Basic Qualifications:
+Bachelor’s degree in public health, statistics, or related field.
+2 years of demonstrated advanced experience SAS programming.
+2 years of demonstrated experience in generating SAS-based reports using a variety of methods (e.g., Macros, PROC REPORT, PROC TABULATE) and exporting those reports to other formats such as Microsoft Excel, PDF, and HTML.
+Expertise in large database manipulation, transfer, and storage.
+Preferred Skills/Experience:
+Master’s degree in public health, statistics, or related field.
+Knowledge of HIV and/or experience preferred.
+Experience with large surveillance dataset preferred.
+Experience with complex databases including administrative dataset preferred.
+Familiarity and/or experience in use of R (R Markdown, Knitr) and Power BI software is a plus.
+Professional Skills:
+Detail oriented and able to create meticulous documentation of variables, datasets and data attributes
+Ability to produce data dictionaries and codebooks
+Willingness to share code and work within a team to achieve desired outcomes
+Strong organizational and interpersonal skills with the ability work as a member of a diverse team.
+Working at ICF
+Working at ICF means applying a passion for meaningful work with intellectual rigor to help solve the leading issues of our day. Smart, compassionate, innovative, committed, ICF employees tackle unprecedented challenges to benefit people, businesses, and governments around the globe. We believe in collaboration, mutual respect, open communication, and opportunity for growth. If you’re seeking to make a difference in the world, visit www.icf.com/careers to find your next career. ICF—together for tomorrow.
+ICF is an equal opportunity employer that values diversity at all levels. (EOE – Minorities/Females/ Protected Veterans Status/Disability Status/Sexual Orientation/Gender Identity). For more information, please read our EEO & AA policy .
+Reasonable Accommodations are available for disabled veterans and applicants with disabilities in all phases of the application and employment process. To request an accommodation please email icfcareercenter@icf.com and we will be happy to assist. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations. Read more about non-discrimination: EEO is the law and Pay Transparency Statement .Georgia Client Office (GA88)
