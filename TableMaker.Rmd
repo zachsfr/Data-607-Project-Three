@@ -1,0 +1,24 @@
+---
+title: "TableMaker"
+author: "Ethan Haley"
+date: "3/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+```
+
+## Make sure xls tables parse correctly into data.frames  
+
+```{r}
+read_excel('tables/DegreeKeys.xlsx')
+```
+```{r}
+read_excel('tables/SkillKeys.xlsx')
+```
+```{r}
+read_excel('tables/Listings.xlsx')
+```
+
