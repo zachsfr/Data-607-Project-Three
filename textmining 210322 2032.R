@@ -52,6 +52,6 @@ ds_skills_df <- document_term %>%
 #tidy ds_skills_df#
 
 ds_skills_df <- rownames_to_column(ds_skills_df)
-ds_skills_df <- rename(ds_skills_df, "listing" = "rowname")
+ds_skills_df <- rename(ds_skills_df, "listing" = "rowname", "r" = "rrrr")
 ds_skills_df <- ds_skills_df %>%
   mutate("listing" = substr(listing,0,nchar(listing)-4))
