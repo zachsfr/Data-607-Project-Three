@@ -113,11 +113,12 @@ dbWriteTable(con, "Listings", listings, overwrite=T)
 dbListTables(con)
 ```
 
-### add skills and degrees tables  
+### add skills and degrees and companies tables  
 
 ```{r}
 dbWriteTable(con, "Skills", skills)
 dbWriteTable(con, "Degrees", degrees)
+dbWriteTable(con, 'Companies', companies)
 dbListTables(con)
 ```
 
