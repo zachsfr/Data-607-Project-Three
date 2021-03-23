@@ -13,12 +13,111 @@ library(readxl)
 ## Make sure xls tables parse correctly into data.frames  
 
 ```{r}
-read_excel('tables/DegreeKeys.xlsx')
+degrees <- read_excel('tables/DegreeKeys.xlsx')
+degrees
 ```
 ```{r}
-read_excel('tables/SkillKeys.xlsx')
+skills <- read_excel('tables/SkillKeys.xlsx')
+skills
 ```
+### make a separate companies table
+
 ```{r}
-read_excel('tables/Listings.xlsx')
+listings <- read_excel('tables/Listings.xlsx')
+```
+
+
+## make the db
+
+```{r}
+library(DBI)
+library(RSQLite)
+
+con <- dbConnect(RSQLite::SQLite(), "jobs.db")
+dbWriteTable(con, "Listings", listings, overwrite=T)
+dbListTables(con)
+```
+
+```{sql connection='con'}
+SELECT * FROM Listings
+  WHERE Company = 'Facebook'
+  LIMIT 3;
+```
+### separate skills from job listings into a table with pairs for each row (normalize)  
+
+```{r}
+mins <- listings$MinSkills
+nices <- listings$NiceSkills
+# initialize table with first listing
+# join minimum skills and nice to have skills
+p <- paste(as.vector(mins[1]), as.vector(nices[1]), sep = ',')
+# remove duplicates
+u <- unique(strsplit(p,','))
+table <- data.frame(1, u)
+names(table) = c('listing', 'skill')
+table
+```
+
+```{r}
+# now add for all the rest of the listings
+for (i in 2:length(mins)) {
+  p <- paste(as.vector(mins[i]), as.vector(nices[i]), sep = ',')
+  u <- unique(strsplit(p,','))
+  t <- data.frame(i, u)
+  names(t) = c('listing', 'skill')
+  table <- rbind(table, t)
+}
+tail(table)
+```
+### add to db  
+
+```{r}
+dbWriteTable(con, "ListingSkill", table)
+dbListTables(con)
+```
+
+
+```{r}
+head(listings)
+```
+### Move the Size and Company columns to a company table  
+
+```{r}
+companies <- listings[c("Company", "Size")] %>%
+  unique()
+companies$id <- c(1:nrow(companies))  
+head(companies)
+```
+### Replace Company names in listings table with ID from this new companies table
+
+```{r}
+ids <- sapply(listings$Company, function(c){as.numeric(companies[companies$Company == c, "id"])})
+length(ids)
+```
+
+```{r}
+listings$comp_id <- ids
+head(listings)
+```
+
+```{r}
+listings <- listings[c('comp_id', 'Level', 'Title', 'Keywords', 'MinYrs',
+                       'NiceYrs', 'Degree', 'STEM', 'City', 'State', 'MinSal',
+                       'MaxSal')]
+head(listings)
+```
+### now overwrite the old company table
+
+```{r}
+dbWriteTable(con, "Listings", listings, overwrite=T)
+dbListTables(con)
+```
+
+### add skills and degrees tables  
+
+```{r}
+dbWriteTable(con, "Skills", skills)
+dbWriteTable(con, "Degrees", degrees)
+dbListTables(con)
 ```
 
