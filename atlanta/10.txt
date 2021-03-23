@@ -1,0 +1,26 @@
+Job detailsJob TypeFull-timeFull Job DescriptionAbout Splunk:
+Join us as we pursue our disruptive new vision to make machine data accessible, usable and valuable to everyone. We are a company filled with people who are passionate about our product and seek to deliver the best experience for our customers. At Splunk, we’re committed to our work, customers, having fun and most importantly to each other’s success. Learn more about Splunk careers and how you can become a part of our journey!
+As part of Splunk’s R&D team, we are passionate about providing quantitative analytics and evidence to inform business decisions. We partner with cross-functional business stakeholders to identify and address critical business questions and use data, analytical methods, and modeling to translate quantitative assessments into actionable insights. Analyses inform business challenges such as guiding product roadmaps, streamlining engineering development lifecycles, and accelerating customer adoption and utilization trends. We are seeking a Principal Data Scientist/Engineer who is passionate about framing and solving practical business questions with data-driven analytics.
+Role:
+As a Principal Data Scientist, you will partner with Splunk leaders to articulate crisp business questions and develop the architecture and methodologies needed to execute quantitative assessments and analytics that provide context and evidence to answer these questions. This will encompass creating a collaborative environment with other scientists and engineers to use quantitative analysis and data presentation to uncover the factors that drive business solutions. You will help architect and build the analytical experiments, models, reports, and dashboards and translate quantitative assessments into actionable insights.
+Responsibilities:
+Structure business questions and develop analysis plans
+Lead analysis projects and guide other analysts/engineers
+Ensure production quality methods to retrieve, condition, validate, synthesize, and manipulate data
+Structure and build analytical experiments, models, reports, and dashboards using statistical and other quantitative analytical methods
+Create order from chaos - provide structured solutions for ambiguous problems
+Translate metrics and analytics into digestible products that inform business decisions
+Iterate, document, and communicate throughout problem lifecycle
+Requirements:
+Passion for framing and solving practical data-driven business questions
+Self-starter with a demonstrated track record of critical thinking translated into concrete products
+Demonstrated ability to work across business stakeholders, structure data science problems, independently execute analysis, and also mentor other engineers/scientists
+MS or PhD in Computer Science, Statistics, Applied Math, Physics, Engineering or other technical field preferred or equivalent practical experience
+8+ years of professional experience in quantitative analysis, research, data science or engineering (statistics, applied math, inference, predictive methods, uncertainty quantification, design of experiments, etc.) including project leadership
+Deep software engineering skills in an interpreted language
+Agility manipulating, synthesizing, and interpreting large and diverse datasets
+Deep experience with statistical methods and software packages
+Excellent communication, collaboration, and mentoring skills
+Strong analytic storytelling skills
+We value diversity at our company. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, or any other applicable legally protected characteristics in the location in which the candidate is applying.
+For job positions in San Francisco, CA, and other locations where required, we will consider for employment qualified applicants with arrest and conviction records.

@@ -1,0 +1,15 @@
+Job detailsJob TypeFull-timeFull Job DescriptionJob Description:
+The Data Scientist position exists to conduct analyses on data from various sources to support insurance decisioning across auto, home, commercial, and life lines of business. The incumbent will independently perform analytical tasks including, but not limited to, programming/data manipulation, data normalization, trending and forecasting, statistical/predictive modeling, network analysis, and image recognition. The incumbent may work on multiple projects concurrently, will self-manage their tasks with minimal supervision, and may be asked to lead small projects. Data Scientists are expected to have some domain expertise in the lines of business, points in the insurance continuum, products, and data sources that they regularly work with. Under guidance of manager or principal, the incumbent must also be able to present all their work efforts, results, and conclusions to other analytics associates, our internal customers, and potentially to external customers in a manner appropriate to the audiences' level of understanding.
+Skills:
+Has in-depth knowledge in own discipline and basic knowledge of related disciplines. Solves complex problems; takes a new perspective on existing solutions. Works independently; receives minimal guidance. May lead projects or project steps within a broader project or have accountability for ongoing activities or objectives. Acts as a resource for colleagues with less experience. Performs Functional and Leadership Competencies at an Intermediate Proficiency Level.
+Education/ Experience:
+1.Bachelor’s degree in computer science, mathematics, statistics or quantitative methods (or equivalent year’s experience) . Master's Degree preferred.
+2. 3-5 years demonstrated applied modeling and analytic experience in applicable industry.
+3. Strong expertise in one or more of the following: SAS, R, Python or equivalent analytic software
+4. Solid understanding of various statistical methodologies including linear regression, logistic regression, and other advanced analytic techniques.
+5. Experience processing large data sets.
+6. Experience matching/merging multiple data sets Fluency with Excel, PowerPoint and Word or other presentation packages
+7. Fluency with Excel, PowerPoint and Word.
+8. Strong oral and written communication skills, including the ability to describe statistical results to non-statistical audiences
+We are an equal opportunity employer: qualified applicants are considered for and treated during employment without regard to race, color, creed, religion, sex, national origin, citizenship status, disability status, protected veteran status, age, marital status, sexual orientation, gender identity, genetic information, or any other characteristic protected by law. If a qualified individual with a disability or disabled veteran needs a reasonable accommodation to use or access our online system, that individual should please contact accommodations@relx.com or if you are based in the US you may also contact us on 1.855.833.5120.
+Please read our Candidate Privacy Policy

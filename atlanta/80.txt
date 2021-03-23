@@ -1,0 +1,11 @@
+Job detailsJob TypeFull-timeFull Job DescriptionPLEASE NOTE BEFORE APPLYING: THIS ROLE IS LOCATED IN ATLANTA, GA AND THE CHOSEN CANDIDATE MUST BE LOCATED/RELOCATE HERE AS WELL. IN ADDITION, CODOXO IS NOT ABLE TO OFFER SPONSORSHIP OR ACCOMMODATE ANY CANDIDATES THAT ARE CURRENTLY BEING SPONSORED NOW OR IN THE FUTURE
+Do you want to help make healthcare more effective and affordable for everyone? That’s our mission at Codoxo. The U.S. spends more on healthcare than any other country in the world, but not all of the $3.8 trillion goes to real patient care. A significant portion, up to 10% or $380 billion, is lost to fraud, waste, and abuse.
+Codoxo’s patented artificial intelligence technology helps healthcare companies and agencies identify and act quickly to control costs. Codoxo now has six AI-powered applications that help every department across health insurance payers proactively bring down costs and reduce fraud, waste, and abuse – so more dollars to toward patient care.
+Job Description
+We are seeking a talented Data Engineer with experience in data analytics, building large reservoirs of data, and performing efficient queries. We have built a web-based application that is supported by a large dataset of healthcare data, on which we must frequently perform large queries very efficiently and return results in real-time to the user. The role of the data engineer is to bridge the data scientist with the developers and the ingestion of data. Specifically, one of the major tasks is to build and execute new data pipelines on the cloud (AWS).
+
+Required technical skills:Relational database (PostgreSQL) programmingExpert knowledge in SQLCloud experience (AWS)Expert knowledge in PythonApache Spark
+
+Beneficial technical skills:AWS Glue, RDS, S3, Aurora, Data LakeProven experience processing billions of records
+
+Other Requirements/Preferences:Bachelor or master's degree in Computer Science, Engineering or related fieldExperience processing medical claims or related health care dataAt least 2 years of experience in the software industryAuthorization to work in the USA

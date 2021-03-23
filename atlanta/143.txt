@@ -1,0 +1,45 @@
+Join a team recognized for leadership, innovation and diversity
+The future is what you make it. When you join Honeywell, you become a member of our global team of thinkers, innovators, dreamers and doers who make the things that make the future. That means changing the way we fly, fueling jets in an eco-friendly way, keeping buildings smart and safe and even making it possible to breathe on Mars. Working at Honeywell isn't just about developing cool things. That’s why all of our employees enjoy access to dynamic career opportunities across different fields and industries.
+Are you ready to help us make the future?
+Honeywell Building Technologies (HBT) is a strategic business unit within Honeywell Buildings. HBT innovates to protect and save lives worldwide every day. It is a global leader in commercial fire systems and commercial security products. Its quality products, integrated system solutions, and services make life safer, more comfortable, more secure, and more productive in every corner of our world. You can find leading-edge HBT technology all around you, including at airports, hotels, healthcare institutions, business centers, stadiums, industries, and schools.
+As the Sr IT Data & Automation Analyst, you will drive strategy, design, adoption, and lead the implementation of Data and Automation across HBT and all associated functions. Closely work with IT Business partners, IT COE’s and business Product Owners to evaluate Data Insight needs, Automation Needs, Problem statements, then analyze, articulate and lead solution development to improve Honeywell business results. You’ll also serve as the focal point for management and functional coordination/communication for HBT including all program-levels for Data and Automation activities.
+Responsibilities include:
+ Manage Data, Analytics and Automation roadmap for HBT including requirements, activities and design
+Monitor performance and quality control plans to identify improvements
+Managing IT relationships with ITBP for Business Units (GBE’s) and other functional areas which are engaged in analytics implementations
+Work with Enterprise IT functional team to fully understand the technology footprint across enterprise data analytics
+Gather and consolidate business requirements across HBT lines of businesses and functions.
+Liaison with Center IT to create process documentation.
+Support Project Managers & COE’s regarding functional aspects of the project and remove constraints to project execution.
+Analyze HBT business drivers to determine technology needs.
+Develop a solution strategy on the evolution of data analytics adoption from current to future state.
+Educate process leadership on the benefits of the “To-Be” design and the change implications for their organization.
+YOU MUST HAVE
+Bachelor’s degree
+3 years of experience driving Data and Automation requirements and analysis for implementations
+4 years of IT-related experience in Application Development, Automation and Delivery for medium/large scale organizationWE VALUE
+ Strong results orientation, with a focus on quality and attention to detail
+Effective time management and prioritization skills
+Graduate degree in Computer Science, Engineering or related field
+Ability to effectively manage multi-million-dollar project budgets
+Experience managing teams utilizing Agile delivery methodology, collaborating effectively across multiple cross-functional teams to skillfully execute on milestones and deliverables in a timely manner
+Demonstrate experience with implementing enterprise-level tools including Snowflake, Hadoop, R, Python, SAP Hana implementations. Exposure with working on Cloud applications.
+Experience creating and executing short-term tactical plans as well as long-term departmental strategic plans
+Strong background in leading Automation and Enterprise scale Data Warehousing environments supporting business critical KPI's, Dashboards and Executive reporting.
+Skilled in managing and leading individual contributors and delivering solutions in a highly matrixed environment including working globally with remote teams.
+Excellent verbal and written communication skills and ability to transfer information easily to team members, stakeholders and sr. managers
+Establish and maintain strong relationships
+Work effectively at all levels of the organization
+Team player and able to work collaboratively with and through others.
+Lead process design discussions and organizational change across the IT organization.
+Demonstrated ability to evaluate and recommend effective, contemporary solutions that align with the Honeywell Enterprise IT strategy and deliver exceptional user experiences.
+Partnership abilities, interpersonal skills, and communication skills to collaborate and coordinate with various business and technical levels/organizations
+Change agent: Ability to anticipate and execute action plans to proactively manage and drive change in an organization.
+Excellent collaboration & negotiation skills: Ability to understand customer needs, negotiate complex issues and total value offerings to our customers.
+Leadership Skills: Ability to define vision for the analytics organization, rally the team around the vision, set high expectations and manage to expectations.
+Strong Coaching and Influencing Skills: Ability to work in a highly matrixed organization and influence without formal authority. Engage enterprise wide support for key business priorities.Additional Information
+JOB ID: req252285
+Category: Information Technology
+Location: 715 Peachtree Street, N.E.,Atlanta,Georgia,30308,United States
+Exempt
+Honeywell is an equal opportunity employer. Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, or veteran status.

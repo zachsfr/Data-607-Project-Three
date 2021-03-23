@@ -1,0 +1,34 @@
+Description
+Sentient Energy - a Koch Engineered Solutions company- is looking for Data Scientists with specialization in utility analytics to fulfill its newly created full-time positions within the Data Science and Analytics team. The Data Science and Analytics team is responsible for characterizing, modeling, and predicting the evolving behavior and performance of smart electric utility systems through synergistic utilization of smart grid data coupled with the state-of-the-art Artificial Intelligence and power system first principles. With the projected increase in utility IoT deployments and grid modernization programs, the amount of operational and non-operational data is exploding. Deriving business value from these investments requires both small data and big data pipelines and applications to effectively ingest, store, and analyze millions of daily raw data points that ultimately lead to transformative business outcomes.
+Individuals in these roles are expected to work within the Data Science and Analytics team to develop and maintain signal processing and machine learning models and pipelines based on best practices that allow for characterization and analysis of smart grid behavior and its components during steady-state, dynamic, and transient conditions. This position will support scenario analysis and digital modeling of the grid that ultimately help create a digital twin of a target system and its components. The Data Science and Analytics team harnesses the power of artificial intelligence and domain-based edge and cloud analytics to help solve previously unsolvable digital grid problems, making the world a better place -one algorithm at a time! Our solutions help our customers streamline operations, enhance system reliability, increase safety, enable DER integration, and accelerate business outcomes from grid digitalization initiatives.
+This position offers a unique and exciting opportunity to advance the state of the art in utility analytics by working with real and simulated field data from intelligent sensors and operational systems in the rapidly developing and highly visible electric utility space within the Green Energy sector. The innovation and creativity with which we develop and implement utility solutions are among the distinctions that make Sentient Energy - a Koch Engineered Solutions Company- a leader in Distribution Network sensing and analytics.
+What You Will Do In Your Role
+Build and maintain machine learning models and embedded algorithms of various fidelity to characterize and predict power grid behavior during steady state, dynamic, and transient conditions with and without distributed energy resources (DERs).
+Setup and optimize appropriate data processing pipelines based on best practices in data science that allow for quick testing of various hypothesis at-scale with millions of growing records available from field devices.
+Support the Analytics team with thought-provoking ideas and broader analytics know-how from adjacent verticals
+Assist product engineering teams with validation and verification of end-to-end sensor system performance.
+Help analyze grid events and failure signatures to create a complete picture of an outage or disturbance.
+Contribute to utility analytics partnership initiatives and roadmap development
+Contribute to intellectual property development and company representations in technical conferences and trade shows
+Contribute to 3rd party funded R&D programs and initiatives
+Publish internal reports and external articles and white papers to showcase company success and maintain industry thought leadership
+The Experience You Will Bring
+Requirements:
+Master’s Degree
+2+ years of experience in a Data Science position
+2+ years experience with statistical modeling, time-series analysis, and programing tools for data science (R, Python, Matlab, etc.) and familiarity with database query languages (SQL)
+1+ year experience in at least two of the following areas: advanced digital signal processing and filter design for embedded and enterprise applications, applied statistics and mathematics, time series modeling and forecasting, anomaly detection, convex and non-convex optimization/operations research, advanced machine learning techniques including various deep learning frameworks
+Demonstrated utility analytics experience in a technology vendor, national laboratory, or utility environment
+What Will Put You Ahead
+PhD
+Demonstrated utility analytics experience in a technology vendor, national laboratory, or utility environment.
+Expert knowledge of Python libraries for signal processing, time series modeling, database querying, statistics, machine learning and visualization (e.g., numpy, statsmodel, scipy, scikit-learn, matplotlib)
+More than 4 years of relevant work experience, including experience applying advanced analytics to problems in power/energy industry.
+Track record of prior work and/or official coursework in the analytics space as demonstrated by publications, certifications, GitHub projects, etc.
+Familiarity with electrical distribution system operations and management practices and technologies.
+Salary and Benefits Commensurate with Experience.
+Equal Opportunity Employer.
+
+Except where prohibited by state law, all offers of employment are conditioned upon successfully passing a drug test.
+
+This employer uses E-Verify. Please visit the following website for additional information: www.kochcareers.com/doc/Everify.pdf

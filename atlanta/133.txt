@@ -1,0 +1,21 @@
+Job detailsJob TypeFull-timeFull Job DescriptionMinimum qualifications:
+Bachelor’s degree or equivalent practical experience.
+3 years of software development experience, or 1 year with an advanced degree.
+Software development experience in C, C++, and/or Python.
+Experience with applying machine learning algorithms in imaging domains and/or research communities and efforts.
+Preferred qualifications:
+PhD in computer science, electrical engineering, machine learning, other related areas or equivalent practical experience.
+4 years of relevant work experience in software development, including C++.
+Experience with one or more of the following: deep learning, video analysis, video processing, content creation, multimedia.
+Working proficiency and communication skills in verbal and written English.
+About the job
+Software Engineers in our Research team develop systems and infrastructure to deploy promising ideas quickly and broadly. Manage deadlines and deliverables while applying the latest theories to develop new and improved products, processes, or technologies, while developing large-scale tests to validate the systems being developed and prototyped.
+Our research reaches the user through both services and products that touch billions of end users. We are looking to grow our team in the area of video analysis, creation, and synthesis. We are building on state-of-the-art research in computer vision, machine learning, artificial intelligence, HCI, and computer graphics. We are interested in exploring concepts from deep learning, time-series, and multimodal analysis, language models and interactivity to support the medium of video.
+The Perception team within Google Research focuses on research and development of systems to interpret and transform sensory data, and we collaborate with many of the product teams within Google. From creating experiments and prototyping implementations to designing new architectures, our software engineers work on real-world problems that span the breadth of computer science, such as machine (and deep) learning, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. You'll actively contribute to the research, development and deployment of new ideas inspired by internal projects as well as collaborations with other researchers and product partners.
+Google is and always will be an engineering company. We hire people with a broad set of technical skills who are ready to take on some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, Social to Local, Google engineers are changing the world one technological achievement after another.
+ResponsibilitiesDevelop new software systems for video analysis applied to processing and creating videos.
+Explore artificial intelligence systems to support content creation and understanding.
+Develop scalable machine learning and computer vision algorithms, leveraging deep learning.
+Engage on product innovation and deploy research to support critical product needs.
+Work on Research to extend the state-of-the-art.
+Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing this form.

@@ -1,0 +1,41 @@
+(Note: To be considered for this role, applicants MUST have experience as a SR Data Analyst that has experience with Memory Utilization and Capacity management Analysis with servers )
+
+Who We Are
+Within Cisco’s Security Business we are building a set of infrastructure solutions to enable our customers to create the most sophisticated security products in the market. We work in an exciting field supporting one of the strongest growth areas in the technology industry, in turn we are developing innovative cloud solutions and infrastructure engineering in a way to accelerate this growth. We operate over 60 Datacenter footprints in 20 countries, offering a mix of public and private cloud capabilities delivered across a powerful globally connected multi-terabit network. If you’re interested in working within a broad engineering environment, enjoy working with an international community, and have the skills necessary to drive the growth of our product...we would love to hear from you.
+
+What you’ll do
+You will work as part of the Capacity & Demand Management Team within the Cloud Infrastructure Engineering group, you will be part of a distributed team that advises our business on how to scale out its cloud services. You will be responsible for the review, analysis and modelling of capacity data, you will support our customers by forecasting requirements and driving decision making. We are looking for individuals with a strong preference for analytical thinking and process, a willingness to work hard and the perseverance to make things happen.
+Key Responsibilities include:
+Design, implementation and documentation of capacity modelling for multiple cloud and infrastructure services
+Regular reporting and presenting of capacity models to service owners and executive stakeholders
+Work with multiple customer requirements to build capacity models, using data from a variety of different sources
+Working with both technical and non-technical teams, being comfortable to communicate in both environments
+Working under an agile methodology, to build in an iterative approach to realise benefits fast About you
+You will be comfortable connecting with customers to collecting requirements, using your analytical skill set to convert these to design and implement a capacity model and taking a solution from concept to implementation.
+Genuine interest in Cloud Technologies and underpinning architecture
+Demonstrable data analysis skills, with a keen interest in automation
+Experience in working with SQL/Query languages and tools
+Experience in designing and building data models and forecasts from scratch
+Good communication skills and used to presenting data verbally and in reports
+Demonstrable experience in matching data analysis and business justification
+Working with key stakeholders to define service performance needs
+Comfortable working and presenting at executive level
+At least 4+ yrs experience in a similar role Desired Skills
+Past experience in an IT Infrastructure environment
+Experience using data visualization tools (e.g. Tableau, Power BI)
+Exposure to other programming languages (e.g. Python)
+Experience of customer relationship management
+Experience using Snowflake
+Excellent verbal and written communication (experience of working to an exec level)
+#WeAreCisco, where each person is unique, but we bring our talents to work as a team and make a difference powering an inclusive future for all.
+
+We embrace digital, and help our customers implement change in their digital businesses. Some may think we’re “old” (36 years strong) and only about hardware, but we’re also a software company. And a security company. We even invented an intuitive network that adapts, predicts, learns and protects. No other company can do what we do – you can’t put us in a box!
+
+But “Digital Transformation” is an empty buzz phrase without a culture that allows for innovation, creativity, and yes, even failure (if you learn from it.)
+
+Day to day, we focus on the give and take. We give our best, give our egos a break, and give of ourselves (because giving back is built into our DNA.) We take accountability, bold steps, and take difference to heart. Because without diversity of thought and a dedication to equality for all, there is no moving forward.
+
+So, you have colorful hair? Don’t care. Tattoos? Show off your ink. Like polka dots? That’s cool. Pop culture geek? Many of us are. Passion for technology and world changing? Be you, with us!
+#li-remote
+#LI-JS1
+#LI-PRIORITY

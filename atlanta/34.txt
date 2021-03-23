@@ -1,0 +1,47 @@
+Are you a climate data scientist looking to use your skills to solve the biggest problem of our generation? We are looking for you to join our growing climate services. As well as understanding the challenge that climate change poses to business, you should have a passion for data-driven decision making, and experience of communicating complex problems to technical and non-technical audiences.
+Work you’ll do
+As a Climate Data Scientist Senior Manager, you will work with our Sustainability and KPI services team of specialists focused on in sustainability assurance, risk, measurement, and reporting. Our team advises companies on the evolving Environmental, Social and Governance (ESG) trends and market forces, with a focus on enhancing internal processes for collecting, analyzing, measuring, and reporting non-financial information.
+Your main responsibilities will include:
+Apply climate science knowledge to assess physical climate risk for global organizations across different industries and geographies
+Evaluate global and regional climate models, perform statistical quantification of climate trends, and assess physical risks for multiple climate scenarios using extensive programming skills
+Leverage your knowledge of climate and earth systems as well as analytical expertise to provide insights to clients by synthesizing and disseminating climate-related insights
+Support data synthesis, data visualization, writing and sharing results, and provide recommendations to clients
+Leverage problem-solving skills to design solutions to core business problems that best meet client needs and communicate the outcomes and insights of your work to primarily non-technical audiences
+Retrieve and process large amounts of data, conducting analyses and generating insight based on medium to long term projected changes in climate, and provide climate-specific insight and inform strategy for addressing climate risk across industries
+Structure business problems and serve as a client advisor while working closely with other sustainability and climate professionals and senior leaders across industries
+Travel up to 30% (due to COVID-19, non-essential travel has been suspended until further notice)
+The team
+Our team culture is collaborative and encourages team members to take initiative and seek on-the-job learning opportunities. Our audit professionals are committed to excellence and to enhancing the trust of the investing public and capital markets. Quality is our top priority, and by focusing on innovation, we continue to raise the bar on quality and deliver greater value to our clients. Learn more about Deloitte Audit.
+Qualifications
+Required
+Graduate degree (PhD/postdoc highly preferred) in atmospheric science, climate/earth systems science, or similar fields
+Extensive experience working with climate models (i.e. CMIP5 GCMs, RCMs, etc.), ensemble analysis and uncertainty quantification
+Experience in climate risk assessment and extreme events analysis
+Experience in Relational databases (preferably SQL Server), Visualisation tools (Tableau/Power BI), Object-oriented programming (Python or R), ARC GIS
+Experience with climate scenario and model analysis
+Experience physical impact and vulnerability assessments
+Experience managing corporate clients with different level of knowledge and understanding of climate science and modeling
+Experience working in multi-disciplinary groups and using interpersonal skills to build strong relationships with corporate clients, academics, and policy makers
+Experience communicating complex climate model information to non-technical audience in written, spoken and graphical formats
+Experience with managing multiple projects with multiple internal and external stakeholders
+Experience with client facing roles managing engagement teams to deliver data aspects
+Preferred:
+Knowledge of ESG-related standards and frameworks in particular the Task Force on Climate –Related Financial Disclosures, GHG Protocol, and SASB.
+Knowledge of cloud computing environments and basic software engineering principles highly preferred
+A high aptitude for identifying, establishing and maintaining relationships with key stakeholders
+Established relationship with climate modeling and research institutions favored
+Strong multitasking and parallel development abilities
+Strong analytical and problem-solving skills paired with the ability to develop creative and efficient solutions
+Strong interpersonal communication skills
+Able to work under competing, quickly changing priorities, manage expectations effectively and support the team under pressure
+Experience working independently on multiple assignments or engagements, even in a virtual environment
+How you’ll grow
+At Deloitte, we believe in professional development and helping our people grow. We offer learning opportunities to help you sharpen your skills in addition to hands-on experience in the global, fast-changing business world. We support the development of leadership and technical skills through leading-edge learning development solutions such as our Audit on-boarding training program. When you join, you’ll participate in Welcome to Deloitte, a 2-day orientation followed by audit analytics-specific training to set you up for success on the team. Explore Deloitte University, The Leadership Center.
+Benefits
+At Deloitte, we know that great people make a great organization. We value our people and offer employees a broad range of benefits. Learn more about what working at Deloitte can mean for you.
+Deloitte’s culture
+Our positive and supportive culture encourages our people to do their best work every day. We celebrate individuals by recognizing their uniqueness and offering them the flexibility to make daily choices that can help them to be healthy, centered, confident, and aware. We offer well-being programs and are continuously looking for new ways to maintain a culture where our people excel and lead healthy, happy lives. Learn more about Life at Deloitte.
+Corporate citizenship
+Deloitte is led by a purpose: to make an impact that matters. This purpose defines who we are and extends to relationships with our clients, our people and our communities. We believe that business has the power to inspire and transform. We focus on education, giving, skill-based volunteerism, and leadership to help drive positive social impact in our communities. Learn more about Deloitte’s impact on the world.
+Recruiter tips
+We want job seekers exploring opportunities at Deloitte to feel prepared and confident. To help you with your interview, we suggest that you do your research: know some background about the organization and the business area you’re applying to. We also suggest that you brush up on your interviewing skills and practice discussing your experience and job history with a family member, friend, or mentor. Check out recruiting tips from Deloitte professionals.

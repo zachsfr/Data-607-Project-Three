@@ -1,0 +1,31 @@
+Job detailsJob TypeFull-timeFull Job DescriptionAbout GM
+There’s never been a more exciting time to work for General Motors.
+To achieve our vision of a world with Zero Crashes, Zero Emissions and Zero Congestion, we need people to join us who are passionate about creating safer, better and more sustainable ways for people to get around. This bold vision won’t happen overnight, but just as we transformed how the world moved in the last century, we are committed to transforming how we move today and in the future.
+Why Work for Us
+Our culture is focused on building inclusive teams, where differences and unique perspectives are embraced so you can contribute to your fullest potential as you pursue your career. Our locations feature a variety of work environments, including open work spaces and virtual connection platforms to inspire productivity and flexible collaboration. And we are proud to support our employees volunteer interests, and make it a priority to join together in efforts that give back to our communities.
+Job Description
+In recent years, GM Information Technology has successfully executed the largest IT transformation in the history of the automotive industry, fully insourcing what once was a nearly completely outsourced IT function. Today GM IT is a dynamic and fast paced organization that designs, develops and maintains all IT infrastructure, applications and solutions enabling GM’s global operations. From designing and building the next generation of electric and other vehicles to developing a world-class GM experience for our dealers and customers, GM IT is driving real change in the most iconic automaker on the planet. Our team delivers unique enterprise-wide IT solutions in cutting-edge technologies such as mobility, telematics, mission-critical business systems, supercomputing, cloud, vehicle engineering and real-time computing. We offer challenging positions for passionate professionals looking to advance their careers and be a part of an IT organization focused on innovation, speed and business value.
+The ML Engineering Team is developing and operating an efficient ML Platform for automated driving development.
+We’re looking to hire a ML Engineer to join a high performing team of existing software developers to help us run our ML algorithms at scale.
+You will:
+Design, build, and maintain the core machine learning capabilities, services and platforms used by all of General Motors’ autonomous vehicle development teams.
+Design and implement end-to-end machine learning pipelines accounting for the variability in data sources and collection policies, data analysis and feature extraction methodologies, modeling frameworks and serving infrastructure
+Work with a wide range of systems, processes and technologies to own and solve problems from end-to-end.
+Scrutinize and communicate clearly the technology and architecture choices we make.
+Implement integrated monitoring of model performance for reliability and maintenance.
+Continuously improve ML processes, tools and standards.
+Additional Job Description
+We’re looking for someone who has:
+2+ years of software development, MLOps engineering or technical architectural experience.
+Experience in orchestrating Machine Learning solutions to production at scale.
+Applied background in machine learning platform development, software development, CI/CD and deployment patterns.
+Experience in Data and ML Orchestration, Containerization, GPU Infrastructure, MLFlow, TensorBoard
+Skills: Golang, Python, Docker, Kubernetes, ML Algorithms
+Strong Candidates will be knowledgeable in Data and ML Engineering with On Prem Infrastructure.
+We are not able to accommodate international relocation.
+Benefits Overview
+The goal of the General Motors total rewards program is to support the health and well-being of you and your family. Our comprehensive compensation plan incudes, the following benefits, in addition to many others:Paid time off including vacation days, holidays, and parental leave for mothers, fathers and adoptive parents;Healthcare (including a triple tax advantaged health savings account and wellness incentive), dental, vision and life insurance plans to cover you and your family;Company and matching contributions to 401K savings plan to help you save for retirement;Global recognition program for peers and leaders to recognize and be recognized for results and behaviors that reflect our company values;
+Tuition assistance and student loan refinancing;Discount on GM vehicles for you, your family and friends.
+Diversity Information
+General Motors is committed to being a workplace that is not only free of discrimination, but one that genuinely fosters inclusion and belonging. We strongly believe that workforce diversity creates an environment in which our employees can thrive and develop better products for our customers. We understand and embrace the variety through which people gain experiences whether through professional, personal, educational, or volunteer opportunities. GM is proud to be an equal opportunity employer.
+We encourage interested candidates to review the key responsibilities and qualifications and apply for any positions that match your skills and capabilities.

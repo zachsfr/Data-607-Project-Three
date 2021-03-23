@@ -1,0 +1,47 @@
+Job detailsJob TypeFull-timeFull Job DescriptionPosition Summary:
+We are looking for a Chief Data Scientist to design, formalize, and implement a data science practice. You will be responsible for growing a team of data scientists and overseeing their activities to ensure proper execution of duties and alignment with the company's overall vision. You will be responsible for the creation of new data science capabilities for the company by envisioning and executing strategies that will influence improvement of business performance by enabling informed decision making. You will lead the development of big data capabilities and utilization as well as coordinate cross-functional analytic initiatives.
+The Chief Data Scientist role requires someone who is hands-on and who can model complex problems, discovering insights, and identifying opportunities through the use of statistical, algorithmic, mining, and visualization techniques. You are someone who can strike the right balance between statistical solutions and big data realities to enhance our platform.
+In addition to advanced analytic skills, you are also proficient at integrating and preparing large, varied datasets, architecting specialized database and computing environments, and communicating results. You have experience in a variety of methodologies ranging from statistical analysis to machine learning.
+This role is based in Atlanta, Georgia.
+Essential Functions and Duties:
+Proactively work with senior business executives and various departmental heads across the company in order to provide advanced analytic data modeling systems as well as support the creation and evolution of new products and services
+Play a leading role in the development and design of the company's data science vision, capabilities, infrastructure, and quarterly/annual roadmap
+Grow the company's data science talent through role definition, recruitment, and development of a team of data scientists that will jointly move the company's agenda forward
+Design and launch innovative prototypes and complex analytic models, utilizing a blend of contemporary and traditional data mining techniques, applied to both structured and unstructured data sets
+Solve real-world business challenges by application of machine learning, artificial intelligence, statistics, and reliability techniques
+Guide data collection efforts for data quality standards and recommend new data streams to be captured
+Oversee all data-related activities ensuring alignment with departmental and company-wide vision and strategies.
+Drive education and evangelization of data sciences throughout the company by communicating the vision and use cases of advanced analytics
+Continuously improve the company's data analysis model, creating industry-leading performance through the leveraging of new and creative data-sources, and employing the latest in machine learning technologies and techniques
+Visualize and communicate data insights to cross-functional business leaders
+Perform other duties as assignedSupervisory Responsibilities:
+This position has direct supervisory responsibilities over the Data Science team located in the Atlanta office, as well as any remote employees and including any 3rd party outsourced resources.
+Knowledge, Skills, and Abilities:
+Proven and successful experience track record of leading high-performing data analyst teams
+Exhibit a combination of business focus, strong analytical and problem-solving skills, and programming knowledge
+Skilled in machine learning, artificial intelligence, and risk analysis
+Skilled in both basic and advanced statistical methods
+Skilled in regression analysis, tests of significance, and other forms of predictive modeling
+Knowledge of database and data warehousing theory
+Excellent written, communication and people skills
+Ability to be a self-starter and a quick learnerEducation and Experience Requirements:
+Postgraduate degree in Data Science, Computer Science, or related field
+Minimum of ten (10) years of experience in data science leadership roles
+Minimum of five (5) years of experience with predictive and descriptive analytics using applications such as SAS, Python, Matlab, Revolution R, or similar high-level statistical applications
+Experience in computer, robotic, and drone vision
+Experience with the application of data science and machine learning algorithms including structured, unstructured, or relational and data mining and machine learning techniques
+Experience using database architectures such as SQL, NoSQL, or similar
+Travel:
+5% of travel time expected for position
+Travel to Louisville office, site visits, and conferencesBenefits and Perks:
+Seek Now offers exceptional compensation and a great benefit package, which includes health, dental and vision insurance, 401K with company match, paid time off (PTO), short and long-term disability insurance, AD&D insurance, life insurance, and more!EEO Statement:
+Seek Now is an equal opportunity employer. All aspects of employment including the decision to hire, promote, discipline, or discharge, will be based on merit, competence, performance, and business needs. Seek Now does not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression, veteran status, or any other status protected under federal, state, or local law.
+Company Story:
+Who We Are
+Seek Now is creating and leveraging technology to revolutionize multiple property-related industries. Founded in 2012, our foundationally innovative mindset, combined with years of experience, has propelled us to sustained, accelerated growth.
+Catalyzing Technology
+Our platform deploys a professional gig-economy workforce of Seekers to capture, translate, and transmit hi-definition data faster and more efficiently than ever before. Leveraging current and emerging capture technologies — machine learning, AI, AR/VR, autonomous flight, and more — we deliver detailed, property-specific, ground truth data verging on real-time.
+Self-Motivated Culture
+But our technology is only as good as our people, and our people are great. We are self-motivated high performers, challenging and supporting each other to grow while delivering for our customers. Our family-orientation balances our drive upwards and forwards. We serve all stakeholders with gratitude, whether they are teammates, vendors, customers, or community members.
+Vision
+The combination of our culture and technology allows us to deliver more consistent and detailed data, faster. This combination gives new insights that result in better financial outcomes, better customer experience, better industry standards and better opportunities for our people.

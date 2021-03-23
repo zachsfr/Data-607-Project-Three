@@ -1,0 +1,23 @@
+Job detailsJob TypeFull-timeFull Job DescriptionWe are looking for a Data Scientist to analyze large amounts of raw information to find patterns that will help improve our company.We will rely on you to build data products to extract valuable business insights.In this role, you should be highly analytical with a knack for analysis, math and statistics. Critical thinking and problem-solving skills are essential for interpreting data. We also want to see a passion for machine-learning and research.Your goal will be to help our company analyze trends to make better decisions.
+Required Skills:
+3 Yrs to 6 Yrs
+Masters in Computer Science with Data Science Skills
+Excellent understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, Decision Forests, etc.
+Experience with common data science toolkits, such as R,Weka, NumPy, MatLab, etc.
+Great communication skills
+Experience with data visualisation tools, such as D3.js, GGplot,etc.
+Proficiency in using query languages such as SQL, Hive, etc.
+Experience with NoSQL databases, such as MongoDB
+Cassandra, HBase
+Good applied statistics skills, such as distributions, statistical testing, regression, etc.
+Good scripting and programming skills
+Data-oriented personality
+Key Responsibilities:
+Identify valuable data sources and automate collection processes
+Undertake preprocessing of structured and unstructured data
+Analyze large amounts of information to discover trends and patterns
+Build predictive models and machine-learning algorithms
+Combine models through ensemble modeling
+Present information using data visualization techniques
+Propose solutions and strategies to business challenges
+Collaborate with engineering and product development teams

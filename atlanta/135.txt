@@ -1,0 +1,34 @@
+Description
+You know us already! We make Brawny® paper towels; Dixie® paper cups and plates; Angel Soft® bath tissue; enMotion® paper towel dispensers, DensGlass® gypsum board and Plytanium® plywood you see in your big box home improvement stores and much more! We employ about 35,000 people who want to make a positive difference in today’s world by creating real long-term value for our customers.
+We have an opportunity on the Data Science team at Georgia-Pacific’s Collaboration & Support Center, located in Tech Square Labs in Atlanta, GA. We are looking for an experienced Data Scientist to join a team of Data Scientists and Associate Data Scientists, to focus on providing support and solutions to our manufacturing operations. Working closely with business partners and engineers, the Data Scientists support operations through development and deployment of useful and scalable statistical, machine learning, and deep learning models that make our facilities safe, efficient, and optimal.
+What You Will Do In Your Role
+Analytics Project Ownership: Own all aspects of analytics projects from start to finish – pursuing innovative ideas, developing models, uncovering and communicating actionable insights, and implementing solutions to capture value.
+Works with various engineering teams, owns end-to-end solution development and scaling focused on Operations (manufacturing) challenges.
+Partnership: Develop and maintain relationships with key business partners to enable improved decision making.
+Focus needs to remain on building minimum viable product towards solving majority of the issue instead of “perfecting” the solution, unless critical to safety.
+Ability to operate independently and self-manage
+The Experience You Will Bring
+Requirements:
+Bachelor’s Degree or higher in a field related to data science such as Mathematics, Statistics, Computer Science, Engineering, Data Science, or Business Analytics.
+2 or more years of experience creatively applying machine learning, outside of academic datasets, using a formal programming language (Python, R, SAS).
+2 or more years of technical and analytical problem-solving experience
+Experience working with SAS Code for the purpose of statistics or machine learning
+Experience with analyzing time series. Must be able to clean, manipulate, analyze, and model time series data in both SAS and open-source technologies
+Experience in data science that encompass having multiple models deployed to production with successful outcomes for users
+Experience manipulating data, computing, memory, optimization; experience with cloud computing (AWS)
+Experience working with unsupervised and supervised machine learning
+Experience working with large data sets (>50 GB)
+What Will Put You Ahead
+Master's Degree or higher in a field related to data science such as Mathematics, Statistics, Computer Science, Engineering, Data Science, or Business Analytics.
+Experience with SAS Event Stream Processing
+Experience working with loT
+Experience working with Manufacturing Operations
+Experience with PySpark and Kinesis
+Experience architecting high performance data pipelines
+Experience mentoring associate / junior data scientists (previous leadership experience)
+Salary and Benefits Commensurate with Experience.
+Equal Opportunity Employer.
+
+Except where prohibited by state law, all offers of employment are conditioned upon successfully passing a drug test.
+
+This employer uses E-Verify. Please visit the following website for additional information: www.kochcareers.com/doc/Everify.pdf
