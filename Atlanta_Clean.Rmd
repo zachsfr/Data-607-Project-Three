@@ -1,0 +1,47 @@
+---
+title: "Proj3_cvs_code"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## load libraries
+
+```{r}
+library(tidyverse)
+library(magrittr)
+library(stringr)
+library(readr)
+
+```
+
+## clean Atlanta.csv
+
+```{r}
+#import csv into dataframe
+
+atl <- read_csv("Atlanta_Table.csv", col_names=TRUE)
+atl%<>%rename(Id = X1)
+
+# separate Location into relevant columns
+
+Atl <- atl%>%separate(Location, c("City", "State"), ",")%>%
+    separate(State, c("tmp", "State", "Zip_Code"), "\\s")%>%
+    select(-c( tmp, Links))
+
+# Create categories of job_level
+
+Atl%<>%mutate(Job_Level = case_when(grepl("Intern", Job_Title) ~ "Intern",
+    grepl("^Data Analyst|Entry Level", Job_Title, ignore.case=TRUE) ~ "Junior",
+    grepl("Senior Data Scientist|Director|Lead|Principal|Sr.|President", Job_Title, ignore.case=TRUE)~"Senior",
+    grepl("^Associate.+|Senior Data Analyst|Data Engineer|Senior Associate|Machine Learning|ML|AI|Data Engineer|Manage.+|Data Scientist|Specialist|Data Science", Job_Title, ignore.case=TRUE)~"Mid_Level"))%>%
+    relocate(Job_Level, .after=Job_Title)
+    
+
+write.csv(Atl, file = "Atlanta_Clean.csv")
+
+
+```
+
