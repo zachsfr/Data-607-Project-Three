@@ -5,11 +5,11 @@ library(tm)
 
 atlanta <- "C:/Users/dmosc/OneDrive/Documents/academic/CUNY SPS/DATA 607/Proj3/zachsfr project three/Data-607-Project-Three/atlanta"
 
-find <- c("[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","data engineering","deep learning","machine learning","neural networks","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering")
+find <- c("artificial intelligence","amazon web services","[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","computer vision","data analysis","data engineering","data wrangling","deep learning","large datasets","machine learning","natural language processing","neural networks","object oriented","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering","time series")
 
-repl <- c(" csharp"," cplusplus","computerscience","dataengineering","deeplearning","machinelearning","neuralnetworks","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering")
+repl <- c("ai","aws"," csharp"," cplusplus","computerscience","computervision","dataanalysis","dataengineering","datawrangling","deeplearning","largedatasets","machinelearning","nlp","neuralnetworks","oop","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering","timeseries")
 
-ds_skills_list <- c("ai","analysis","aws","azure","c","caffe","cassandra","communication","computerscience","cplusplus","csharp","d3","dataengineering","deeplearning","docker","excel","git","hadoop","hbase","hive","java","javascript","keras","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","pandas","perl","pig","projectmanagement","python","pytorch","rrrr","sas","scala","scikitlearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","visualization")
+ds_skills_list <- c("ai","airflow","analysis","aws","azure","bigquery","c","caffe","caffe2","cassandra","communication","computerscience","computervision","cplusplus","csharp","d3","dataanalysis","dataengineering","datawrangling","databases","deeplearning","docker","excel","fintech","git","hadoop","hbase","hive","java","javascript","keras","kubernetes","largedatasets","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","oop","pandas","perl","pig","projectmanagement","publications","python","pytorch","rrrr","sas","scala","scikitlearn","scipy","sklearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","theano","timeseries","unix","visualization")
 
 #Create corpus from Atlanta files#
 
@@ -55,3 +55,7 @@ ds_skills_df <- rownames_to_column(ds_skills_df)
 ds_skills_df <- rename(ds_skills_df, "listing" = "rowname", "r" = "rrrr")
 ds_skills_df <- ds_skills_df %>%
   mutate("listing" = substr(listing,0,nchar(listing)-4))
+
+
+
+write.csv(ds_skills_df,"C:/Users/dmosc/OneDrive/Documents/academic/CUNY SPS/DATA 607/Proj3/zachsfr project three/Data-607-Project-Three/ds_skills_csv.csv", row.names = FALSE)
