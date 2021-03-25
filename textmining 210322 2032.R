@@ -55,7 +55,3 @@ ds_skills_df <- rownames_to_column(ds_skills_df)
 ds_skills_df <- rename(ds_skills_df, "listing" = "rowname", "r" = "rrrr")
 ds_skills_df <- ds_skills_df %>%
   mutate("listing" = substr(listing,0,nchar(listing)-4))
-
-
-
-write.csv(ds_skills_df,"C:/Users/dmosc/OneDrive/Documents/academic/CUNY SPS/DATA 607/Proj3/zachsfr project three/Data-607-Project-Three/ds_skills_csv.csv", row.names = FALSE)
