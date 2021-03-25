@@ -24,10 +24,11 @@ skills
 
 ```{r}
 listings <- read_excel('tables/Listings.xlsx')
+head(listings)
 ```
 
 
-## make the db
+## make the sqlite db
 
 ```{r}
 library(DBI)
@@ -97,28 +98,226 @@ length(ids)
 
 ```{r}
 listings$comp_id <- ids
+listings$list_id <- c(1:length(ids))
 head(listings)
 ```
+##### reorder the listings columns
 
 ```{r}
-listings <- listings[c('comp_id', 'Level', 'Title', 'Keywords', 'MinYrs',
-                       'NiceYrs', 'Degree', 'STEM', 'City', 'State', 'MinSal',
-                       'MaxSal')]
+listings <- listings[c('list_id', 'comp_id', 'Level', 'Title', 'Keywords',
+                       'MinYrs', 'NiceYrs', 'Degree', 'STEM', 'City', 'State',
+                       'MinSal', 'MaxSal')]
 head(listings)
 ```
-### now overwrite the old company table
+### now overwrite the old listings table
 
 ```{r}
 dbWriteTable(con, "Listings", listings, overwrite=T)
 dbListTables(con)
 ```
 
-### add skills and degrees and companies tables  
+### write the skills and degrees and companies tables  
 
 ```{r}
-dbWriteTable(con, "Skills", skills)
+dbWriteTable(con, "Skills", skills, overwrite = T)
 dbWriteTable(con, "Degrees", degrees)
 dbWriteTable(con, 'Companies', companies)
 dbListTables(con)
+```
+
+## repeat procedure for MYSQL  
+
+```{r}
+library(RMySQL) 
+
+mycon <- dbConnect(RMySQL::MySQL(), dbname = "PROJ3", username = "xxxx",
+                   password = "xxxxxxx", host = "xx.xx.xxx.xxx",
+                   port = xxxx)
+```
+
+### check tables and add all  
+
+```{r}
+dbListTables(mycon)
+```
+
+```{r}
+dbWriteTable(mycon, "Skills", skills, overwrite = T)
+dbWriteTable(mycon, "Degrees", degrees)
+dbWriteTable(mycon, 'Companies', companies)
+dbWriteTable(mycon, "Listings", listings)
+dbWriteTable(mycon, "ListingSkill", table)
+dbListTables(mycon)
+```
+
+
+# Use the MariaDB syntax to build the schema and remake the database
+
+```{r}
+library(RMariaDB)
+mariacon <- dbConnect(RMariaDB::MariaDB(), dbname = 'PROJ3', username = "dirt",
+                   password = "cuny607", host = "72.80.137.125",
+                   port = 3306)
+```
+
+### Start with the tables with no foreign keys, so that nothing is pre-referenced.  
+**Skills table**
+```{sql connection='mariacon'}
+
+CREATE TABLE IF NOT EXISTS `Skills`
+(
+`code` VARCHAR(50) NOT NULL,
+`meaning` VARCHAR(50) NOT NULL,
+PRIMARY KEY(`code`)
+);
+```
+
+**Degrees table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `Degrees`
+(
+`degreeLevel` INT NOT NULL,
+`meaning` VARCHAR(50) NOT NULL, 
+PRIMARY KEY(`degreeLevel`)
+);
+```
+
+**Companies table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS  `Companies`
+(
+`id` INT NOT NULL,
+`name` VARCHAR(50) NOT NULL,
+`numEmpls` INT,
+PRIMARY KEY(`id`)
+);
+```
+
+**Listings table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `Listings`
+(
+`list_id` INT NOT NULL AUTO_INCREMENT,
+`comp_id` INT NOT NULL,
+`level` VARCHAR(50),
+`title` VARCHAR(50),
+`keywords` VARCHAR(250),
+`minYears` INT,
+`niceYears` INT,
+`degree` INT,
+`STEM` INT,
+`city` VARCHAR(50),
+`state` VARCHAR(50),
+`minSal` INT,
+`maxSal` INT,
+PRIMARY KEY(`list_id`),
+FOREIGN KEY(`comp_id`) REFERENCES Companies(`id`) ON DELETE CASCADE,
+FOREIGN KEY(`degree`) REFERENCES Degrees(`degreeLevel`) ON DELETE SET NULL
+);
+
+```
+
+**ListingSkill table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `ListingSkill`
+(
+`listing` INT NOT NULL,
+`skill` VARCHAR(50) NOT NULL,
+FOREIGN KEY(`listing`) REFERENCES Listings(`list_id`),
+FOREIGN KEY(`skill`) REFERENCES Skills(`code`)
+);
+
+```
+
+```{sql connection='mariacon'}
+--ALTER TABLE Listings MODIFY keywords VARCHAR(250);
+```
+```{sql connection='mariacon'}
+
+
+```
+
+
+
+### Now the schema is set and the rows need to be added.
+##### Change the table col names to match database schema, in case of issues
+```{r}
+names(skills) <- c('code', 'meaning')
+names(degrees) <- c('degreeLevel', 'meaning')
+names(companies) <- c('name', 'numEmpls', 'id')
+# rearrange cols to match db schema
+companies <- companies[c('id', 'name', 'numEmpls')]
+names(listings) <- c('list_id', 'comp_id', 'level', 'title', 'keywords',
+                     'minYears', 'niceYears', 'degree', 'STEM',
+                     'city', 'state', 'minSal', 'maxSal')
+
+# listingskill table is already named properly
+```
+
+
+### Attempt to add the tables into the empty database tables  
+
+```{r}
+#dbWriteTable(mariacon, "Skills", skills, append=T)
+#dbWriteTable(mariacon, "Degrees", degrees, append=T)
+#dbWriteTable(mariacon, 'Companies', companies, append=T)
+#dbWriteTable(mariacon, "Listings", listings, append=T)
+#dbWriteTable(mariacon, "ListingSkill", table, append=T) #THIS WAS BROKEN (see below)
+```
+#### The ListingSkill table doesn't populate, maybe because there are dupes
+**De-dupe and try again**
+
+```{r}
+skillList <- distinct(table)
+dbWriteTable(mariacon, "ListingSkill", skillList, append=T)
+```
+
+#### That wasn't the problem, or at least not all the problems.  
+##### Maybe one of the skill keys just isn't matching the one in the Skill table.
+
+```{r}
+print(head(skillList, 2))
+print(head(skills, 2))
+```
+
+#### Go through each skillList code and make sure it's in the skills codes
+```{r}
+for (sk in skillList$skill) {
+  if (! sk %in% skills$code) {
+    print(sk)
+  }
+}
+```
+
+#### So we need to add ('CV','Computer Vision') to the Skill table and remove
+####  leading whitespace from the five other rows in skillList  
+
+```{sql connection='mariacon'}
+INSERT INTO Skills (code, meaning) VALUES ('CV', 'Computer Vision');
+```
+
+```{r}
+trimmed <- unlist(map(skillList$skill, str_trim))
+skillList$skill <- trimmed
+```
+
+Now try again  
+
+```{r}
+dbWriteTable(mariacon, "ListingSkill", skillList, append=T)
+```
+
+
+
+```{r}
+dbDisconnect(mariacon)
+dbDisconnect(mycon)
+dbDisconnect(con)
+```
+
+Get Sean's data table in here, to append/prepend  
+
+```{r}
+seanurl <- 'https://raw.githubusercontent.com/zachsfr/Data-607-Project-Three/Sean-Branch/Atlanta_Clean.csv'
 ```
 
