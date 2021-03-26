@@ -154,9 +154,9 @@ dbListTables(mycon)
 
 ```{r}
 library(RMariaDB)
-mariacon <- dbConnect(RMariaDB::MariaDB(), dbname = 'PROJ3', username = "dirt",
-                   password = "cuny607", host = "72.80.137.125",
-                   port = 3306)
+mariacon <- dbConnect(RMariaDB::MariaDB(), dbname = 'PROJ3', username = "xxxx",
+                   password = "xxxxxxx", host = "xx.xx.xxx.xxx",
+                   port = xxxx)
 ```
 
 ### Start with the tables with no foreign keys, so that nothing is pre-referenced.  
