@@ -1,0 +1,31 @@
+Job detailsJob TypeFull-timeFull Job DescriptionSummaryWe exist to help people achieve financial clarity. At Thrivent, we believe money is a tool, not a goal. Driven by a higher purpose at our core, we are committed to providing financial advice, investments, insurance, banking and generosity programs to help people make the most of all they’ve been given.
+
+At our heart, we are a membership-owned fraternal organization, as well as a holistic financial services organization, dedicated to serving the unique needs of our clients. We focus on their goals and priorities, guiding them toward financial choices that will help them live the life they want today—and tomorrow.
+
+Join our newly created Data Office as a full-time Senior Data Scientist! You will have a key role to act as a bridge between Data Engineering and expert Data Scientists by generating models to leverage predictive or prescriptive analytic methods established by data scientists. This opportunity is a unique blend of statistical analysis and analytics technology. You will help facilitate getting data from a variety of different sources, preparing data for machine learning model execution, data preparation includes data profiling, drift mgmt. feature engineering, building, maintaining and improving ML models using data science and advanced analytics platform. You will partner closely with the Data Science agile team and data engineering group and maintain advanced analytics infrastructure. You will establish and monitor model management and analytics development processes. Additional responsibilities include developing prototypes and proof of concepts for the selected solutions. The ideal candidate possesses strong passion and willingness to work on predictive analytics and machine learning solutions to various business problems.Job DescriptionJob Duties and Responsibilities
+Supports data preparation, on demand data processing for analytical solutions leveraging transformational technologies.
+Works on multiple projects as an analytics platform COE team member or lead user story analysis, elaboration, design and development of analytical APIs, testing, and builds automation.
+Works with team members to design and implement data analytics solutions within project schedules
+Code, unit test, train data and create documentation for analytical applications according to the data and analytics blueprint
+Works with data engineers and developers to make sure that all data solutions are consistent.
+Expands and grows analytical platform capabilities to solve new intelligence and insight challenges.
+Incorporates security controls and techniques as required in the solutions and platforms
+Ensures all automated processes established to improve reusability and overall productivity of data scientists and data analysts
+Helps create and maintain Analytical development lifecycle and ML model management process
+Job Qualifications
+Bachelor's degree in Computer science, Engineering, Data Science, Business Analytics and other technical discipline, or equivalent work experience.
+10+ years’ experience with data science, machine learning and data engineering.
+Experience with Statistical modeling, Machine learning, AI, Advanced big data processing and data preparation.
+Experience with agile or other rapid application development methods.
+Understands how algorithms work and have experience building algorithms.
+Significant knowledge of analytical modeling and understanding of different data structures and their benefits and limitations under specific use cases.
+Strong experience working hands-on with big data systems to process and analyze structured, semi-structured and unstructured data.
+Experience with model management, monitoring and deprecation processes.
+Strong knowledge in different programming and scripting languages.
+Prior experience in building machine learning models on AWS cloud platform (e.g. using tools like AWS sagemaker) is preferable.
+Technical Skills:
+Machine Learning: Logistic Regression, Lasso & Ridge Regularization, Decision Tree, Random Forest, Boosting, Neural Networks (e.g. ANN, RNN/LSTM, Autoencoders, W2V etc.), Natural Language Processing, Time series, Support Vector Machines, Naïve Bayes.
+Languages/Libraries: Python, R, H2O, SQL, Scala, Java or similar. programming/scripting languages
+Big Data: Spark, Spark Streaming, Hadoop, Hive, HBase, Pig, Impala, MongoDB, Neo4j.
+Visualization: Tableau or MS Power BI is preferable.Thrivent provides Equal Employment Opportunity (EEO) without regard to race, religion, color, sex , gender identity, sexual orientation, pregnancy, national origin, age, disability, marital status, citizenship status, military or veteran status, genetic information, or any other status protected by applicable local, state , or federal law. This policy applies to all employees and job applicants.
+Thrivent is committed to providing reasonable accommodation to individuals with disabilities. If you need a reasonable accommodation , please let us know by sending an email to human.resources@thrivent.com or call 800-847-4836 and request Human Resources.

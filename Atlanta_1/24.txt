@@ -1,0 +1,27 @@
+Job detailsJob TypeFull-timeFull Job DescriptionIntroduction
+As a Data Scientist at IBM, you will help transform our clients’ data into tangible business value by analyzing information, communicating outcomes and collaborating on product development. Work with Best in Class open source and visual tools, along with the most flexible and scalable deployment options. Whether it’s investigating patient trends or weather patterns, you will work to solve real world problems for the industries transforming how we live.Your Role and Responsibilities
+We are looking for an experienced Data Scientist to join a growing team.
+In this role you will apply your knowledge of mathematics, statistics, modeling, business analysis, and technology to transform high volumes of complex data into advanced analytic solutions to identify cybercrimes and hacktivism threats in a scalable way. There is no limitation on the analytics and could be as simple as rule-based detection or as complex as using AI/ML to classify threats. You'll also evaluate accuracy and quality of data sources, as well as the designed models. In addition, you'll evaluate new and existing data sources, processes, and architecture to develop recommendations.
+In IBM Security, you can access security data on a global scale. The tremendous visibility makes new security analytics you develop more accurate and impactful. Your work will benefit millions of users protected by IBM Security.Required Technical and Professional Expertise
+In this role you will be required to have the following:
+Experience in data analytics, predictive analytics, mathematics, statistics, or similar field.
+Advanced knowledge of statistical concepts such as regressions, time series, mixed model, Bayesian methods, clustering, etc., to analyze data and provide insights.
+Understanding of solutions on multiple public and private clouds.
+Understanding of data usage, process analysis and improvement, technologydevelopment/support.
+Experience in open source Machine, and Deep Learning frameworks, model validation and deployment tools, data pipeline technologies, and visualization and data storytelling tools.
+Experience using RESTful APIs.
+Preferred Technical and Professional Expertise
+Experience in Information Security with a particular focus on Security Analytics, Security Architecture, and Threat Intelligence.
+Strong knowledge of attack mechanism, including DGA, squatting, obfuscation, tunneling, beaconing, etc.
+Strong knowledge of conducting Security Threat, Vulnerability and Risk Assessments.
+Good knowledge of the Mitre ATT@CK framework and protection strategies, advising on implementation of detection and prevention controls where possible.
+Good knowledge of frameworks and standards such as STIX, TAXII, NIST.
+About Business Unit
+IBM is a leading provider of enterprise security solutions. Named by industry analysts as a leader in 12 security market segment categories, IBM Security is a multi-billion dollar business that is rapidly growing. In an industry focused on building walls, IBM Security is focused on creating an open, connected security ecosystem that leverages AI and cloud to help clients improve compliance, stop threats, and grow their business securely.Your Life @ IBM
+What matters to you when you’re looking for your next career challenge?
+Maybe you want to get involved in work that really changes the world? What about somewhere with incredible and diverse career and development opportunities – where you can truly discover your passion? Are you looking for a culture of openness, collaboration and trust – where everyone has a voice? What about all of these? If so, then IBM could be your next career challenge. Join us, not to do something better, but to attempt things you never thought possible.
+Impact. Inclusion. Infinite Experiences. Do your best work ever.About IBM
+IBM’s greatest invention is the IBMer. We believe that progress is made through progressive thinking, progressive leadership, progressive policy and progressive action. IBMers believe that the application of intelligence, reason and science can improve business, society and the human condition. Restlessly reinventing since 1911, we are the largest technology and consulting employer in the world, with more than 380,000 IBMers serving clients in 170 countries.Location Statement
+For additional information about location requirements, please discuss with the recruiter following submission of your application.
+IBM intends this job to be performed entirely outside of Colorado.Being You @ IBM
+IBM is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, pregnancy, disability, age, veteran status, or other characteristics. IBM is also committed to compliance with all fair employment practices regarding citizenship and immigration status.

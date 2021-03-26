@@ -1,0 +1,32 @@
+Job detailsJob TypeFull-timeFull Job DescriptionOverview:
+We are not just offering a job but a meaningful career! Come join our passionate team!
+As a Fortune 50 company, we hire the best employees to serve our customers, making us a leader in the insurance and financial services industry. State Farm embraces diversity and inclusion to ensure a workforce that is engaged, builds on the strengths and talents of all associates, and creates a Good Neighbor culture.
+We offer competitive benefits and pay with the potential for an annual financial award based on both individual and enterprise performance. Our employees have an opportunity to participate in volunteer events within the community and engage in a learning culture. We offer programs to assist with tuition reimbursement, professional designations, employee development, wellness initiatives, and more!
+Visit our Careers page for more information on our benefits, locations and the process of joining the State Farm team!
+Office Location-Dunwoody, GA. Our campus is conveniently located adjacent to the Dunwoody Marta station.
+*At this time, most of our employees are working remotely due to the COVID-19 pandemic, the safety of our employees is priority at State Farm. Candidates who are selected for this position will be trained remotely. Once State Farm determines it is safe for employees to return to our offices, candidates will be required to relocate and work in the above listed location.*
+*Applicants for this position are required to be eligible to lawfully work in the U.S. immediately; employer will not sponsor applicants for U.S. work authorization (e.g. H-1B visa) for this opportunity.*
+Responsibilities:
+
+The Enterprise Technology Artificial Intelligence (AI) Machine Learning (ML) Tooling team supporting the Machine Learning Platform is looking for a software developer to continue building out and supporting the proliferation of models at State Farm. Our team thinks from the customer’s perspective and is delivering innovative and cutting-edge technology solutions. This position will play a key role in taking machine learning to new heights.
+Qualifications:
+
+The work of a Software Developer – Big Data Development can include the following:
+Develops scripting and components to support continuous integration and delivery pipelines
+Analyzes technical and business requirements to develop a systems solution that aligns with enterprise best practices including user experience and accessibility
+Utilizes agile software development practices, secure coding practices, code reviews, and software architecture
+Experience working with multiple platforms
+Uses knowledge of distributed computing techniques to design, develop and test scalable applications that operate on large volume datasets.
+ Writes ad-hoc scripts and queries, schedules batch jobs and develops real-time streaming applications and monitors
+ Utilizes agile software development practices, secure coding practices, code reviews, and software architecture
+ We Are Looking for Candidates With:
+Experience with Python is preferred.
+Experience with Amazon Web Services (AWS) cloud services experience, such as Kinesis, Athena, Glue, EMR, Quicksight, Redshift, as well as Terraform.
+Amazon Web Services (AWS) Certifications a plus.
+ Experience using Big Data based applications/tooling/languages such as Hadoop.
+ GIT, Version One, and Microsoft Teams collaboration tools.
+ Experience participating in agile sprint and program increment planning
+ Ability to quickly adapt to a changing and fast-paced agile development environment
+A proven willingness to learn and use new technologies.
+Experience with API web services development is desired
+In addition to the core Big Data Developer languages listed above, preference will be given to the following (listed in alphabetical order):PuppetSQL

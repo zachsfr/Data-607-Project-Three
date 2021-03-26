@@ -1,0 +1,24 @@
+Job detailsJob TypeFull-timeInternshipFull Job DescriptionCompany Description
+Verusen is a leading technology company that uses artificial intelligence to provide visibility, digitization and prediction of materials data and inventory for complex supply chains. The company’s AI software harmonizes disparate material data across ERP instances/systems while providing trusted data across the enterprise to reduce costs. Intelligent controls enforce inventory procedures to help prevent future inventory spikes, while predictive capabilities optimize allocation and procurement needs. The result is a data foundation you can trust to move quickly to innovate and support related Industry 4.0 initiatives.
+Verusen’s vision is to build the intelligent, connected supply chain. This enables global supply chains to trade demand signals, digital goods, and digital materials data across their supply chain network...powered by a trusted intelligence they need to run their global organizations. Currently, the company focuses on asset intensive global operations and customers include leading CPG, Food and Beverage other F500 Organizations.
+Verusen is Venture backed with investors including, Glasswing Ventures (Boston), Flyover Capital (KC), Zetta Venture Partners (SF), Kubera VC (SF) and Engage Ventures (ATL). They are currently a Signature Company @ Georgia Tech’s Advanced Technology Development Center (ATDC). Their partnerships include SAP, Accenture, and are a portfolio company of SAP.iO.
+Job Description
+Verusen is seeking a Data Scientist with a focus on natural language processing and information retrieval. This person will be responsible for the end-to-end design, implementation, and monitoring of NLP pipelines.
+The ideal candidate has significant experience as the technical lead of NLP pipeline development. This can be from academics, personal projects, competitions, open source, or professional work. Additionally, the applicant is expected to have a strong theoretical foundation in classical and modern NLP techniques. Highly motivated but less qualified or experienced candidates are encouraged to apply for either Junior or Intern positions.
+As a Data scientist in any position at Verusen, you will be supported by several highly skilled data scientists, including those specializing in NLP. You will have available to you: a weekly study group, design review forums, code reviews, as well as access to annotators and several tasks to sharpen your skills. As a member of a small team, your work will have a direct impact on both the large number of customers on our platform and on the future of a rapidly growing company.
+Qualifications
+Qualifications
+Masters degree or higher preferred. Less traditional candidates will be seriously considered based on the strength of their portfolio.
+Statistics: theoretical foundation in various common distributions, MAP/MLE, bayes, probability theory.
+Familiarity with some statistical analysis software/library like SciPy or SPSS, SAS, R, etc.
+Natural Language Processing
+Data engineering: SQL, Spark, Hadoop.
+Various classifiers: Deep learning (including very modern approaches), forest based classifiers, linear models, SVMs.
+Nice to Haves
+Python - including libraries like Tensorflow (or PyTorch), Sci-Kit learn, Pandas, and Numpy.
+Experience creating production code including object oriented programming principles.
+Unit & integration testing
+Experience with algorithmic design, complexity analysis, mathematic / scientific computing.
+Experience with supply chains.
+Additional Information
+Studies have shown that women and people of color are less likely to apply for jobs unless they believe they meet every one of the qualifications, as described in a job description. Our top priority is finding the best candidate for the job, and if you are interested in this position, we encourage you to apply, even if you do not believe you meet every one of our qualifications described.

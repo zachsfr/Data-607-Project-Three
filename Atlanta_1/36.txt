@@ -1,0 +1,50 @@
+POSITION PURPOSE
+A Senior Data Scientist leverages their technical abilities to synthesize complex analytical tasks into easily understood data-driven stories. Data Scientists are responsible for organizing, analyzing, and then sharing insights gleaned from data. Develops predictive systems and algorithms for identifying trends and driving business solutions. Utilizes industry-leading standards for working with very large datasets to extract meaningful business information using statistics, machine learning, and heuristics. Operates with minimal supervision and once given general assignments, prioritizes and executes tasks. Analyze inventory, transportation, DC, and store data to determine optimal settings for ordering, truckload rounding, and DC processes. Develop new analyses to improve Sync metrics around in stocks, turns, and trans cost. Deep dive issues with vendors and facilities to drive resolution through data.
+MAJOR TASKS, RESPONSIBILITES AND KEY ACCOUNTABILITIES
+30%-Design, develop, and implement advanced analytical architectures to enable business insights.
+20%-Utilize, enhance, and support the Home Depot Advanced Analytics Process Framework in projects. Assist in the evaluation of software, technologies, and platforms to optimize the business analytical environment.
+20%-Consult with business teams on the appropriate selection, utilization, and interpretation of advanced statistical methodologies.
+20%-Assist project teams with the creation and review of relevant project artifacts, particularly in respect to I.T.
+5%-Communicate and educate technical and non-technical employees on advanced analytics.
+5%-Function as a technical liaison between the business and various I.T. functional leads for advanced analytical projects.
+NATURE AND SCOPE
+This position reports to Manager, Data Science
+This position has no Direct Reports
+ENVIRONMENTAL JOB REQUIREMENTS
+Environment:
+Located in a comfortable indoor area. Any unpleasant conditions would be infrequent and not objectionable.
+Travel:
+Typically requires overnight travel less than 10% of the time.
+Additional Environmental Job Requirements:
+MINIMUM QUALIFICATIONS
+Must be eighteen years of age or older.
+Must be legally permitted to work in the United States.
+Additional Minimum Qualifications:
+Education Required:
+The knowledge, skills and abilities typically acquired through the completion of a master's degree program or equivalent degree in a field of study related to the job.
+Years of Relevant Work Experience: 5 years
+Physical Requirements:
+Most of the time is spent sitting in a comfortable position and there is frequent opportunity to move about. On rare occasions there may be a need to move or lift light articles.
+Additional Qualifications:
+Extensive work experience with R, SAS, MatLab or other similar development platform
+Work experience with large database platforms (e.g., Teradata, ParAccel, Hadoop, Mahout, Cassandra, etc.) or other similar platforms
+Experience in Data Modeling
+Experience with Business Requirements Analysis
+Experience with Business Intelligence reporting
+Extensive experience with analytical application design
+Expert knowledge in Statistical Analysis
+Preferred Qualifications:
+10 years work experience in Application Development, Data Mining, Data Modeling, and Statistical Analysis
+PhD in Statistics, Math or related quantitative field.
+Previous work experience in Retail
+Experience with large-scale data analysis and a demonstrated ability to identify key insights from data to solve business problems
+Programming experience in Java
+Knowledge, Skills, Abilities and Competencies:Developing data mining applications such as classification, association analysis, cluster analysis and anomaly detection.
+Ability to design and implement advanced analytical applications
+Programming skills
+Statistical Analysis skills
+Data Visualization skills
+Strong communication and data presentation skills
+Ability to quickly adapt to new technologies, tools and techniques
+Flexible and responsive; able to perform in a fast paced, dynamic work environment and meet aggressive deadlines
+Ability to work with technical and non-technical team members

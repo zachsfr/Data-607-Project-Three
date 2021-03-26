@@ -1,0 +1,40 @@
+Job detailsJob TypeFull-timeFull Job DescriptionYour Opportunity
+New Relic is the industry’s largest and most comprehensive SaaS-based observability platform built to create more perfect software. We are passionate about providing solutions and tools that help development and operations teams monitor, troubleshoot, and optimize the performance of their applications and infrastructure. And, we have a ton of fun doing amazing work!
+We are searching for a Lead Data Scientist who will support the Marketing organization and report to our Director of Marketing Analytics. In this role, you will be responsible for evaluating the impact of our demand generation and integrated campaigns, measuring end-to-end marketing funnel performance, producing dashboards to monitor our KPIs, and building statistical and ML models to predict and optimize marketing performance for business operation, planning and budgeting purposes.
+We are building out an extraordinary marketing analytics/data science team and this role will play a critical role in spearheading and shaping how analytics/data science will be used to grow and optimize our customer acquisition and monetization. You will work closely with our Marketing partners to connect tactics to results and inform future activities, as well as partnering with the Product and Sales analytics/data science teams to build predictive behavioral models that help drive growth.
+As a growing technical SaaS company, we have sophisticated and oftentimes unstructured problems. We are looking for someone who has strong technical skills, thinks creatively to find solutions, thrives on discovering how behavior can predict measurable actions and is passionate about how the latest trends in Marketing and technology can be used to build a next-generation analytics function.
+What You’ll Do
+Bring to bear multi-sourced data and marketing principles to create marketing dashboards, descriptive and predictive analyses, and data systems to optimize our marketing programs and initiatives
+Define and implement end-to-end programs for metrics creation, data collection, database development, reporting, and data modeling
+Build statistical and ML models to explain and predict key performance metrics to drive business decisions and performance
+Collaborate with cross-functional teams including Product, and Sales and Data to define problem statements, access and manipulate data, build analytical models, explain data-gathering requirements, deliver analytics insights, and make recommendations
+Define, compute, track, and continuously validate business metrics with descriptive and predictive analysis
+Identify and implement streamlined processes for data reporting and communication, and use analytical models to identify insights to drive key decisions across leadership and the organization
+Provide mentorship to other members of the team and the marketing organization on standard methodologies for design, implementation, and testing of cutting-edge analytics insights
+Use tools like R, Tableau, Python, and SQL to drive efficient analytics
+Your Qualifications
+Must-have:
+7+ years of hands-on experience analyzing and interpreting data, building statistical and ML models, drawing conclusions, defining recommended actions, and reporting results across partners
+7+ years of experience with developing data visualizations with tools such as Tableau and with Analytics/Data Science tools such as R, Python, and SQL
+3+ years of demonstrated ability in marketing analytics/data science
+Degree in an analytical field (e.g. Computer Science, Engineering, Mathematics, Statistics, Operations Research, Management Science) or equivalent
+Experience using data driven models to drive business decisions
+Experience using data access tools and building visualizations using large datasets and multiple data sources
+Knowledge of statistics and data science (e.g. statistics basics, statistical modeling, experimental design, hypothesis testing, etc.)
+Experience working with cross-functional teams and communicating data insights to all organizational levels
+Be a self-starter, nimble, and motivated by knowledge for developing the best possible solutions to problems
+Nice-to-have:
+Advanced degree in the above analytical fields
+Familiarity with additional tools we use: ABM tools, Periscope, Snowflake, Data Bricks
+Experience in a high-growth digital B2B and B2C marketing environment
+Remote Applicants Considered
+Please note that visa sponsorship is not available for this position.
+About Us
+New Relic (NYSE: NEWR) is a cloud-based platform that gives developers, engineers, operations, and management a clear view of what’s happening in today’s complex software environments. So they can find and fix problems faster, and deliver delightful experiences for their customers. That's why the world’s best engineering teams rely on New Relic to visualize, analyze, and troubleshoot their software. It’s the simplest, most powerful cloud-based observability platform, built to create more perfect software. All from one place.
+Founded in 2008, we’re a global company passionate about building a culture where all employees feel a deep sense of belonging, where every ‘Relic’ can bring their whole self to work and feel supported and empowered to thrive. We’re consistently recognized as a distinguished employer and are committed to building world-class products and an award-winning culture. For more information, visit newrelic.com.
+Our Hiring Process
+In compliance with applicable law, all persons hired will be required to verify identity and eligibility to work and to complete employment eligibility verification. Note: Our stewardship of the data of thousands of customers’ means that a criminal background check is required to join New Relic.
+Headhunters and recruitment agencies may not submit resumes/CVs through this website or directly to managers. New Relic does not accept unsolicited headhunter and agency resumes, and will not pay fees to any third-party agency or company that does not have a signed agreement with New Relic.
+New Relic is an equal opportunity employer. We eagerly seek a diverse applicant pool and hire without regard to race, color, gender identity, religion, national origin, ancestry, citizenship, physical abilities (or disability), age, sexual orientation, veteran status, or any other characteristic protected by law.
+Interested in the details of our privacy policy? Read more here: https://newrelic.com/termsandconditions/applicant-privacy-policy
+#LI-SP2

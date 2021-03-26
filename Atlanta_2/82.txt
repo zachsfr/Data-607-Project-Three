@@ -1,0 +1,23 @@
+Job detailsJob TypeFull-timeFull Job DescriptionSageSure is seeking an adept Data Analyst responsible for gathering, analyzing, and transforming data from a wealth of sources. This role is responsible for proactively gleaning insights relative to key performance drivers. A successful candidate will be flexible, discerning, and able to clearly and effectively communicate with a variety of stakeholders.
+What you'll be doing:
+Maintain the reporting tools that support day-to-day productivity management to achieve revenue targets
+Take an ownership role for data accuracy and integrity across the reporting interfaces
+Manage additions and modifications in products and processes which impact the data definitions cataloged in the Operating Analytics Repository
+Leverage data from a variety of sources to analyze performance, identify areas of opportunity, and provide actionable insights to operations leaders and front-line team members, entrenching the team as indispensable insight drivers
+Design and conduct extensive analysis of performance trends and communicate findings to ensure proper resources are allocated, expectations are met, and optimal results are delivered
+Design and conduct ad hoc analysis to enable fact-based decision making
+Other job-related duties as requested
+We're looking for someone who has:
+3+ years of experience in an analytical role (analysis, information science, data visualization or other relevant quantitative fields)
+Bachelor’s degree or related field experience, preferably in the insurance industry
+Demonstrated ability to work with large datasets and tell a story using the data
+Self-starter that adapts well to change and works well in cross-functional teams/projects
+Strong problem solving, planning, quality control, and customer service skills
+Solid verbal and written communication skills with all levels of management
+Ability to communicate complex information in a clear and concise manner
+Expert level proficiency in SQL, relational databases and building decision support models Advanced Excel knowledge including: advanced formula creation using compound Mathematic, Logical, Text and Reference formulas as well as conditional formatting
+Advanced Pivot Table skills including: template automation, design best-practices, and calculated fields
+Advanced experience with DOMO, Microsoft Power BI, or other visualization tools
+SageSure is an innovation-focused insurance and technology company specializing in underserved property markets. As the leading homeowners insurtech organization in the U.S. measured by premium and profitability, we offer more than 40 competitively priced insurance products on behalf of our carrier partners, serving 350,000+ policyholders. SageSure partners with a growing network of insurance agents and brokers in 14 coastal states. Since our founding in 2005, we have been modernizing property insurance through our market-leading online quoting and binding platform and our sophisticated modeling and scoring technology.
+
+If shaping the future of an industry sounds exciting, you’ll love working at SageSure! We have the passion and drive of an insurtech startup with the experience and stability of an insurance company. We provide generous health benefits and perks, including a matching 401k plan, tuition reimbursement, wellness allowance, paid volunteer time off and more. We have eight office locations—Jersey City, NJ; Atlanta, GA; Chicago, IL; Tallahassee, FL; Cincinnati, OH; Houston, TX; Mt. Laurel, NJ; and Cheshire, CT—as well as numerous remote employees across the country. Come join our team of energetic, innovative problem solvers!

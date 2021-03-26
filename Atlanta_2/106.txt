@@ -1,0 +1,38 @@
+Job detailsJob TypeContractFull Job DescriptionDuration: 6+ Months
+The data integration specialist is an expert with deep understanding of integration technologies and architecture who works to model, execute and manage data integration practices that ingest, transform and provision data across various sources into an organized and unified view. They provide expert integration leadership in the design, development, and documentation of interfaces to support software integration architecture. They establish standards, develop integration patterns, develop strategies for reuse, define enterprise-wide components, and mentor development resources.
+Responsibilities:
+Collaboration with data governance to plan, execute and manage enterprise integration patterns
+Partners with data governance, data management, IT business partners, and business stakeholder teams to understand data needs and develop solutions
+Develop standards, designs, data maps; developing and modifying functions, programs, routines and stored procedures to export, transform and load data
+Collaborate with IT to design and model application data structures, storage and integration in accordance with enterprise-wide architecture standards across legacy, web, cloud and purchased package environments
+Track industry trends and recommend enterprise data integrations to accommodate users? needs and business processes
+Developing and executing test plans and scenarios including data design, tool design, data extract/transform, networks and hardware
+Map business requirements to technology capabilities, identifying gaps and omissions and designing end-to-end solutions.
+Participate in architectural reviews and both formal and informal design and code inspections for integration solutions.
+Structure deliverables to maximize reuse where applicable
+Recommend solutions after evaluating alternatives, providing cost benefits for each alternative. This could include evaluation of package software.
+Assist in estimating integration projects/initiatives. Provide input for schedule development.
+Responsible for verification that the software meets the original business objectives and is functional as designed
+Prepare and present proposals to all levels of management
+Apply Integration Patterns to implement business processes.
+Interact with developers, analysts, vendors and management.
+Implement medium- to large-scale EAI applications in production
+Document guidelines, standards and best practices
+Present and articulate integration concepts effectively for both technical and business audiences.
+Provide guidance in the definition and management of complex, enterprise integration programs
+Lead and teach others through doing, knowledge sharing, mentoring and training
+Focuses on personal development, takes ownership in staying current in latest IT best-practices, embraces a learning mindset, and is open to feedback.
+Effectively collaborates and builds relationships to strengthen the IT and Business partnership, as needed.
+Uses critical?thinking in daily work to solve problems, make decisions, and manage time.
+Works to solve ambiguous problems, business needs, or conflicts and proactively identifies and mitigates risks.
+Requirements:
+Knowledge about various architectures, patterns and protocols such as SSID, SSIS, ODBC, JDBC, unified data management architecture (UDM), event-driven architecture, real-time data flows, non-relational repositories, data virtualization, cloud enablement, etc.
+Knowledge of and experience with multiple data integration platforms (open source integration platforms, Mulesoft, TIBCO, Akana, Informatica Powercenter, MS SQL Server, IBM InfoSphere, and Data warehouse MPP applications such Netezza, Teradata, etc.)
+Ability to regularly learn and adopt new technology.
+Should include at least 2 years of EAI development experience.
+Experience with developing multi-threaded and event-driven systems design and message-oriented middleware e.g. TIBCO, MuleSoft, Informatica, etc.
+Experience with SOA, UML, and design patterns is required. Demonstrated ability to interface with all levels of management and vendors.
+Ability to multitask be self-directed and master business context and technology principles rapidly.
+Occasional travel may be needed for training, work assignments, or meetings.
+May be required to obtain and maintain a security clearance based on position / access requirements and essential job functions.The Capgemini Freelancer Gateway is enabled by a cutting-edge software platform that leads the contingent labor world for technology innovation. The software platform leverages Machine Learning and Artificial Intelligence to make sure the right people end up in the right job.
+A global leader in consulting, technology services and digital transformation, Capgemini is at the forefront of innovation to address the entire breadth of clients’ opportunities in the evolving world of cloud, digital and platforms. Building on its strong 50 year heritage and deep industry-specific expertise, Capgemini enables organizations to realize their business ambitions through an array of services from strategy to operations. Capgemini is driven by the conviction that the business value of technology comes from and through people. It is a multicultural company of over 200,000 team members in more than 40 countries. The Group reported 2018 global revenues of EUR 13.2 billion.

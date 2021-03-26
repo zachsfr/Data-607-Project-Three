@@ -1,0 +1,34 @@
+What is Calendly?
+
+Calendly takes the work out of scheduling so our customers have more time to work on what’s really important. Our software is used by millions of people worldwide—with thousands more signing up every day. To maintain this exciting growth, we’re looking for top talent to join our team and help shape the future of our product.
+
+Why join Calendly’s Operations team?
+
+Calendly is looking for a Manager of Data Science to join our fast growing team. This role will report into the CFO's organization and work alongside key business leaders to develop a platform for repeatable, scalable and predictive insights that span the customer journey.
+
+Our ideal candidate will enjoy tackling complex business questions using Data Science. They will work closely with leaders to discover, prioritize and deploy improvements to improve the customer journey in service to growth and efficiency. The right person for the job will have experience with complex data models, quantitative methods and data science tools. This is an exciting and critical role to the business that will be at the leading edge of opportunities we explore ahead.
+
+What are some of the high impact opportunities you’ll tackle?
+Identify the most opportunistic ways to leverage Data Science at Calendly to remove friction from the customer journey, maximize conversion and bolster retention.
+Build a team of data scientists to manage complex projects, leading an interdisciplinary team to achieve project goals.
+Mentor and guide data scientists on best practices to approach business questions and opportunities by leveraging Machine Learning.
+Create predictive models to better forecast customer behavior, company performance and next most likely pathways to optimize conversion.
+Develop advanced quantitative modules using a variety of programs/software to support predictive assessments.
+Communicate analytics model behavior/results to business stakeholders.
+Perform complex analyses, including optimization, text analytics, machine learning, social-science modeling, and statistical analysis, parametric and non-parametric statistical models and techniques
+Ensure data quality and security throughout the organization.
+Apply strong understanding of data science techniques and libraries to business problems.
+Direct data science teams to complete all project deliverables.
+This opportunity is for you if you have/are:
+Bachelor’s degree in Statistics, Operations Research, Mathematics, Physics, Computer Science, or Engineering, or in a related field. Master’s degree is preferred.
+At least 5+ years of experience in Data Science or related fields.
+At least 3 years of experience in leading a Data Science team.
+Comprehensive knowledge of modern data science and product/web analytics tools and techniques, including: Python, Machine Learning, Google Cloud Data platform: BigQuery, Dataflow, etc.
+Broad knowledge and understanding of advanced statistical, machine learning, and/or data mining techniques
+Experience managing in an Agile environment
+Using Python or R working with large and complex datasets applying big data technologies and script language, including Python, Java, and C/C++.
+Advanced quantitative and statistical analysis skills to solve business problems and provide practical business insight using data and a quantitative/scientific approach.
+Exceptional verbal and written communication skills to articulate analytical insights/complex findings in a clear and concise and actionable manner.
+Are located in Georgia, South Carolina, Florida, Pennsylvania or California
+Authorized to work lawfully in the United States of America as Calendly does not engage in immigration sponsorship at this time.
+Calendly is registered as an employer in many, but not all, states. If you are not located in or able to work from a state where Calendly is registered, you will not be eligible for employment.

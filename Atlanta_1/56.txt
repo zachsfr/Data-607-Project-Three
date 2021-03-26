@@ -1,0 +1,64 @@
+Job detailsJob TypeFull-timeFull Job DescriptionOverview:
+
+The Senior Data Analyst is responsible for ingesting, cleaning, mining and transforming data. They also build and validate metrics, monitor data quality, analyze various forms of data (e.g. raw data, base data, 3rd party data, metrics), provide reports and interpret results. The Data Analyst will work with stakeholders to provide insights into the data for new product offerings and trends in the market.
+Shift/Hours:
+
+Monday - Friday from 8:00am - 5:00pm
+Responsibilities:
+
+Perform Analysis:
+Work on service, auction lifecycle of vehicle.
+Define business questions and collaborate with engineering teams to identify data sources and queries.
+Tidy, clean and transform data.
+Analyze data and identify trends.
+Visualize data, draw conclusions, present insights and tell compelling stories.
+Support Data Science:
+Help data-science and data-engineering teams perform and implement complex analyses.
+Select key problems to solve.
+Define goals, source data, and share domain knowledge.
+Identify data features, measure outcomes, and tune performance.
+Build Data Processes:
+Lead projects to build better data processes.
+Understand input data, output data and transformations required to bridge the two.
+Work with data suppliers.
+Design, build and manage processes to deliver required data.
+Ensure data quality, and help manage projects to build new, and to improve existing, data pipelines.
+Drive deliverables, measure KPI’s, and report progress to leadership.
+Support Product Management:
+Understand opportunities and competition around service, pricing and repair data.
+Interview customers and stakeholders.
+Research new features and sources of product differentiation.
+Be the liaison between technology and product strategy.
+Define KPI’s
+Be technology’s go-to person for questions related to Operational Data, integration with other systems.
+Information Analysis
+Performs data analysis and validation.
+Translates data into meaningful insights.
+Develops reports and data visualizations to present insights in the most effective way to enable decision making.
+Monitors and analyzes key metrics, and executes recurring analyses and reporting.
+Mines and interprets data, monitors and analyzes key metrics and interprets performance and provides insight into the data and metrics generated.
+Handles data preparation and data analysis portions of various projects.
+Writes, maintains and/or updates queries to develop analyses in response to queries from internal customers.
+Ensures accuracy of results produced as a result of data analysis.
+Information Management
+Coordinates data feeds and updates and sources additional data required for analysis.
+Determines the value of new internal and external data sources, merges disparate data sets, ingests data, cleans and munges data, derives metrics, and transforms the data into usable information.
+Assists development teams in creating and maintaining data reporting models.
+Assists in the development and implementation of data monitoring and measurement systems.
+Develops monitoring mechanisms for quality and data management purposes.
+Builds and validates new derived metrics and associated business rules.
+Ensures the quality of specific data stores for collection, tracking and reporting of research data.
+Minimum Qualifications:
+Bachelor's degree in math, science, computer science, economics or statistics.
+Minimum 5+ years of performing analysis and building data processes
+Power user of the MS Office suite, including Excel and PowerPoint, for doing business analysis.
+Understanding of data science and product management
+Passion for analysis and focus on business results. Entrepreneurial mindset.
+Effective written, listening and oral communications.
+Collaborative nature and the ability to balance vision and execution.
+Requisition Disclaimer:
+
+Please note contractors are engaged to provide services on a temporary basis in connection with a specific assignment. Contractors are hired and employed through Atrium.
+By applying for this position you agree to the Atrium Terms and Conditions. Agreeing to these terms, includes permission to use the email address and mobile phone number you provide during the application process or throughout the duration of your prospective or actual employment to notify you of job openings, profiles, articles, news, and other employment-related information, as well as to notify you of special promotions or additional products and services offered by us or our affiliates and partners (collectively, “Atrium Alerts”). Atrium Alerts may be sent by email, phone or text message. Your personal information will be safely stored in our database. Atrium does not sell your personal information to third parties. Text message and data rates may apply. To OPT OUT of text messaging or to modify your communication preferences for Atrium Alerts at any time, please contact us at privacyadministrator@atriumstaff.com.
+If you do not agree with the Atrium Terms and Conditions, you can still complete your application for this position by emailing your resume to our team at coxrecruit@atriumstaff.com. Please include the job title in the subject of your email.
+#zr
