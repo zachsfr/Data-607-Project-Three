@@ -1,0 +1,121 @@
+---
+title: "atl_skill_matrix"
+author: "zeds"
+date: "3/25/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Use Daniel's script to make a document-term matrix (aka listing-skill matrix)
+
+```{r}
+#Daniel's script takes atlanta, a folder of txt job descriptions for data scientists. It generates ds_skills_df, a dataframe. ds_skills_df has 1 row for each job listing in atlanta, and one column for each term in ds_skills_list. The value in each cell is the number of appearances of the column name in the listing.
+
+library(tidyverse)
+library(tm)
+
+atlanta <- "atlanta"
+
+find <- c("[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","data engineering","deep learning","machine learning","neural networks","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering")
+
+repl <- c(" csharp"," cplusplus","computerscience","dataengineering","deeplearning","machinelearning","neuralnetworks","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering")
+
+ds_skills_list <- c("ai","analysis","aws","azure","c","caffe","cassandra","communication","computerscience","cplusplus","csharp","d3","dataengineering","deeplearning","docker","excel","git","hadoop","hbase","hive","java","javascript","keras","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","pandas","perl","pig","projectmanagement","python","pytorch","rrrr","sas","scala","scikitlearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","visualization")
+
+#Create corpus from Atlanta files#
+
+atlanta_corpus <- VCorpus(DirSource(atlanta, encoding = "UTF-8"), readerControl = list(language = "en"))
+
+#transform corpus#
+
+atlanta_corpus <- tm_map(atlanta_corpus, removeWords, stopwords("english"))
+atlanta_corpus <- tm_map(atlanta_corpus, stripWhitespace)
+atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(tolower))
+#atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) so I can detect C#, C++
+
+for (i in seq(length(find))) {
+  atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(function(atlanta_corpus) gsub(atlanta_corpus, pattern = find[i], replacement = repl[i])))
+}
+
+atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) ###########
+
+#build document_term dataframe#
+
+document_term <- DocumentTermMatrix(atlanta_corpus)
+document_term <- document_term %>%
+  as.matrix() %>%
+  as.data.frame()
+
+#Find members of ds_skills_list in colnames(document_term)#
+##PROBLEM: R is not in colnames(document_term)
+ds_skills_in_document_term <- cbind(ds_skills_list, ds_skills_list %in% colnames(document_term))
+
+ds_skills_in_document_term <- as.data.frame(ds_skills_in_document_term)
+
+ds_skills_in_document_term <- ds_skills_in_document_term %>%
+  filter(V2 == "TRUE")
+
+#build ds_skills_df dataframe#
+
+ds_skills_df <- document_term %>%
+  select(ds_skills_in_document_term$ds_skills_list)
+
+#tidy ds_skills_df#
+
+```
+
+# fix mapping issue from 151 txt files to 149 listing rows here  
+
+```{r}
+(file_order <- as.integer(sort(as.character(c(1:7,10:151)))))  #8.txt and 9.txt are missing
+length(file_order)
+```
+
+```{r}
+db2atl <- function(db_rownum){
+  ifelse(db_rownum < 43, -1, db_rownum - 41)
+}
+atl2db <- function(atl_rownum){
+  ifelse(atl_rownum < 2, -1, atl_rownum + 41)
+}
+atl2matrix <- function(atl_rownum){
+  file_order <- as.integer(sort(as.character(c(1:7,10:151)))) #8.txt and 9.txt don't exist
+  file_order[atl_rownum]
+}
+db2matrix <- function(db_rownum){
+  atl2matrix(db2atl(db_rownum))
+}
+# db 48 should map to atl_clean 7 which should map to matrix 104
+db2matrix(48)
+```
+
+#### now we can attach skills to listings  
+
+```{r}
+db_nums <- c()
+listing_terms <- c()
+file_order <- as.integer(sort(as.character(c(2:7,10:151)))) #8.txt and 9.txt don't exist and 1 is NA
+
+for (i in 1:length(file_order)) {
+  db_num <- atl2db(file_order[i])
+  for (term in names(ds_skills_df)) {
+    if (ds_skills_df[i, term] > 0) {
+      db_nums <- c(db_nums, db_num)
+      listing_terms <- c(listing_terms, term)
+    }
+  }
+}
+listingTerms <- data.frame('listing_id' = db_nums,
+                           'term' = listing_terms)
+head(listingTerms, 11)
+```
+
+### save that d.f so it can be loaded into TableMaker  
+
+```{r}
+write_csv(listingTerms, 'atl_listing_skills.csv')
+```
+

@@ -20,15 +20,14 @@ degrees
 skills <- read_excel('tables/SkillKeys.xlsx')
 skills
 ```
-### make a separate companies table
+### make a separate Listings table
 
 ```{r}
 listings <- read_excel('tables/Listings.xlsx')
 head(listings)
 ```
 
-
-## make the sqlite db
+# First make the sqlite db
 
 ```{r}
 library(DBI)
@@ -44,7 +43,7 @@ SELECT * FROM Listings
   WHERE Company = 'Facebook'
   LIMIT 3;
 ```
-### separate skills from job listings into a table with pairs for each row (normalize)  
+## Separate skills from job listings into a table with pairs for each row (normalize)  
 
 ```{r}
 mins <- listings$MinSkills
@@ -254,7 +253,7 @@ names(listings) <- c('list_id', 'comp_id', 'level', 'title', 'keywords',
 # listingskill table is already named properly
 ```
 
-
+insert into listings ('list_id', 'comp_id', 'level','title', 'city','state')
 ### Attempt to add the tables into the empty database tables  
 
 ```{r}
@@ -315,9 +314,193 @@ dbDisconnect(mycon)
 dbDisconnect(con)
 ```
 
-Get Sean's data table in here, to append/prepend  
+# Get Sean's data table in here, to append/prepend  
 
 ```{r}
 seanurl <- 'https://raw.githubusercontent.com/zachsfr/Data-607-Project-Three/Sean-Branch/Atlanta_Clean.csv'
+atl <- read_csv(seanurl)
+head(atl)
+```
+## Start with the easy one, adding companies
+
+```{r}
+atl_cos <- unique(atl$Company)
+length(atl_cos)
+atl_cos[1:5]
+# remove the NA
+atl_cos <- atl_cos[2:length(atl_cos)]
+new_cos <- c()  # store new cos as we iterate over atl_cos
+# here's one list of existing companies, from earlier:
+## companies <- companies[c('id', 'name', 'numEmpls')]
+for (co in atl_cos) {
+  if (! (co %in% companies$id)) {
+    new_cos <- c(new_cos, co)
+  }
+}
+length(atl_cos) - length(new_cos) # how many companies already existed
+```
+### so there were 5 companies in already, and the rest are new and can be added now  
+
+```{r}
+# The existing companies in the db are numbered 1-40, so start numbering there
+##  We'll just use 0 for numEmpls in the append, which we can update later if we want
+newco_df <- data.frame('id' = c(41:(40+length(new_cos))), 
+                       'name' = new_cos,
+                       'numEmpls' = rep(0, length(new_cos)))
+newco_df
+```
+### append that to the db table  
+
+```{r}
+#dbWriteTable(mariacon, 'Companies', newco_df, append=T)
+```
+
+# Onto the Listings now...  
+
+```{r}
+#  for reference:  names(listings) <- c('list_id', 'comp_id', 'level', 'title', 'keywords',
+#                     'minYears', 'niceYears', 'degree', 'STEM',
+#                    'city', 'state', 'minSal', 'maxSal')
+#### Highest list_id so far is 42
+# remove that first NA row
+atl <- atl[-1,]
+patch_ids <- c(43:(42 + nrow(atl)))
+# now convert company names to id's
+allcomps <- dbReadTable(mariacon, 'Companies')
+head(allcomps)
+```
+```{r}
+complist <- list('names' = allcomps$name, 'ids' = allcomps$id)
+patch_comp_ids <- match(atl$Company, complist$names)
+patch_comp_ids
+```
+
+### next up: job level  
+
+```{r}
+patch_levels <- atl$Job_Level
+length(patch_levels)
+```
+
+### That was a nice gimme.  Now onto job titles:  
+
+```{r}
+patch_titles <- atl$Job_Title
+length(patch_titles)
+```
+
+### On a roll.  Most of what's left is nulls.  
+
+```{r}
+# in order: 'keywords','minYears', 'niceYears', 'degree', 'STEM','city', 'state', 'minSal', 'maxSal'
+patch_keywords <- rep('',150)
+patch_minyrs <- rep(0, 150)
+patch_niceyrs <- rep(0, 150)
+patch_degree <- rep(0, 150)
+patch_stem <- rep(-1, 150)
+patch_city <- atl$City
+patch_state <- atl$State
+patch_minsal <- rep(0, 150)
+patch_maxsal <- rep(0, 150)
+```
+
+## Stack everything up in a box and patch it on to the db table  
+
+```{r}
+patch_box <- data.frame('list_id' = patch_ids,
+                        'comp_id' = patch_comp_ids,
+                        'level' = patch_levels,
+                        'title' = patch_titles,
+                        'keywords' = patch_keywords,
+                        'minYears' = patch_minyrs,
+                        'niceYears' = patch_niceyrs,
+                        'degree' = patch_degree,
+                        'STEM' = patch_stem,
+                        'city' = patch_city,
+                        'state' = patch_state,
+                        'minSal' = patch_minsal,
+                        'maxSal' = patch_maxsal)
+dim(patch_box)
+```
+
+```{r}
+#dbWriteTable(mariacon, 'Listings', patch_box, append=T)
+```
+```{r}
+patch_titles
+```
+
+```{sql connection='mariacon'}
+--ALTER TABLE Listings MODIFY title VARCHAR(250);
+```
+
+```{r}
+dbWriteTable(mariacon, 'Listings', patch_box, append=T)
+```
+
+# Last step is to append to the ListingSkill db table  
+**This entails loading the atlanta skills matrix and using non-zero pairs  
+
+```{r}
+atl_skills <- read_excel('~/Downloads/danielSkills.xlsx')
+head(atl_skills)
+```
+#### Just keep the first and last columns, to be able to map phrases Daniel used
+#### to build a listing/term matrix, where the term will be the 'shortform' col
+#### here and we'll map it to the 'code' col here to populate ListingSkill table.  
+
+```{r}
+atl_skills <- atl_skills[c('shortform', 'code')]
+dim(atl_skills)
+```
+
+Make sure all codes are already in the Skills table
+
+```{r}
+oldskills <- dbReadTable(mariacon, 'Skills')
+for (c in atl_skills$code) {
+  if (! c %in% oldskills$code) {
+    print(c)
+  }
+}
+```
+
+```{sql connection='mariacon'}
+INSERT INTO Skills (code, meaning) VALUES ('AI', 'Artificial Intelligence'),
+                                          ('CM', 'Communication');
+```
+
+### load atl_listing_skills from atl_skill_matrix.Rmd  
+
+```{r}
+atl_list_skills <- read_csv('atl_listing_skills.csv')
+head(atl_list_skills)
+```
+
+```{r}
+sum(is.na(atl_list_skills$listing_id))
+```
+
+
+### Now map those terms to codes and it can be merged to db  
+
+```{r}
+dim(atl_list_skills)
+```
+```{r}
+merged <- merge(atl_list_skills, atl_skills, by.x = 'term', by.y = 'shortform')
+merged
+```
+### note: lost 0.5% of rows there, but worry about that some other day  
+
+```{r}
+patch_box <- data.frame('listing' = merged$listing_id, 'skill' = merged$code)
+dbWriteTable(mariacon, 'ListingSkill', patch_box, append=T)
+```
+
+
+
+```{sql connection='mariacon' }
+SELECT id, name FROM Companies;
 ```
 
