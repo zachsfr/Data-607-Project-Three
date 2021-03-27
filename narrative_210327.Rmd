@@ -1,0 +1,89 @@
+---
+title: "Explanation of Code for Document-Term Matrix"
+author: "Daniel Moscoe"
+date: "3/27/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+atlanta <- "C:/Users/dmosc/OneDrive/Documents/academic/CUNY SPS/DATA 607/Proj3/zachsfr project three/Data-607-Project-Three/atlanta"
+```
+
+Most of the information in the job listings we scraped resides in narrative descriptions. In order to programmatically analyze the contents of these descriptions, we create a document-term matrix.
+
+A document-term matrix is a dataset measuring the number of occurrences of each distinct word in a corpus of text. Each distinct word in the corpus is represented by a column, and each document in the corpus occupies a row. Entries in the matrix give the number of occurrences of a particular word in a particular document.
+
+To create the document-term matrix, we load libraries
+
+```{r}
+library(tidyverse)
+library(tm)
+```
+
+
+and then identify the local source (`atlanta`) of the files to comprise the corpus.
+
+```{r}
+atlanta_corpus <- VCorpus(DirSource(atlanta, encoding = "UTF-8"), readerControl = list(language = "en"))
+```
+
+Before constructing the matrix, we transform the text in the corpus. These transformations help us avoid generating columns for unimportant words (the so-called "stopwords"). Converting all the text to lowercase consolidates words that differ only by capitalization.
+
+```{r}
+atlanta_corpus <- tm_map(atlanta_corpus, removeWords, stopwords("english"))
+atlanta_corpus <- tm_map(atlanta_corpus, stripWhitespace)
+atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(tolower))
+```
+
+Some of the terms we're interested in are not single words containing only letters. For example, "C++" contains punctuation, "machine learning" is a two-word phrase, and "R" appears within many words unrelated to the statistical software. To capture these terms in our document-term matrix, we search for them and replace them with strings containing only letters. In some cases, the search strings are regular expressions.
+
+```{r}
+find <- c("artificial intelligence","amazon web services","[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","computer vision","data analysis","data engineering","data wrangling","deep learning","large datasets","machine learning","natural language processing","neural networks","object oriented","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering","time series")
+
+repl <- c("ai","aws"," csharp"," cplusplus","computerscience","computervision","dataanalysis","dataengineering","datawrangling","deeplearning","largedatasets","machinelearning","nlp","neuralnetworks","oop","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering","timeseries")
+
+for (i in seq(length(find))) {
+  atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(function(atlanta_corpus) gsub(atlanta_corpus, pattern = find[i], replacement = repl[i])))
+}
+```
+
+With these special terms of interest transformed, we can perform the final transformation on the corpus, removing punctuation.
+
+```{r}
+atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation)
+```
+
+We use the `tm` package to generate the document-term matrix, and then transform it to a dataframe.
+
+```{r}
+document_term <- DocumentTermMatrix(atlanta_corpus)
+document_term <- document_term %>%
+  as.matrix() %>%
+  as.data.frame()
+```
+
+The purpose of the document-term matrix is to identify occurrences of data science skills in our corpus of job descriptions. With this purpose in mind, we drop columns that do not identify data science skills. The column names we want to keep are listed in `ds_skills_list`, and the dataframe containing only these columns of interest is `ds_skills_df`.
+
+```{r}
+ds_skills_list <- c("ai","airflow","analysis","aws","azure","bigquery","c","caffe","caffe2","cassandra","communication","computerscience","computervision","cplusplus","csharp","d3","dataanalysis","dataengineering","datawrangling","databases","deeplearning","docker","excel","fintech","git","hadoop","hbase","hive","java","javascript","keras","kubernetes","largedatasets","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","oop","pandas","perl","pig","projectmanagement","publications","python","pytorch","rrrr","sas","scala","scikitlearn","scipy","sklearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","theano","timeseries","unix","visualization")
+
+ds_skills_in_document_term <- cbind(ds_skills_list, ds_skills_list %in% colnames(document_term))
+
+ds_skills_in_document_term <- as.data.frame(ds_skills_in_document_term)
+
+ds_skills_in_document_term <- ds_skills_in_document_term %>%
+  filter(V2 == "TRUE")
+
+ds_skills_df <- document_term %>%
+  select(ds_skills_in_document_term$ds_skills_list)
+```
+
+Finally, we perform some tidying on `ds_skills_df`.
+
+```{r}
+ds_skills_df <- rownames_to_column(ds_skills_df)
+ds_skills_df <- rename(ds_skills_df, "listing" = "rowname", "r" = "rrrr")
+ds_skills_df <- ds_skills_df %>%
+  mutate("listing" = substr(listing,0,nchar(listing)-4))
+```
