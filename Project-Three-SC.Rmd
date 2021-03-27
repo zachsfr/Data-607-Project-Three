@@ -1,0 +1,1006 @@
+---
+title: 'DATA 607: Project Three'
+author: "Zachary Safir"
+date: "3/26/2021"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    highlight: breezedark
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T,warning = F,message = F)
+```
+
+## Overview
+
+|   A primary goal of this scenario-based project was to identify & refine skills (e.g., workflows, communications, behaviors) that help scaffold successful team collaborations in a virtual work environment. And, secondarily, to apply these skills as part of a distributed team tasked with identifying the most valued data science skills in today's job market.
+
+|   Our project team (Zachery Safir, Ethan Haley, Daniel Moscoe, and Sean Connin) accomplished these goals by co-developing a data "pipeline" for current data science job listings on the search service, Indeed (www.indeed.com).
+
+The key steps involved in this process included:
+
+1. Developing code (R/Python) to scrape job listings information from an Indeed search query. 
+2. Cleaning and wrangling the data into tidy form
+3. Employing text analysis methods to create metrics for skill value from the job listings. 
+4. Constructing a relational database of normalized tables to query and analyze this information - using a remote server to facilitate access.
+5. Co-authoring this final project report.
+ 
+##Methods
+
+|   Our team met via videoconference three over two weeks to ensure agreement on project goals, development, and results. Regular asynchronous exchanges via Slack also enabled us to provide each other assistance and updates during interim periods. 
+
+|   Data and related visualizations were prepared in the RStudio work environment - with raw data, scripts, and related materials hosted on a shared Github repository. The repository can be accessed on Github (https://github.com/........).
+
+|   To support our analyses, the wrangled data was stored in a MYSQL database hosted on a Rasberry Pi 4 (MariaDB server version 10.3.27). We did explore other hosting options for our database (e.g., AWS) but opted for the Rasberry Pi to facilitate greater administrative control. And to work through the process of hand-crafting a server. 
+
+|   This report is organized into sections outlining each of the key project steps. Each section includes an overview, relevant script, and related discussion. 
+
+|   Our project assessment (observations, lessons learned, etc) are included as final Conclusions.
+```{r echo=FALSE}
+library(rvest)
+library(tidyverse)
+library(xml2)
+library(stringr)
+library(rjson)
+library(reticulate)
+library(DBI)
+library(magrittr)
+library(tm)
+library(DT)
+library(readxl)
+```
+
+## Data Collection: Webscraping Indeed Job Listings
+
+| In this section we outline and describe steps to acquire and transform job listing information from an Indeed job search query. In this latter context, we limited our search to the Atlanta, Georgia metro area - a regional hub for data intensive technology companies.
+
+|   Job listing data and descriptions were scraped from Indeed search results using the R package, RVEST. A single search query afforded us two levels of information. The first, included basic listing entries (returned over a sequence of pages) and the second, full job descriptions (from secondary pages linked to each listing).
+
+|   The raw data (basic summary variables and full job descriptions) was compiled into an R dataframe to facilitate subsequent cleaning and formatting. It's worth noting that the job descriptions were saved out as individual text files without modification. In contrast, basic summary variables from each listing were cleaned and wrangled into tidy form before saving in a single csv file. This file can be identified on our Github repository as Atlantic_Clean.csv. 
+
+|   The following code accomplishes the steps listed above. However, modifications related to Indeed urls will be required to account for real-time changes in the job listings. 
+
+|   First, we start with code to scrape the web-pages and compile the raw data into a dataframe.
+
+```{r,eval=F}
+
+#Create dataframe to capture baseline information from "data science" job listing search.
+
+listings <- data.frame(matrix(ncol=5))
+
+colnames(listings) = c("Company", "Job_Title", "Location", "Links", "Job_Description") 
+
+# Loop over job listing pages associated with single search query. 
+
+for (i in seq(10,100,10)){
+    
+    #url_start is the landing page returned by the search query.
+    
+    url_start <- "https://www.indeed.com/jobs?q=data+scientist&l=Atlanta%2C+GA"
+    
+    # Build url links for subsequent listing pages.
+    
+    url <- paste0(url_start, "&start=", i)
+    
+    # Read each web page with multiple listings
+    
+    target <- xml2::read_html(url)
+    
+    # Extract company names, job titles, job locations, and url-links to the full description for each listing.
+    
+    Company <- target %>% 
+        rvest::html_nodes(".company") %>%
+        rvest::html_text() %>%
+        stringi::stri_trim_both()
+    
+    Job_Title <- target %>% 
+        rvest::html_nodes("div") %>%
+        rvest::html_nodes(xpath = '//*[@data-tn-element = "jobTitle"]') %>%
+        rvest::html_attr("title")
+    
+    Location<- target %>% 
+        rvest::html_nodes(".location") %>%
+        rvest::html_text()
+    
+    Links <- target %>% 
+        rvest::html_nodes('[data-tn-element="jobTitle"]')%>%
+        rvest::html_attr("href")
+    
+   # Build inner-loop to collect full job descriptions linked to the query listings.
+    
+    Job_Description <- c()
+    
+    for(i in seq_along(Links)) {
+        
+        p_url <- paste0("https://www.indeed.com", Links[i])
+        pg <- xml2::read_html(p_url)
+        
+        description <- pg %>%
+            rvest::html_nodes("span")  %>% 
+            rvest::html_nodes(xpath = '//*[@class="jobsearch-JobComponent-description icl-u-xs-mt--md"]') %>% 
+            rvest::html_text() %>%
+            stringi::stri_trim_both()
+        
+        Job_Description <- c(Job_Description, description)
+    }
+    
+    # Compile information extracted from job listings into the listings dataframe
+    
+    df <-data.frame(Job_Title, Company, Location, Links, Job_Description)
+    
+    listings <- rbind(listings, df) 
+}
+
+```
+|   Second, we create text files that save our listing job descriptions and we create a separate .csv file that contains basic variable data for each listing.
+
+```{r,eval=F}
+
+# Create identifier for each listing using row number
+
+listings <- listings %>% mutate(ID = row_number()) 
+
+# Save full job descriptions to individual txt files. Label file names by row number. 
+
+for (i in 1:nrow(listings)) {
+      write(listings$Job_Description[i], paste0(listings$ID[i], ".txt")) 
+}
+
+# Save unique id, company names, job titles, job locations, and url-links to .csv file.
+
+Atlanta<-listings%>%select(Job_Title, Company, Location, Links)
+
+write.csv(Atlanta, file = "Atlanta_Table.csv")
+```
+|   Finally, we clean and wrangle our variables and save them in tidy form as a completed .csv file. 
+
+```{r}
+
+
+Atl <- read_csv("https://raw.githubusercontent.com/zachsfr/Data-607-Project-Three/Sean-Branch/Atlanta_Table.csv",trim_ws =T)
+
+# Convert row names to unique ID and trim column whitespace.
+
+Atl <- Atl %>%
+    filter(!X1 ==1 ) %>%
+    select(!X1) %>%
+    rowid_to_column("ID") %>%
+    mutate( across(.cols = everything(),~str_squish(.)))  
+
+# Separate geographic information into individual columns
+
+Atl <- Atl %>%
+    separate(Location, c("City", "State"), ",") %>%
+    separate(State, c("tmp", "State", "Zip_Code"), "\\s") %>%
+    select(-c( tmp, Links))
+
+# Add a column containing categories for relative seniority based on job title
+
+Atl <- Atl%>%
+  mutate(Job_Level = case_when(grepl("Intern", Job_Title) ~ "Intern",
+    grepl("^Data Analyst|Entry Level", Job_Title, ignore.case=TRUE) ~ "Junior",
+    grepl("Senior Data Scientist|Director|Lead|Principal|Sr.|President", Job_Title, ignore.case=TRUE)~"Senior",
+    grepl("^Associate.+|Senior Data Analyst|Data Engineer|Senior Associate|Machine Learning|ML|AI|Data Engineer|Manage.+|Data Scientist|Specialist|Data Science", Job_Title, ignore.case=TRUE)~"Mid_Level"))%>%
+    relocate(Job_Level, .after=Job_Title)
+
+# Save clean and tidy data updates to new .csv file 
+
+write.csv(Atl, file = "Atlanta_Clean.csv")
+
+```
+|   *Discussion:* we elected to collect job listings data via. web-scraping rather than an api owing to restrictions on user access applied by Indeed as well as other organizations. We did weigh the ethics of collecting data in this fashion but determined that our approach was justified on several points: a) this was an educational project, and b) the scope of our data collection process was limited. 
+
+|   Nonetheless, web-scraping has it's limitations. For example, job search queries such as ours often return pages that incorporate multiple encodings - which can prevent scripts from successfully translating this information. In addition, organizations are deploying safeguards in increasing number (e.g., catcha) to prevent or decrease queries originating from the same IP address.
+
+|   Python's package, "Beautiful Soup", is well-designed for modern web-scraping strategies and workflows. We have included a Python script (below) for demonstrative purposes within the Rstudio work environment. 
+
+
+## Alternate Scraping Method, Using Python inside R
+
+
+## Importing Python Modules
+| As shown below, as we would before starting on our R work, we import the Python librares we will use in the following sections.
+
+```{python}
+from bs4 import BeautifulSoup
+import requests
+import numpy as np
+import csv
+import pandas as pd
+from time import sleep
+from random import randint
+from datetime import datetime
+import re
+```
+
+
+## Python Methods
+| We can take advantage of Python's structure to break up different tasks into seperate methods...
+
+
+|
+
+```{python}
+
+def get_url(position,location):
+    template = "https://www.indeed.com/jobs?q={}&l={}"
+    url = template.format(position,location)
+    return url
+```
+
+|
+|
+|   As shown below, we can even access the Python methods we created inside our R code. We simple use the command py$ and we can access any function, value, and so on that we create in Python. 
+|
+|
+
+```{r}
+py$get_url("Test","Test")
+```
+
+
+```{python}
+def get_record(card):
+    atag = card.h2.a
+    try:
+        job_title = atag.get('title')
+    except AttributeError:
+        job_title = ''
+    try:
+        company = card.find('span', 'company').text.strip()
+    except AttributeError:
+        company = ''
+    try:
+        location = card.find('div', 'recJobLoc').get('data-rc-loc')
+    except AttributeError:
+        location = ''
+    try:
+        job_summary = card.find('div', 'summary').text.strip()
+    except AttributeError:
+        job_summary = ''
+    try:
+        post_date = card.find('span', 'date').text.strip()
+    except AttributeError:
+        post_date = ''
+    try:
+        salary = card.find('span', 'salarytext').text.strip()
+    except AttributeError:
+        salary = ''
+    
+    extract_date = datetime.today().strftime('%Y-%m-%d')
+    
+    job_url = 'https://www.indeed.com' + atag.get('href')
+    
+    return (job_title, company, location, job_summary, salary, post_date, extract_date, job_url)
+
+```
+
+
+
+
+```{python}
+headers = {
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47'
+}
+
+```
+
+
+```{python}
+def get_data(position,location):
+
+    records = [] 
+    url = get_url(position, location)  
+  
+    while True:
+        response = requests.get(url,headers=headers)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        cards = soup.find_all('div', 'jobsearch-SerpJobCard')  
+        for card in cards:
+            record = get_record(card)
+            records.append(record)
+  
+        try:
+            url = 'https://www.indeed.com' + soup.find('a', {'aria-label': 'Next'}).get('href')
+            delay = randint(1, 50)
+            sleep(delay)
+        except AttributeError:
+  
+            break
+    return pd.DataFrame(records)
+
+
+```
+
+ 
+```{r}
+indeed_scraper <- function(position,location){
+  
+  x <- py$get_data(position,location)
+  x
+}
+
+
+```
+
+ 
+
+```{r eval=FALSE}
+NY <- indeed_scraper("Data Science","NY")
+```
+
+
+```{r,eval=F}
+    
+write.csv(NY, file = "Data-Science-Nyn.csv")
+```
+
+
+```{r}
+NY <- read_csv("https://raw.githubusercontent.com/zachsfr/Data-607-Project-Three/Zach-Branch/Data-Science-Ny.csv")
+```
+
+
+
+## Analyzing The Text Data from rvest
+
+
+```{r}
+
+if(!file.exists('Data-607-Project-Three-Dan-Branch')) {
+    download.file(
+"https://github.com/zachsfr/Data-607-Project-Three/archive/refs/heads/Dan-Branch.zip", 
+                  destfile = 'Dan-Branch.zip',mode = "wb")
+      unzip("Dan-Branch.zip")
+  
+  }
+
+
+atlanta  <- ("Data-607-Project-Three-Dan-Branch/atlanta")
+
+```
+
+
+
+```{r}
+find <- c("artificial intelligence","amazon web services","[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","computer vision","data analysis","data engineering","data wrangling","deep learning","large datasets","machine learning","natural language processing","neural networks","object oriented","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering","time series")
+
+repl <- c("ai","aws"," csharp"," cplusplus","computerscience","computervision","dataanalysis","dataengineering","datawrangling","deeplearning","largedatasets","machinelearning","nlp","neuralnetworks","oop","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering","timeseries")
+
+ds_skills_list <- c("ai","airflow","analysis","aws","azure","bigquery","c","caffe","caffe2","cassandra","communication","computerscience","computervision","cplusplus","csharp","d3","dataanalysis","dataengineering","datawrangling","databases","deeplearning","docker","excel","fintech","git","hadoop","hbase","hive","java","javascript","keras","kubernetes","largedatasets","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","oop","pandas","perl","pig","projectmanagement","publications","python","pytorch","rrrr","sas","scala","scikitlearn","scipy","sklearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","theano","timeseries","unix","visualization")
+
+```
+
+
+
+
+```{r}
+#Create corpus from Atlanta files#
+
+atlanta_corpus <- VCorpus(DirSource(atlanta, encoding = "UTF-8"), readerControl = list(language = "en"))
+
+#transform corpus#
+
+atlanta_corpus <- tm_map(atlanta_corpus, removeWords, stopwords("english"))
+atlanta_corpus <- tm_map(atlanta_corpus, stripWhitespace)
+atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(tolower))
+#atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) so I can detect C#, C++
+
+for (i in seq(length(find))) {
+  atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(function(atlanta_corpus) gsub(atlanta_corpus, pattern = find[i], replacement = repl[i])))
+}
+
+atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) ###########
+
+#build document_term dataframe#
+
+document_term <- DocumentTermMatrix(atlanta_corpus)
+document_term <- document_term %>%
+  as.matrix() %>%
+  as.data.frame()
+
+#Find members of ds_skills_list in colnames(document_term)#
+##PROBLEM: R is not in colnames(document_term)
+ds_skills_in_document_term <- cbind(ds_skills_list, ds_skills_list %in% colnames(document_term))
+
+ds_skills_in_document_term <- as.data.frame(ds_skills_in_document_term)
+
+ds_skills_in_document_term <- ds_skills_in_document_term %>%
+  filter(V2 == "TRUE")
+
+#build ds_skills_df dataframe#
+
+ds_skills_df <- document_term %>%
+  select(ds_skills_in_document_term$ds_skills_list)
+
+```
+ 
+
+
+```{r}
+
+
+file_order <- as.integer(sort(as.character(c(1:7,10:151))))
+
+
+#8.txt and 9.txt are missing
+length(file_order)
+```
+
+
+```{r,echo=F}
+datatable(as.data.frame(file_order))
+```
+
+
+```{r}
+db2atl <- function(db_rownum){
+  ifelse(db_rownum < 43, -1, db_rownum - 41)
+}
+atl2db <- function(atl_rownum){
+  ifelse(atl_rownum < 2, -1, atl_rownum + 41)
+}
+atl2matrix <- function(atl_rownum){
+  file_order <- as.integer(sort(as.character(c(1:7,10:151)))) #8.txt and 9.txt don't exist
+  file_order[atl_rownum]
+}
+db2matrix <- function(db_rownum){
+  atl2matrix(db2atl(db_rownum))
+}
+# db 48 should map to atl_clean 7 which should map to matrix 104
+db2matrix(48)
+```
+
+#### now we can attach skills to listings  
+
+```{r}
+
+db_nums <- c()
+listing_terms <- c()
+file_order <- as.integer(sort(as.character(c(2:7,10:151)))) #8.txt and 9.txt don't exist and 1 is NA
+for (i in 1:length(file_order)) {
+  db_num <- atl2db(file_order[i])
+  for (term in names(ds_skills_df)) {
+    if (ds_skills_df[i, term] > 0) {
+      db_nums <- c(db_nums, db_num)
+      listing_terms <- c(listing_terms, term)
+    }
+  }
+}
+listingTerms <- data.frame('listing_id' = db_nums,
+                           'term' = listing_terms) 
+
+listingTerms <- listingTerms %>%
+mutate( across(.cols = everything(),~str_squish(.))) 
+
+```
+ 
+
+```{r}
+datatable (listingTerms)
+```
+
+
+
+## Creating a Database full of Data
+
+
+
+
+
+
+```{r}
+
+if(!file.exists('Data-607-Project-Three-Ethan-Branch')) {
+    download.file(
+"https://github.com/zachsfr/Data-607-Project-Three/archive/refs/heads/Ethan-Branch.zip", 
+                  destfile = 'Ethan-Branch.zip',mode = "wb")
+      unzip("Ethan -Branch.zip")
+  
+  }
+
+
+```
+
+
+
+
+
+```{r}
+degrees <- read_excel('Data-607-Project-Three-Ethan-Branch/tables/DegreeKeys.xlsx')
+
+```
+
+```{r}
+skills <- read_excel('Data-607-Project-Three-Ethan-Branch/tables/SkillKeys.xlsx')
+
+```
+
+
+```{r}
+listings <- read_excel('Data-607-Project-Three-Ethan-Branch/tables/Listings.xlsx')
+
+```
+
+# First make the sqlite db
+
+```{r}
+library(DBI)
+library(RSQLite)
+con <- dbConnect(RSQLite::SQLite(), "jobs.db")
+dbWriteTable(con, "Listings", listings, overwrite=T)
+dbListTables(con)
+```
+
+```{sql connection='con'}
+SELECT * FROM Listings
+  WHERE Company = 'Facebook'
+  LIMIT 3;
+```
+## Separate skills from job listings into a table with pairs for each row (normalize)  
+
+```{r}
+mins <- listings$MinSkills
+nices <- listings$NiceSkills
+# initialize table with first listing
+# join minimum skills and nice to have skills
+p <- paste(as.vector(mins[1]), as.vector(nices[1]), sep = ',')
+# remove duplicates
+u <- unique(strsplit(p,','))
+table <- data.frame(1, u)
+names(table) = c('listing', 'skill')
+table
+```
+
+```{r}
+# now add for all the rest of the listings
+for (i in 2:length(mins)) {
+  p <- paste(as.vector(mins[i]), as.vector(nices[i]), sep = ',')
+  u <- unique(strsplit(p,','))
+  t <- data.frame(i, u)
+  names(t) = c('listing', 'skill')
+  table <- rbind(table, t)
+}
+tail(table)
+```
+### add to db  
+
+```{r}
+dbWriteTable(con, "ListingSkill", table)
+dbListTables(con)
+```
+
+
+```{r}
+listings
+```
+### Move the Size and Company columns to a company table  
+
+```{r}
+companies <- listings[c("Company", "Size")] %>%
+  unique()
+companies$id <- c(1:nrow(companies))  
+companies
+```
+### Replace Company names in listings table with ID from this new companies table
+
+```{r}
+ids <- sapply(listings$Company, function(c){as.numeric(companies[companies$Company == c, "id"])})
+length(ids)
+```
+
+```{r}
+listings$comp_id <- ids
+listings$list_id <- c(1:length(ids))
+listings
+```
+##### reorder the listings columns
+
+```{r}
+listings <- listings[c('list_id', 'comp_id', 'Level', 'Title', 'Keywords',
+                       'MinYrs', 'NiceYrs', 'Degree', 'STEM', 'City', 'State',
+                       'MinSal', 'MaxSal')]
+listings
+```
+### now overwrite the old listings table
+
+```{r}
+dbWriteTable(con, "Listings", listings, overwrite=T)
+dbListTables(con)
+```
+
+### write the skills and degrees and companies tables  
+
+```{r}
+dbWriteTable(con, "Skills", skills, overwrite = T)
+dbWriteTable(con, "Degrees", degrees)
+dbWriteTable(con, 'Companies', companies)
+dbListTables(con)
+```
+
+## repeat procedure for MYSQL  
+
+```{r,eval=F}
+library(RMySQL) 
+mycon <- dbConnect(RMySQL::MySQL(), dbname = "PROJ3", username = "xxxx",
+                   password = "xxxxxxx", host = "xx.xx.xxx.xxx",
+                   port = xxxx)
+```
+
+### check tables and add all  
+
+```{r,eval=F}
+dbListTables(mycon)
+```
+
+```{r,eval=F}
+dbWriteTable(mycon, "Skills", skills, overwrite = T)
+dbWriteTable(mycon, "Degrees", degrees)
+dbWriteTable(mycon, 'Companies', companies)
+dbWriteTable(mycon, "Listings", listings)
+dbWriteTable(mycon, "ListingSkill", table)
+dbListTables(mycon)
+```
+
+
+# Use the MariaDB syntax to build the schema and remake the database
+
+```{r}
+library(RMariaDB)
+mariacon <- dbConnect(RMariaDB::MariaDB(), dbname = 'PROJ3', username = "xxxx",
+                   password = "xxxxxxx", host = "xx.xx.xxx.xxx",
+                   port = xxxx)
+```
+
+### Start with the tables with no foreign keys, so that nothing is pre-referenced.  
+**Skills table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `Skills`
+(
+`code` VARCHAR(50) NOT NULL,
+`meaning` VARCHAR(50) NOT NULL,
+PRIMARY KEY(`code`)
+);
+```
+
+**Degrees table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `Degrees`
+(
+`degreeLevel` INT NOT NULL,
+`meaning` VARCHAR(50) NOT NULL, 
+PRIMARY KEY(`degreeLevel`)
+);
+```
+
+**Companies table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS  `Companies`
+(
+`id` INT NOT NULL,
+`name` VARCHAR(50) NOT NULL,
+`numEmpls` INT,
+PRIMARY KEY(`id`)
+);
+```
+
+**Listings table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `Listings`
+(
+`list_id` INT NOT NULL AUTO_INCREMENT,
+`comp_id` INT NOT NULL,
+`level` VARCHAR(50),
+`title` VARCHAR(50),
+`keywords` VARCHAR(250),
+`minYears` INT,
+`niceYears` INT,
+`degree` INT,
+`STEM` INT,
+`city` VARCHAR(50),
+`state` VARCHAR(50),
+`minSal` INT,
+`maxSal` INT,
+PRIMARY KEY(`list_id`),
+FOREIGN KEY(`comp_id`) REFERENCES Companies(`id`) ON DELETE CASCADE,
+FOREIGN KEY(`degree`) REFERENCES Degrees(`degreeLevel`) ON DELETE SET NULL
+);
+```
+
+**ListingSkill table**
+```{sql connection='mariacon'}
+CREATE TABLE IF NOT EXISTS `ListingSkill`
+(
+`listing` INT NOT NULL,
+`skill` VARCHAR(50) NOT NULL,
+FOREIGN KEY(`listing`) REFERENCES Listings(`list_id`),
+FOREIGN KEY(`skill`) REFERENCES Skills(`code`)
+);
+```
+
+```{sql connection='mariacon'}
+--ALTER TABLE Listings MODIFY keywords VARCHAR(250);
+```
+```{sql connection='mariacon'}
+```
+
+
+
+### Now the schema is set and the rows need to be added.
+##### Change the table col names to match database schema, in case of issues
+```{r}
+names(skills) <- c('code', 'meaning')
+names(degrees) <- c('degreeLevel', 'meaning')
+names(companies) <- c('name', 'numEmpls', 'id')
+# rearrange cols to match db schema
+companies <- companies[c('id', 'name', 'numEmpls')]
+names(listings) <- c('list_id', 'comp_id', 'level', 'title', 'keywords',
+                     'minYears', 'niceYears', 'degree', 'STEM',
+                     'city', 'state', 'minSal', 'maxSal')
+# listingskill table is already named properly
+```
+
+insert into listings ('list_id', 'comp_id', 'level','title', 'city','state')
+### Attempt to add the tables into the empty database tables  
+
+```{r}
+#dbWriteTable(mariacon, "Skills", skills, append=T)
+#dbWriteTable(mariacon, "Degrees", degrees, append=T)
+#dbWriteTable(mariacon, 'Companies', companies, append=T)
+#dbWriteTable(mariacon, "Listings", listings, append=T)
+#dbWriteTable(mariacon, "ListingSkill", table, append=T) #THIS WAS BROKEN (see below)
+```
+#### The ListingSkill table doesn't populate, maybe because there are dupes
+**De-dupe and try again**
+
+```{r}
+skillList <- distinct(table)
+dbWriteTable(mariacon, "ListingSkill", skillList, append=T)
+```
+
+#### That wasn't the problem, or at least not all the problems.  
+##### Maybe one of the skill keys just isn't matching the one in the Skill table.
+
+```{r}
+print(head(skillList, 2))
+print(head(skills, 2))
+```
+
+#### Go through each skillList code and make sure it's in the skills codes
+```{r}
+for (sk in skillList$skill) {
+  if (! sk %in% skills$code) {
+    print(sk)
+  }
+}
+```
+
+#### So we need to add ('CV','Computer Vision') to the Skill table and remove
+####  leading whitespace from the five other rows in skillList  
+
+```{sql connection='mariacon'}
+INSERT INTO Skills (code, meaning) VALUES ('CV', 'Computer Vision');
+```
+
+```{r}
+trimmed <- unlist(map(skillList$skill, str_trim))
+skillList$skill <- trimmed
+```
+
+Now try again  
+
+```{r}
+dbWriteTable(mariacon, "ListingSkill", skillList, append=T)
+```
+
+
+
+```{r}
+dbDisconnect(mariacon)
+dbDisconnect(mycon)
+dbDisconnect(con)
+```
+
+# Get Sean's data table in here, to append/prepend  
+
+```{r}
+seanurl <- 'https://raw.githubusercontent.com/zachsfr/Data-607-Project-Three/Sean-Branch/Atlanta_Clean.csv'
+atl <- read_csv(seanurl)
+head(atl)
+```
+## Start with the easy one, adding companies
+
+```{r}
+atl_cos <- unique(atl$Company)
+length(atl_cos)
+atl_cos[1:5]
+# remove the NA
+atl_cos <- atl_cos[2:length(atl_cos)]
+new_cos <- c()  # store new cos as we iterate over atl_cos
+# here's one list of existing companies, from earlier:
+## companies <- companies[c('id', 'name', 'numEmpls')]
+for (co in atl_cos) {
+  if (! (co %in% companies$id)) {
+    new_cos <- c(new_cos, co)
+  }
+}
+length(atl_cos) - length(new_cos) # how many companies already existed
+```
+### so there were 5 companies in already, and the rest are new and can be added now  
+
+```{r}
+# The existing companies in the db are numbered 1-40, so start numbering there
+##  We'll just use 0 for numEmpls in the append, which we can update later if we want
+newco_df <- data.frame('id' = c(41:(40+length(new_cos))), 
+                       'name' = new_cos,
+                       'numEmpls' = rep(0, length(new_cos)))
+newco_df
+```
+### append that to the db table  
+
+```{r}
+#dbWriteTable(mariacon, 'Companies', newco_df, append=T)
+```
+
+# Onto the Listings now...  
+
+```{r}
+#  for reference:  names(listings) <- c('list_id', 'comp_id', 'level', 'title', 'keywords',
+#                     'minYears', 'niceYears', 'degree', 'STEM',
+#                    'city', 'state', 'minSal', 'maxSal')
+#### Highest list_id so far is 42
+# remove that first NA row
+atl <- atl[-1,]
+patch_ids <- c(43:(42 + nrow(atl)))
+# now convert company names to id's
+allcomps <- dbReadTable(mariacon, 'Companies')
+head(allcomps)
+```
+```{r}
+complist <- list('names' = allcomps$name, 'ids' = allcomps$id)
+patch_comp_ids <- match(atl$Company, complist$names)
+patch_comp_ids
+```
+
+### next up: job level  
+
+```{r}
+patch_levels <- atl$Job_Level
+length(patch_levels)
+```
+
+### That was a nice gimme.  Now onto job titles:  
+
+```{r}
+patch_titles <- atl$Job_Title
+length(patch_titles)
+```
+
+### On a roll.  Most of what's left is nulls.  
+
+```{r}
+# in order: 'keywords','minYears', 'niceYears', 'degree', 'STEM','city', 'state', 'minSal', 'maxSal'
+patch_keywords <- rep('',150)
+patch_minyrs <- rep(0, 150)
+patch_niceyrs <- rep(0, 150)
+patch_degree <- rep(0, 150)
+patch_stem <- rep(-1, 150)
+patch_city <- atl$City
+patch_state <- atl$State
+patch_minsal <- rep(0, 150)
+patch_maxsal <- rep(0, 150)
+```
+
+## Stack everything up in a box and patch it on to the db table  
+
+```{r}
+patch_box <- data.frame('list_id' = patch_ids,
+                        'comp_id' = patch_comp_ids,
+                        'level' = patch_levels,
+                        'title' = patch_titles,
+                        'keywords' = patch_keywords,
+                        'minYears' = patch_minyrs,
+                        'niceYears' = patch_niceyrs,
+                        'degree' = patch_degree,
+                        'STEM' = patch_stem,
+                        'city' = patch_city,
+                        'state' = patch_state,
+                        'minSal' = patch_minsal,
+                        'maxSal' = patch_maxsal)
+dim(patch_box)
+```
+
+```{r}
+#dbWriteTable(mariacon, 'Listings', patch_box, append=T)
+```
+```{r}
+patch_titles
+```
+
+```{sql connection='mariacon'}
+--ALTER TABLE Listings MODIFY title VARCHAR(250);
+```
+
+```{r}
+dbWriteTable(mariacon, 'Listings', patch_box, append=T)
+```
+
+# Last step is to append to the ListingSkill db table  
+**This entails loading the atlanta skills matrix and using non-zero pairs  
+
+```{r}
+atl_skills <- read_excel('~/Downloads/danielSkills.xlsx')
+head(atl_skills)
+```
+#### Just keep the first and last columns, to be able to map phrases Daniel used
+#### to build a listing/term matrix, where the term will be the 'shortform' col
+#### here and we'll map it to the 'code' col here to populate ListingSkill table.  
+
+```{r}
+atl_skills <- atl_skills[c('shortform', 'code')]
+dim(atl_skills)
+```
+
+Make sure all codes are already in the Skills table
+
+```{r}
+oldskills <- dbReadTable(mariacon, 'Skills')
+for (c in atl_skills$code) {
+  if (! c %in% oldskills$code) {
+    print(c)
+  }
+}
+```
+
+```{sql connection='mariacon'}
+INSERT INTO Skills (code, meaning) VALUES ('AI', 'Artificial Intelligence'),
+                                          ('CM', 'Communication');
+```
+
+### load atl_listing_skills from atl_skill_matrix.Rmd  
+
+```{r}
+atl_list_skills <- read_csv('atl_listing_skills.csv')
+head(atl_list_skills)
+```
+
+```{r}
+sum(is.na(atl_list_skills$listing_id))
+```
+
+
+### Now map those terms to codes and it can be merged to db  
+
+```{r}
+dim(atl_list_skills)
+```
+```{r}
+merged <- merge(atl_list_skills, atl_skills, by.x = 'term', by.y = 'shortform')
+merged
+```
+### note: lost 0.5% of rows there, but worry about that some other day  
+
+```{r}
+patch_box <- data.frame('listing' = merged$listing_id, 'skill' = merged$code)
+dbWriteTable(mariacon, 'ListingSkill', patch_box, append=T)
+```
+
+
+
+```{sql connection='mariacon' }
+SELECT id, name FROM Companies;
+```
+
+
+## Project Summary and Observations
