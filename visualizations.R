@@ -27,9 +27,7 @@ top20_skill_counts$meaning[c(1,7,8,14)] = c("ML", "Comp Sci", "Visualization", "
 ggplot(data = top20_skill_counts, mapping = aes(fct_rev(reorder(meaning, -n, sum)), n/192)) + #192 = total number of listings in our sample
   geom_col(fill = "dark green", colour = "white") +
   labs(x = "", y = "Fraction of Listings", title = "Some DS Skills are More Frequently Sought Than Others", subtitle = "Machine Learning, Python dominate") +
-  
-  theme_economist() +
-  #theme(axis.text.x = element_text(angle = 90))
+  theme_economist(horizontal = FALSE) +
   coord_flip()
   
 posting_counts <- ListingSkill %>%
