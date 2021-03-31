@@ -1,0 +1,29 @@
+Job detailsJob TypeFull-timeFull Job DescriptionCompany Description
+Square builds common business tools in unconventional ways so more people can start, run, and grow their businesses. When Square started, it was difficult and expensive (or just plain impossible) for some businesses to take credit cards. Square made credit card payments possible for all by turning a mobile phone into a credit card reader. Since then Square has been building an entire business toolkit of both hardware and software products including Square Capital, Square Terminal, Square Payroll, and more. We’re working to find new and better ways to help businesses succeed on their own terms—and we’re looking for people like you to help shape tomorrow at Square.
+Job Description
+As a MLE within the Growth Data Science team, you will lead projects that help with Square’s growth. The team exists to surface the right messages to the right sellers at the right time across all our go-to-market channels (web app, in-app, notifications, sms, email, mail) and products. We provide sellers with remarkable personalized experiences using machine learning/deep learning to power the best product/feature/content recommendations.
+Our algorithms obtain value from our unique, rich, and growing data. We partner with business, product, operations and engineering teams to guide better decisions, automated and human, using modeling and machine learning. We’re a passionate team of specialists, statisticians, and optimizers who are resourceful in distilling questions, wrangling data, and driving impactful business decisions.
+You Will:
+Lead and drive cross functional machine learning/data science projects from beginning to end: build relationships with partner teams, frame and structure questions, collect and analyze data, research, prototype, and build out data science pipelines and models in production, as well as summarize and present methodology and key insights
+Use and learn a diverse set of techniques spanning machine learning (including deep learning), causal inference, and other forms of statistical modeling to solve import business and product problems
+Collaborate with business leaders, subject matter experts, and decision makers to develop success criteria and optimize new products, features, policies, and models
+Help build the next generation of data products at Square
+Qualifications
+You Have:
+2+ years industry experience in data science or machine learning-focused roles
+An advanced degree (M.S., PhD.), preferably in Statistics, Computer Science, Physical Sciences, Economics, or a related technical field
+A strong track record of performing data analysis using Python (numpy, pandas, scikit-learn, etc.) and SQL
+Familiarity with Linux/OS X command line, version control software (git), and general software development
+Experience using statistics and machine learning to solve complex business problems
+The versatility and willingness to learn new technologies on the job
+The ability to clearly communicate complex results to technical and non-technical audiences
+Additional Information
+At Square, we value diversity and always treat all employees and job applicants based on merit, qualifications, competence, and talent. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance. Applicants in need of special assistance or accommodation during the interview process or in accessing our website may contact us by sending an email to assistance(at)squareup.com. We will treat your request as confidentially as possible. In your email, please include your name and preferred method of contact, and we will respond as soon as possible.Perks
+At Square, we want you to be well and thrive. Our global benefits package includes:
+Healthcare coverage
+Retirement Plans
+Employee Stock Purchase Program
+Wellness perks
+Paid parental leave
+Paid time off
+Learning and Development resources

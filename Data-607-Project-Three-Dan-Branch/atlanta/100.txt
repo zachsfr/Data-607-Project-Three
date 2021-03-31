@@ -1,0 +1,52 @@
+POSITION SUMMARY
+The Senior Data Analyst will drive transforming data across multiple systems into actionable business insights. The incumbent will be responsible for the full lifecycle of analysis including requirements, data acquisition, design, data quality, analysis and reporting. The incumbent will collaborate with multiple teams to develop dashboards, visualizations, metrics, performance indicators and data quality audits; using the data to tell a meaningful story and determine the key to success. The incumbent will foster an analytics culture within Atlanta Public Schools through advocating data-based insights, bolstering data quality oversight and sharing best practices.
+
+ESSENTIAL DUTIES
+Acquires data from primary or secondary data sources
+Develops and implements databases/data collection systems that optimize statistical efficiency and quality
+Identifies data quality issues, reports findings to data owners and facilitates the development of action plans
+Interprets data and analyzes results using statistical techniques
+Identifies, analyzes, and interprets trends or patterns in complex data sets
+Develops dashboards and/or reports to meet the business reporting need to tell a meaningful story
+Locates and defines new process improvement opportunities
+Defines, designs and manages master data within the reporting systems, including creation, updates, users, user roles
+Designs and manages the reporting environment, including data sources, security, and metadata
+Troubleshoots the reporting database environment reporting to supervisor when issues arise
+Provides technical expertise on data management
+Performs other duties as assigned by appropriate administrator
+Required to attend scheduled shift during regular business hours as mandated
+Requirements
+MINIMUM REQUIREMENTS
+EDUCATION:
+Bachelor's degree in business administration, management information systems, information technology, computer science, data science, or a related field required
+Master's degree in business administration, management information systems, information technology, computer science, data science, or a related field preferred
+CERTIFICATION/LICENSE:
+Certified Analytics Professional (CAP) preferred
+Microsoft Technology Associate Certification with a specialization in SQL Databases preferred
+WORK EXPERIENCE:
+5 years of work experience with data analytics, modeling and report development
+Demonstrated experience in statistics, statistical modeling and statistical tools (Minitab preferred)
+Demonstrated experience in report development and visualization development
+Demonstrated experience with handling large data sets, database design and database development
+Experience with developing, implementing and/or maintaining data collection systems from multiple sources
+Experience in project management of cross functional teams
+Experience with common business intelligence and visualization tools (PowerBi and Cognos experience preferred)
+KNOWLEDGE, SKILLS & ABILITIES
+Proficient in at least one programming language (i.e. R, VBA, Python, SQL, ETL, Javascript)
+Advanced knowledge of Microsoft Excel
+Strong analytical skills and attention to detail
+Demonstrated aptitude for learning new technologies
+Ability to work under pressure, adjust and set priorities to meet deadlines
+Excellent interpersonal, verbal and written communication skills
+Self-motivated, proactive, action-oriented, results-driven
+Flexible and able to adapt quickly in a fast moving environment that supports students and schools
+Strong team player with proven ability to collaborate across teams
+Ability to build strong relationships with stakeholders and senior management
+Compensation
+Salary Grade: 133
+Salary Range: FY'20 APS Salary Schedule (All Positions)
+Work Year: ANNUALFLSA Status EXEMPT
+Employment Category
+AT-WILL
+
+Reports to: Director (IT Enterprise Application)

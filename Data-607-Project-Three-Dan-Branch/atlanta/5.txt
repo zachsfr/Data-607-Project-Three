@@ -1,0 +1,35 @@
+Data Scientist
+Description
+About Us
+Mercedes-Benz is USA is responsible for the sales, marketing and service of all Mercedes-Benz and Maybach products in the United States. In our people, you will find tremendous commitment to our corporate values: 'PRIDE = Passion, Respect, Integrity, Discipline, and Execution'. Our products and employees reflect this dedication. We are looking for diverse top-notch individuals to join the Mercedes-Benz Team and uphold these hallmarks.
+JOB OVERVIEW
+MBUSA Data Scientist is supporting the development and implementation of predictive analytics to generate unique insights that drive business value. He or she performs data acquisition, data preparation, data cleansing, data modeling, analysis and visualization of large and varied data sources to foster data-driven decision making and business opportunities. The Data Scientist consults with business units across a variety of different functions to identify opportunities as well as implements AI/ML algorithms in an agile working model to realize the impact always embracing the aspect if security and compliance. This role actively increases the degree of automation by using state-of-the-art coding practices and technologies. He or she is a creative thinker and proposes innovative ways that MBUSA can realize value from data and contributes to building out the data science community with Daimler globally by actively participating and sharing knowledge.
+RESPONSIBILITIES
+Data Science:
+Conducting data analysis on large data sets, helping team members with complex algorithms, working together with other data scientists in an agile environment-Understanding complex data and finding data patterns in different sources -Create solid statistical predictive models and innovative visualizations -Guiding the process of algorithm implementation
+-Ensure use cases are delivered in time & communicated professionally -Drive development and implementation of the big data use cases
+Communication & Collaboration:
+Continuously increasing the degree of automation and working in a DevOps manner with goal to achieve robust operations of data products
+Support specification of significant business opportunities in different MBUSA business units together with Product Owners
+-Establish strong relationships and communicate with a wide array of colleagues in different locations globally -Integration of all stakeholders in overall processes in order to solve occurring issues as quick as possible -Be able to communicate about highly complex data topics in easy and understandable ways
+Qualifications
+QUALIFICATIONS
+Bachelor's Degree (accredited school) with emphasis in:
+Computer/Information Science
+Engineering
+Information Technology
+Mathematics
+Experience:
+5+ years of experience in an analytics role or equivalentA good understanding of statistical concepts and machine learning approachesA good understanding of software engineering principles and ability to leverage them to build reliable, repeatable data science pipelinesAgile working methods (e.g. Scrum, SaFe)Specific Knowledge
+Python/SQL essentialFamiliarity with at least 1 data visualization toolFamiliarity with cloud ecosystem (Hive, Spark, Kafka)Familiarity with other programming languages (R, Scala, Java) a plusFamiliarity with modern software development practices (Git, JIRA, CI/CD methods, MLOps) a plus.Fluent in EnglishADDITIONAL INFORMATION
+Additional Information
+Must be able to work flexible hours/work schedule
+Work Holidays when required
+Work weekends when required
+EEO Statement
+Mercedes-Benz USA is committed to fostering an inclusive environment that appreciates and leverages the diversity of our team. We provide equal employment opportunity (EEO) to all qualified applicants and employees without regard to race, color, ethnicity, gender, age, national origin, religion, marital status, veteran status, physical or other disability, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local law.
+Organization Mercedes-Benz USA, LLC
+
+Primary Location United States of America-Georgia-Atlanta
+
+Work Locations One Mercedes-Benz Drive One Mercedes-Benz Drive Atlanta 30328

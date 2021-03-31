@@ -1,0 +1,19 @@
+Job detailsJob TypeInternshipFull Job DescriptionQUALIFICATIONS
+University student in a STEM-related field such as computer science with expected graduation date between December 2021 to June 2022; master’s student completing the first year in a non-business degree or 2-year master’s program with less than 2 years of work experience
+Strong analytical and problem-solving skills paired with the ability to develop creative and efficient solutions
+Ability to work collaboratively in a team environment and effectively with people at all levels in an organization
+Deep understanding of statistical and predictive modeling concepts, machine learning approaches, clustering and classification techniques and recommendation and optimization algorithms
+Experience in two or more programming languages (R, Python, C++, etc.)
+Ability to easily understand the complex algorithm and logic to process data
+Experience working with a large volume of data with the ability to solve performance issues
+Basic business intuition and clear expertise in analyses with the ability to describe analytic processes including when and why specific approaches are favored
+Strong command of English language (both verbal and written)
+Willingness to travel
+WHO YOU'LL WORK WITH
+You will be based in our Atlanta, Boston, Chicago, New York or San Francisco office as part of our Marketing Analytics team.
+This team helps clients transform their marketing and sales by leveraging our Periscope technology platform and applying advanced analytics to generate value-creating insights from big data.
+Founded in 2007, Periscope® by McKinsey is an award-winning technology platform that enables better commercial decisions by uncovering actionable insights. The Periscope platform combines world-leading intellectual property, prescriptive analytics, and cloud-based tools to provide more than 25 solutions focused on insights and marketing, with expert support and training. It is a unique combination that drives revenue growth both now and in the future. Customer experience, performance, pricing, category, and sales optimization are powered by the Periscope platform.
+WHAT YOU'LL DO
+You will perform statistical data analyses, data mining and optimizations using multiple tools and techniques to get insights from large complex data sets.
+In this role, you will conduct hands-on rigorous quantitative analysis including getting the data, cleaning it (when necessary/relevant) and exploring it for accuracy. Additionally, you'll deploy statistical modeling and optimization techniques most suited for the business problem (using R, Python, SQL, and/or other relevant tools). You will work across multiple industries to advise client teams on analytic methodologies and approaches to address their specific needs.
+The duration of this internship is 10 weeks over the summer.

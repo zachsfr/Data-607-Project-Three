@@ -1,0 +1,44 @@
+Job detailsJob TypeFull-timeFull Job DescriptionUnder general supervision, the Analytics / Data Science Consultant will partner with key stakeholders in the organization to enable leaders to make strategic data-related decisions. The Analytics / Data Science Consultant works with business owners, Project Managers, Senior Project Managers to understand the objectives of the business owner, retrieval of data, organization of data into information, interpretation of data and its meaning and the ultimate conclusion of business directives derived from the analytical activities. This requires knowledge of high-level statistical analytics programming and have strong consulting skills. This role will focus on non-clinical/non-hospital settings.
+Essential Responsibilities:
+Analytical Services:Supports the provision of analytical services to meet the needs of the customer as assigned by the Lead Data Scientist. Provides data content expertise as it relates to data systems, sources and business processes. Demonstrates problem-solving skills to identify the data needs required to meet the objectives of the business. Translates operational business needs into information requirements - documenting those requirements that can be met and identifying those which represent gaps in our data sources. Plans, organizes, and designs reports or tracking systems for clinical processes that range from preventive health to disease state management. Organizes results, conclusions and recommendations for presentations to clients and/ or senior management for approval. Exhibits problem-solving skills to drive to solutions. Demonstrates highly effective communication skills including interacting with people at all levels of the organization to ensure open information gathering and feedback to analysis.
+Data Science Services: Supports and drives data science activities to meet the needs of the customer as assigned by the Lead Data Scientist. Performs statistical analysis of large and complex data sets. Leads ad-hoc analysis and data mining efforts using best practices. Processes, cleans and verifies the integrity of data used for analysis. Presents results clearly so that key stakeholders can use the information to make informed decisions.
+Coordination: Works as an integrated team member within the TCO Data Analytics & Results Management Department. Actively participates as a project team member for assigned project initiatives or other prioritized strategic initiatives. Consulting support includes facilitating information requirements to assist with operational decision-making, prioritization and process improvements. Works directly with data pull and report writing resources to ensure data requests within projects and analytical requests are clear, concise and representative of the requester's needs and objectives. Promotes integration of departmental and organizational skill sets to ensure standardization and integrity of reporting and analysis.
+Skill Development: Manages personal skill development to ensure improvement. Demonstrates and promotes a team-oriented environment. Serves as a coach and mentor to Analysts and Data Delivery Specialists and facilitates skill development and advancement of other team members. Participates in team-building and knowledge-sharing activities. Demonstrates an understanding of the industry and organizational environment and its impact on objectives.
+Basic Qualifications:
+Experience
+Minimum five (5) years of programming experience in SAS, SQL, VBA, .net or equivalent statistical analytical programming language.
+Minimum three (3) years of experience with analytical manipulation and interpretation of large databases required.
+Minimum five (5) years of related analytical consulting experience required.
+Education
+Bachelor's degree required in IT, Data Science & Analytics, Business, Statistics, Accounting, Business Management OR four (4) years of experience in a directly related field.
+High School Diploma or General Education Development (GED) required.
+License, Certification, Registration
+N/A.
+Additional Requirements:
+Demonstrated experience with relational databases and understanding of potential causes of data quality issues.
+Clinical process analysis and implementation of technical improvements in report development or automation.
+Demonstrated experience with consolidating data in a cross functional environment (i.e. from multiple data sources including membership; claims/encounters; pharmacy; lab; radiology and provider).
+Experience using rational database & end-user tools (e.g. SQL language) to query data sets & create reports.
+Facilitate report production or data process development required to meet business needs.
+Proficient in MS office suite.
+Experience of using data visualization tools (e.g. PowerBI, Tableau, etc.).
+Self-starter with proven leadership skills in consulting and project management.Preferred Qualifications:
+Minimum three (3) years of SAS experience or with SAS certification.
+Healthcare experience (in health plan or in provider setting) preferred.
+
+PrimaryLocation : Georgia,Atlanta,Regional Office - Storage
+HoursPerWeek : 40
+Shift : Day
+Workdays : Mon, Tue, Wed, Thu, Fri
+WorkingHoursStart : 8:00 AM
+WorkingHoursEnd : 4:00 PM
+Job Schedule : Full-time
+Job Type : Standard
+Employee Status : Regular
+Employee Group/Union Affiliation : NUE-GA-01|NUE|Non Union Employee
+Job Level : Individual Contributor
+Job Category : Consulting Services / Project/Program Management (Non IT)
+Department : Transformation Change Office
+Travel : Yes, 5 % of the Time
+Kaiser Permanente is an equal opportunity employer committed to a diverse and inclusive workforce. Applicants will receive consideration for employment without regard to race, color, religion, sex (including pregnancy), age, sexual orientation, national origin, marital status, parental status, ancestry, disability, gender identity, veteran status, genetic information, other distinguishing characteristics of diversity and inclusion, or any other protected status.
+External hires must pass a background check/drug screen. Qualified applicants with arrest and/or conviction records will be considered for employment in a manner consistent with federal and state laws, as well as applicable local ordinances, including but not limited to the San Francisco and Los Angeles Fair Chance Ordinances.

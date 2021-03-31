@@ -1,0 +1,23 @@
+The Candidate shall collaborate to write a protocol for human subjects research review. .
+The Candidate shall develop a draft query to identify records of all patients in the vendor?s associated health care system that could potentially have been diagnosed and treated for Lyme disease. This will include queries of Lyme-disease laboratory test orders, Lyme disease and related condition diagnosis codes, and free text string queries, as applicable. Collaborate to finalize the query.
+The Candidate shall apply the final query to electronic medical records during 2016-2019 to create a patient-level dataset of potential Lyme disease diagnoses. The contractor shall provide a dataset with a descriptive summary of the findings to include: a. patterns of demographics, b. diagnosis codes, c. treatments prescribed, and Lyme disease laboratory test orders and results that can be used in turn to inform approach to sample selection for medical chart review.
+Ability to create a standardized tool for chart reviews with input from the Government to effectively capture findings relevant to defining a Lyme disease diagnosis.
+The Candidate shall collaborate in the development of a scientifically sound approach to the selection of patient charts for manual review and verification of diagnosis. Perform all associated chart reviews (not to exceed 800 in number).
+The Candidate shall participate in regular telephone meetings to discuss each iterative step in creating the final dataset.
+The Candidate shall execute a variety of complex analytical exercises to provide operations, Quality and medical management with actionable, high quality quantitative information that drives effective business decision making, enables interpretation of current, past and future performance, and identifies opportunities to improve patient quality of care. Analyzes the root cause of any identified opportunities and present the story to business decision makers to take appropriate actions using PPTs and dashboards.
+The Candidate shall create dynamic and highly effective methods of data delivery and provide critical and insightful data.
+The Candidate shall conduct rigorous data mining and statistically sound analytical analyses to develop and report high quality actionable and quantitative information that will drive effective and integrated business decision making, enable interpretation of performance trends.
+The Candidate shall develop expertise, thought leadership in the area of analytics, business intelligence and reporting, and provide new and innovative approaches to business data analysis and interpretation.
+Must have at least 5 years of experience in healthcare data analysis, including epidemiologic studies.
+Must have at least 2 years of experience in conducting analyses utilizing the data system of the health care institution.
+Be affiliated with a research institution linked to a large healthcare system in the Upper Midwest and will consequently have access to patient-level data for a large number of patients with Lyme disease
+Prior collaboration with CDC on research related to Lyme and other tick-borne diseases are strongly encouraged.
+Possess knowledge of the patient-level data will include information about chief complaint, diagnosis type/date, billing codes, laboratory test orders and results, individual medication orders, and patient demographics.
+Must have medicare or healthcare experience preferred.
+Be proficient with computers, Microsoft Office applications and Windows operating systems.
+Knowledge in process development/implementation experience preferred.
+Should have strong analytical and problem solving skills.
+Strong attention to detail.
+Must have excellent customer/interpersonal skills.
+Excellent written and verbal communication skills.
+Must utilize SQL, SAS, Tableau, R, etc. languages and technologies for the purpose of extracting and processing data

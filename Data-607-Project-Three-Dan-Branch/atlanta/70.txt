@@ -1,0 +1,36 @@
+Are you a Data Scientist who loves working with data and technology to solve business challenges? We are looking for an experienced and versatile Data Scientist to help us launch an innovative solution in the supply chain space. As a Data Scientist, you will design, develop and implement analytics solutions that drive growth and organizational transformation. We’re building a supply chain planning solution that will create better visibility, workflow and advanced analytics for our customers. The opportunity for impact in this role is immense!
+
+Your Role
+
+You will lead the Data Analytics team which comprises of professionals with diverse experience and backgrounds; including statistics, engineering, economics and other quantitative disciplines. This individual will work closely with customers directly, and must have predictive modeling experience using tools like R, Python and an ability to write SQL code to pull data off databases.
+
+Typical responsibilities include:
+Architect, design, develop and implement analytics solutions
+Lead requirements gathering; document business, functional and technical requirements
+Gather, integrate, filter, clean and manipulate data using Python and R
+Identify, analyze and interpret trends or patterns in complex data sets; analyze results using statistical techniques
+Translate key insights, trends and data into actionable recommendations; organize project work into customer presentations, outlining findings and recommendations
+Keep up-to-date on relevant tools and algorithms
+Qualifications
+Bachelor’s degree in mathematics, operations research, economics, computer science, information management, statistics or other quantitative discipline
+MBA, Masters in Analytics or other advanced degree in a quantitative discipline
+Seven or more years of proven working experience in data science
+Knowledge of statistics and experience using statistical packages for analyzing datasets
+Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks
+Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications
+Knowledge of Data Visualization ecosystem is a plus
+Knowledge of programming languages i.e. Visual Basic, VBA and SQL
+Data extraction, analysis, mining, modeling and database design and development skills across multiple platforms
+Superior analytical and problem-solving skills, as well as ability to be a strategic and creative thinker
+Experience with open source scripting languages like Python and R for orchestration and data manipulation
+Data engineering experience, including SQL and experience in manipulating structured and unstructured data sources for analysis
+Adept at queries and report writing
+Experience in data mining techniques and procedures, along with knowledge of appropriate usage scenarios
+Experience in software implementation a plus
+Exceptional drive, excellent interpersonal skills and the ability to communicate effectively, both verbally and in writing, along with ability to immediately contribute in a team environment
+Proven ability to distill complex concepts into information consumable by senior decision makers
+An ability to manage multiple priorities and perform well in a fast-paced environment, while maintaining a high level of customer focus
+Strong work ethic and high attention to detail, with a desire and demonstrated ability to learn self-directed
+Location
+
+This position is based in Atlanta, our North American headquarters.

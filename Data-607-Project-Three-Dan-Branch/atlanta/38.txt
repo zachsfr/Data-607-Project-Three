@@ -1,0 +1,60 @@
+Job description
+Description
+
+About this role
+
+Elevate your career by joining the world's largest asset manager! Thrive in an environment that fosters positive relationships and recognizes outstanding performance! We know you want to feel valued every single day and be recognized for your contribution. At BlackRock, we strive to empower our employees and effectively engage your involvement in our success.
+Group Description:
+
+The Portfolio Analytics Group (PAG) within BlackRock Solutions delivers impactful insights to our investment and client teams by applying data and financial models through Aladdin technology to influence portfolio decisions.
+The PAG Data Science team within PAG has a mission to deliver solutions that enable partners to derive greater value, find opportunities across PAG solutions for scale and reuse and advance team’s analytical maturity and career progression.
+The team is based in BlackRock’s Atlanta innovation Hub (iHub). This Data Science Manager (VP) will report to the Director of PAG in Atlanta and will manage 2-3 analysts/associates.
+Role Description:
+
+We are seeking a Data Science Manager who will use their knowledge and experience applying statistical and data science methods (supervised learning, unsupervised learning, time series forecasting, neural networks, deep learning and natural language processing), along with programming skills to generate meaningful insights for portfolio decisions made by our investment, risk and client professionals. The ideal candidate must demonstrate experience using statistical, machine learning and modern scripting techniques and working with different data architectures to derive insights and build data and analytic solutions.
+Equally important, this position requires helping manage a team of 2-3 analysts/associates, developing their careers and ensuring execution of multiple projects for a suite of partners. Candidates will be expected to build solid understanding of financial markets and achieve a deep understanding of investment processes spanning different asset classes. As a technologist, you will contribute to the deployment of our Aladdin Studio toolkit to clients via research, reporting, and idea-generation projects.
+Responsibilities:
+Help manage a team with the skills, capabilities and inspiration vital to successfully drive and sustain a data science focused culture
+
+Collaborate with stakeholders and partners throughout the organization and leaders within PAG to understand business needs
+
+Lead and execute multiple data science projects with the urgency appropriated for the business objectives across the spectrum of data science techniques to datasets large and small
+
+Advance existing initiatives and open opportunities to pursue new and previously unexplored research topics across a wide variety of domains
+
+Use wealth of available data stored in variety of internal and external data stores to deliver meaningful insight to drive the decision-making process
+
+Visualize and explore data sets to enable the conceptualization and generation of new, predictive feature
+
+Focus on automation and utilizing technology to provide repeatable solutions
+
+Master the Aladdin Studio Toolkit and share this knowledge with the whole of PAG and the broader data sciences and analytic community in BlackRock and Atlanta
+
+Qualifications:
+6-10 years of experience in a highly analytical role in a technology or financial services setting
+
+Broad and proficient knowledge of modern techniques in scripting, experience querying databases and using distributed data/computing technologies
+
+Experience in financial modeling, analytics, and investment systems preferred
+
+Proven experience managing a team, established success delivering to a diverse client base
+
+Steadfast desire for understanding how processes work. Creativity in solving unconventional problems, entrepreneurial drive to learn new skills and technologies
+
+Advanced degree in Data Science, Computer Science, Operations Research or similar field is preferred
+
+Our benefits
+
+To help you stay energized, engaged and inspired, we offer a wide range of benefits including a strong retirement plan, tuition reimbursement, comprehensive healthcare, support for working parents and Flexible Time Off (FTO) so you can relax, recharge and be there for the people you care about.
+About BlackRock
+BlackRock's purpose is to help more and more people experience financial well-being. As a fiduciary to investors and a leading provider of financial technology, we help millions of people build savings that serve them throughout their lives by making investing easier and more affordable.
+
+For additional information on BlackRock, please visit www.blackrock.com/corporate | Twitter: @blackrock | LinkedIn: www.linkedin.com/company/blackrock
+
+BlackRock is proud to be an Equal Opportunity and Affirmative Action Employer. We evaluate qualified applicants without regard to race, color, national origin, religion, sex, sexual orientation, gender identity, disability, protected veteran status, and other statuses protected by law.
+
+BlackRock will consider for employment qualified applicants with arrest or conviction records in a manner consistent with the requirements of the law, including any applicable fair chance law.
+
+Job requisition #
+
+R202031

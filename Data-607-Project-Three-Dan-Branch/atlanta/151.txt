@@ -1,0 +1,21 @@
+Feedzai is looking for a Data Analyst who is able to tackle not only data analysis and visualization, but is also capable of designing new architectures and governance strategies.
+
+Partnering with leads from other departments this person will establish new data management policies and procedures while mapping them into our enterprise systems. This is a role that should bridge the IT and business worlds.
+
+This role is perfect for someone looking for a pivotal role in implementing the data strategy in a high growth SaaS company and continue to adapt it as Feedzai evolves.
+
+Main responsibilities
+Design and implement data architectures to optimize efficiency and quality of the company data
+Work alongside department leads to establish business questions and data requirements
+Engage with the IT team to adapt our enterprise systems to new data management policies and procedures
+Partner with Business Analysts to provide data management technical expertise in the development of new business solutions.
+Qualifications
+3+ years of experience in a data analyst, systems analyst or in a related role.
+Bachelor's degree in computer science, mathematics, statistics or in a related field.
+Knowledge of data warehouse design and management.
+Knowledge of scripting/programming for data analysis and ETL pipelines.
+Knowledge of reporting & data visualization techniques.
+Experience with ETL managed services (e.g.Fivetran, Workato).
+Experience with data visualization tools (e.g. Tableau, Google Data Studio).
+Administration experience in issue tracking software (e.g. JIRA, Zendesk) is a plus
+Administration experience in CRM enterprise software (e.g. Hubspot, Salesforce) is a plus

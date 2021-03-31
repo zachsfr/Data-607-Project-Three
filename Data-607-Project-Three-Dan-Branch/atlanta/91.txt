@@ -1,0 +1,60 @@
+Job detailsJob TypeFull-timeFull Job DescriptionCompany Description
+As the world's leader in digital payments technology, Visa's mission is to connect the world through the most creative, reliable and secure payment network - enabling individuals, businesses, and economies to thrive. Our advanced global processing network, VisaNet, provides secure and reliable payments around the world, and is capable of handling more than 65,000 transaction messages a second. The company's dedication to innovation drives the rapid growth of connected commerce on any device, and fuels the dream of a cashless future for everyone, everywhere. As the world moves from analog to digital, Visa is applying our brand, products, people, network and scale to reshape the future of commerce.
+At Visa, your individuality fits right in. Working here gives you an opportunity to impact the world, invest in your career growth, and be part of an inclusive and diverse workplace. We are a global team of disruptors, trailblazers, innovators and risk-takers who are helping drive economic growth in even the most remote parts of the world, creatively moving the industry forward, and doing meaningful work that brings financial literacy and digital commerce to millions of unbanked and underserved consumers.
+You're an Individual. We're the team for you. Together, let's transform the way the world pays.
+Job Description
+This position can be located in Arlington, VA or Atlanta, GA.
+To ensure that Visa’s payment technology is truly available to everyone, everywhere requires the success of our key bank or merchant partners and internal business units. The Global Data Science group supports these partners by using our extraordinarily rich data set that spans more than 3 billion cards globally and captures more than 100 billion transactions in a single year. Our focus lies on building creative solutions that have an immediate impact on the business of our highly analytical partners. We work in complementary teams comprising members from Data Science and various groups at Visa. To support our rapidly growing group we are looking for Data Scientists who are equally passionate about the opportunity to use Visa’s rich data to tackle meaningful business problems.
+Essential Functions
+Lead data science team supporting issuers, acquirers and processors, including project oversight, coaching and professional development
+Manage 5 to 10 projects at a time from conception to completion utilizing a team of 5 to 7 experienced professionals
+Experience building and managing teams of data scientists
+Strong analytical skills, with demonstrated intellectual and analytical rigor and ability to work with large data sets to synthesize key impacts for clients.
+Develop propensity, segmentation and other predictive models to drive business impact
+Proactively engage with clients and Visa client leadership in regular strategic & planning discussions; cultivate and manage a pipeline of work with clients
+Develop frameworks, approaches, solutions and recommendations that effectively and efficiently address the most impactful opportunities and challenges.
+Partner with peers in other functional areas (e.g., marketing ,analytics, risk, innovation) and across global regional teams to execute projects in ways that leverage the breadth and depth of Visa’s resources
+Produce insights and analyses to improve client performance, drive understanding of client issues and provide strategic guidance for client priorities across the payment P&L
+Ideal candidate will have payments and management consulting experience.
+Executive Presence including excellent communication and presentation skills, written and verbal and ability to communicate at all
+levels within large organizations.
+Demonstrated leadership, managerial and collaboration capabilities, particularly with those who are not direct reports as may be found in a matrixed organization
+Experience in managing teams in execution of projects and career mentorship.
+Ability to influence and negotiate with senior executives
+Qualifications
+Basic Qualifications
+12 years of work experience with a Bachelor’s Degree; 10 years of work experience with an Advanced degree (e.g. Masters/MBA /JD/MD); or a minimum of 5 years of work experience with a PhD
+Preferred Qualifications
+15+ years of experience with a Bachelor’s Degree or 12 years of experience with an Advanced Degree (e.g. Masters, MBA, JD, or MD); PhD with 9+ years of experience
+5+ years of experience applying data science to solve problems for issuers, acquirers or processors
+2+ years of experience leading teams of 3+ data scientists in machine learning projects
+Recent experience working with and presenting to issuers, acquirers or processors
+Expertise with modern distributed systems, including both Hadoop/SQL and Apache Spark
+Expertise with one or more data analytics/programming tools such as R/Python
+Expertise in the application of predictive modeling and machine learning techniques
+5+ years of working in payments industry (bank, credit union, Fintech) or management-consulting firm
+Demonstrated knowledge of software development, MLOps or data product development
+Excellent communication, story-telling and presentation skills.
+Qualifications
+Basic Qualifications
+12 years of work experience with a Bachelor’s Degree; 10 years of work experience with an Advanced degree (e.g. Masters/MBA /JD/MD); or a minimum of 5 years of work experience with a PhD
+Preferred Qualifications
+15+ years of experience with a Bachelor’s Degree or 12 years of experience with an Advanced Degree (e.g. Masters, MBA, JD, or MD); PhD with 9+ years of experience
+5+ years of experience applying data science to solve problems for issuers, acquirers or processors
+2+ years of experience leading teams of 3+ data scientists in machine learning projects
+Recent experience working with and presenting to issuers, acquirers or processors
+Expertise with modern distributed systems, including both Hadoop/SQL and Apache Spark
+Expertise with one or more data analytics/programming tools such as R/Python
+Expertise in the application of predictive modeling and machine learning techniques
+5+ years of working in payments industry (bank, credit union, Fintech) or management-consulting firm
+Demonstrated knowledge of software development, MLOps or data product development
+Additional Information
+Work Hours
+Incumbent must make themselves available during core business hours.
+Travel Requirements
+This position requires incumbent to travel for work 10% of the time.
+Mental/Physical Requirements
+This position will be performed in an office setting. The position will require the incumbent to sit and stand at a desk, communicate in person and by telephone, frequently operate standard office equipment, such as telephones and computers, and reach with hands and arms.
+EEO Statement
+Visa is an EEO Employer. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. Visa will also consider for employment qualified applicants with criminal histories in a manner consistent with EEOC guidelines and applicable local law.
+I'm interested

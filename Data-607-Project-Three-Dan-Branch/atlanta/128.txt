@@ -1,0 +1,44 @@
+Job detailsJob TypeFull-timeFull Job DescriptionCompany Description
+With over 20 years of experience, CJ Affiliate is the most trusted and established name in affiliate marketing. As a performance-based marketing channel, we help advertisers acquire new customers and increase sales to current customers, while facilitating compensation to publishers for every action they drive. We reach billions of consumers by creating fair, transparent, and successful partnerships between advertisers and publishers.
+We take just as much pride in our innovative technology and comprehensive data as we do in the expertise and dedication of our people. Our collaborative teams are equipped with advanced tools, training, and career development opportunities in order to provide our clients with cutting edge solutions, strategies, and support that drive meaningful results.
+Under Publicis Groupe’s solution hub Publicis Media, CJ Affiliate has the resources and commitment to offer a truly customer-centric approach to affiliate marketing across our 14 offices worldwide. Above all else, our greatest asset has always been our people, and we are honored that that some of the best and brightest in the industry choose to call us home. We hope you will, too.
+Job Description
+CJ's Data Scientist is on the Data Science team and works closely with Client Development, Product Management, and other internal teams to solve business problems. The Sr. Data Scientist consults with clients and internal teams to define, design, and drive the implementation of analytical solutions to solve those business problems. A strong candidate will have a passion for deriving actionable insight from complex data, working directly with stakeholders to define business problems, and innovating to create elegant impactful analyses to drive growth for the business. An excellent candidate will combine this passion with an understanding of marketing channels and how to evaluate their performance.
+Core Responsibilities
+Collaborate with internal stakeholders to find the root of a problem and develop well defined data problems
+Develop new data solutions and insights via an end to end process from problem definition, data acquisition, data processing/cleaning, analytics/insights, deliverable development, and quality control (QA/QC)
+Acquire data from a variety of different data sources utilizing Spark, Python, SQL, R, or similar
+Appropriately account for the timeliness, quality and accuracy of all assignments
+Manage multiple projects concurrently
+Present technical solutions to internal and external stakeholders in a formal setting, effectively communicating key concepts and functionalities
+Effectively manage client expectations via direct and frequent communication with high quality results
+Develop front end deliverable solutions for stakeholders utilizing BI tools such as Tableau, Cognos, Excel, or similar
+Gain mastery over business problems, and proactively innovate with new analyses and approaches
+Qualifications
+Bachelor’s degree in a quantitative discipline (e.g., data science, statistics, economics, mathematics, computer science) or significant relevant coursework/experience
+4-7 years professional experience with data analysis or business intelligence
+Demonstrated ability to improve performance by deriving actionable insight from complex datasets
+Experience using Python, R, or SQL on large datasets (or related environments like SAS, Spark, Hadoop, EMR, Python, etc.)
+Strong technical skills and analytic thought process with excellent attention to detail
+Experience creating functional and clean data visualizations utilizing BI solutions (Tableau, Power BI, Looker, Domo, etc)
+Expertise with Microsoft Office products; including Excel, PowerPoint, and Outlook
+Effective organization and time management skills
+Strong critical thinking and problem-solving skills
+Excellent verbal and written communication skills
+Self-motivator and collaborative team player with strong interpersonal skills
+Desirable Qualifications:
+Advanced degree (MS/PhD) in Statistics, Economics or other quantitative discipline
+Professional experience with AWS, Databricks, Spark, Python
+Professional experience in customer journey, attribution modeling, churn modeling, predictive analytics, customer segmentation, feature creation, statistical testing, a/b testing, production curve modeling, NLP, and partner recommendations.
+Professional analytical consulting experience with clients in Retail, Finance, Travel, or Home and Business Services
+Additional Information
+Why CJ Affiliate?
+CJ Affiliate is the leader in Affiliate Marketing. We take pride in our innovative technology, comprehensive data solutions and our people. We equip our teams with advanced tools, training and career development opportunities all to provide cutting edge solutions, strategies and support to deliver high quality results for our clients. We work in an energetic, results-oriented, collaborative, team environment that recognizes exceptional performance. As we evolve and grow as a business, so do you.
+We're a community of creative and passionate problem solvers who go the distance to tackle the tough questions, think outside the box, and drive intelligent growth, for our clients—and ourselves. We foster and embody an inclusive and collaborative culture where diverse perspectives are sought, relationships are valued, and people feel accepted with a sense of belonging in expressing themselves authentically. We pride ourselves in having a workplace environment that values both work and play. Business Resource Groups, Fun team outings, office events, and flexible time off mean a work life balance with colleagues that turn into lifelong friends.
+Conditions of Employment
+All job offers are contingent upon successful completion of certain background checks which unless prohibited by applicable law may include criminal history checks, employment verification, education verification, drug screens, credit checks, DMV checks (for driving positions only) and fingerprinting.
+Great People, Deserve Great Benefits
+We know that we have some of the brightest and most talented associates in the world, and we believe in rewarding them accordingly. If you work here, expect competitive pay, comprehensive health coverage, and endless opportunities to advance your career.
+CJ Affiliate is an Equal Opportunity Employer. CJ Affiliate’s policies prohibit discrimination against any applicant or employee based on actual or perceived race, age, sex or gender (including pregnancy), marital status, national origin, ancestry, citizenship status, mental or physical disability, religion, creed, color, sexual orientation, gender identity or expression (including transgender status), veteran status, or any other characteristic protected by applicable federal, state or local law. CJ Affiliate also prohibits harassment of applicants and employees based on any of these protected categories.
+CJ Affiliate will provide accommodations to applicants needing accommodations to complete the application process.
+#LI-DT1

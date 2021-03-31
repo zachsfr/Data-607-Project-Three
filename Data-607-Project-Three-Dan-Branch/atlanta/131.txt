@@ -1,0 +1,22 @@
+Job detailsJob TypeFull-timeFull Job DescriptionCompany Overview
+WarnerMedia is a leading media and entertainment company that creates and distributes premium and popular content from a diverse array of talented storytellers and journalists to global audiences through its consumer brands including: HBO, HBO Max, Warner Bros., TNT, TBS, truTV, CNN, DC Entertainment, New Line, Cartoon Network, Adult Swim, Turner Classic Movies and others.
+Opportunity Overview
+The Job
+WarnerMedia seeks a Automation Developer for the Cloud Platforms department.The Daily
+Translate software product configuration, build, validation, and integration requirements into robust CI/CD processes
+Create modern, fault-tolerant, automated data pipelines
+Lead the transition of deployed products into well managed DevOps
+The Essentials
+Passion for programmatic automation and effective DevOps
+Python and SQL competency
+Understanding of continuous integration and touchpoints with configuration, validation, and testing tools
+Ability to work with complex systems built on data science and optimization
+Commitment to verifiable software system performance, quality, error detection and prevention
+Eagerness to learn both the technology and business of Warner Media
+The Nice to HavesPizzazz! Unique and exciting education, career, and life experience to expand the intellectual and cultural variety of our team
+Working knowledge and practical experience in AWS
+JavaScript and JavaScript-centered web application framework competency
+Snowflake, Airflow, and other Big Data and pipeline framework familiarity
+Terraform, Git, Jenkins, GitLab CI, Selenium, Apache JMeter, Pytest, and other configuration, continuous integration, and test framework experience
+Working knowledge of web application weaknesses, attack vectors, and other security and failure concerns
+Warner Media, LLC and its subsidiaries are equal opportunity employers. Qualified candidates will receive consideration for employment without regard to race, color, religion, national origin, gender, sexual orientation, gender identity or expression, age, mental or physical disability, and genetic information, marital status, citizenship status, military status, protected veteran status or any other category protected by law.

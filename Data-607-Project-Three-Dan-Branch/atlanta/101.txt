@@ -1,0 +1,24 @@
+ETI is a small, international software company with a record of innovation, helping telecoms and ISPs manage, understand, and gain insight into their networks, equipment, and services. We are bringing a new product to market, using a range of web-based and data processing technologies, and we need your help to build and grow our platform. Our team is small and growing, and we’re looking for a confident and quick-learning candidate who can help us build and operate a fast, reliable, and secure platform.
+
+What we are doing:
+building a new data visualization product on the web
+moving, processing, and storing a lot of data
+working with the world’s best mapping software (ESRI)
+running complex multi-server solutions
+rapidly adding and deploying to new customers
+What you can do already:
+build and secure a Linux server
+write code
+work with development tools and automated testing
+setup and use a database
+work with open-source software
+What we will do together:
+build ArcGIS Enterprise solutions (big data with maps!
+design enterprise security, availability, and recovery solutions
+create scalability in the cloud and with containers
+ speed-up development and deployment with new tools
+ help us adopt TDD and automation
+learn, review, and adopt new technology and best practices
+Our new product team is international, and we all work from home. We are building our own flexible agile processes, and we’ll need your input to work together better. You’ll get a laptop and display from us, and we’ll pay for you to travel quarterly to our UK offices for a week-long hack-a-thon!
+
+To submit a resume, please email: csimmons@etisoftware.com, chawkins@etisoftware.com and dartz@etisoftware.com

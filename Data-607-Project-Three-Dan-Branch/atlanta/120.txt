@@ -1,0 +1,44 @@
+Job detailsJob TypeFull-timeFull Job DescriptionBuild your future with Sovos
+
+Digital technology has forever changed business. Now, it’s transforming tax. Sovos’ software was built for the digital future of tax, with complete, connected offerings for tax determination, continuous transaction control compliance, tax reporting and more.
+
+Sovos supports more than 8,000 customers, including half of the Fortune 500, operating in over 70 countries. Our SaaS products and proprietary Sovos S1 Platform integrate with a wide variety of business applications and government compliance processes.
+
+Our 1,700 employees throughout the Americas and Europe are building the future of global compliance software with a culture of commitment to keep our promise to customers.
+
+The Work You’ll Do:
+
+In a newly created role at Sovos, the Senior Data Analyst will assist in the design and management of our business intelligence (BI) tool. As the resident project manager, the role will require interaction with various functions of Sovos' business operations, finance, marketing, and sales teams in the development of accurate and insightful dashboards for monitoring sales and revenue metrics and leveraging our expansive commercial datasets. This includes enhancement of features, functionality and expansion into new and appealing use cases which will be utilized by our stakeholders.
+
+What will you specifically do when you start?
+Manage development, running, and deployment of Sovos’ business intelligence tool
+Engage and work closely with different stakeholder groups to scope data/dashboard needs then execute and manage
+Design and manipulate data for transformations and outputs, ensuring raw and aggregated data availability
+Develop and implement policies on data governance, quality, and definitions
+Work with stakeholders across the organization to understand priorities, business challenges, and opportunities, and think creatively about innovative BI solutions
+Maintain the running, access, and permissions related to the data platform / infrastructure
+What we are looking for from you:
+Project management background delivering intelligence reporting capabilities,
+Deep and varied understanding in data projects with a focus on insight creation, storytelling, and driving to action
+Success building data infrastructure e.g. designing architecture, building data pipelines, implement scalable monitoring. Specific work with Snowflake, Matillion, and/or Alteryx is a plus
+Strong exposure with data visualization tools like Tableau
+A background in manipulating and examining complex data from multiple sources
+What Does Sovos Offer You?
+
+The tools to grow your career both personally and professionally:
+
+Did you know that over 30% of our employees earned a promotion or job change in fiscal year 2020? That can happen because growth is serious business here at Sovos, and we have the programs in place to make sure of it, including:
+Mentoring Programs
+Management Bootcamps and Development Trainings
+Yearly performance reviews where compensation and performance are assessed and rewarded generously
+Clear paths for growth within our roles (but we know that career development can be like a spider web, not a ladder - we give you the tools to move outside of your career as well!)
+The tools to enhance your life - because we want you to enjoy your life outside of work:
+MyTime flexible time off (no worrying about accruing time or running out of sick days - If you need time off, take it!)
+Paid family leave
+Tuition reimbursement
+Generous 401k match
+Progressive Wellness Program
+Company seeded and matched Health Savings Account
+Are you worried that you don’t check all of the boxes? Apply anyway! There are no perfect candidates - we hire people, not resumes. We are excited that you’re here and we look forward to taking a look at your application to establish next steps.
+
+Sovos is an equal opportunity employer and those seeking employment with us are considered without regards to race, color, religion, national origin, age, sex, marital status, physical or mental disability, veteran status, gender identity, sexual orientation, or any other characteristic protected by law.
