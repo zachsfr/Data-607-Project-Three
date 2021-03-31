@@ -1,0 +1,386 @@
+---
+title: "Untitled"
+author: "Zachary Safir"
+date: "3/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+if(!file.exists('Listings.xlsx')) {
+    download.file(
+"https://github.com/zachsfr/Data-607-Project-Three/blob/Ethan-Branch/tables/Listings.xlsx?raw=true", 
+                  destfile = 'Listings.xlsx',mode = "wb")
+}
+
+ 
+
+
+t <- read_excel("Listings.xlsx")
+
+```
+
+```{r}
+
+library(dplyr)
+t %>% group_by(Company) %>% mutate(id=cur_group_id()) %>%
+
+    relocate(id) %>%
+ ungroup() %>%
+  select(!Company)
+
+
+```
+
+```{r}
+
+```
+
+```{python}
+ 
+ import numpy as np
+ test = [2,2,3,11,1212]
+ est = np.array(test)
+   
+test
+```
+
+
+
+```{r}
+ 
+python <- as.vector(py$est)
+
+python * 2
+
+```
+
+
+```{r}
+url <- curl("https://www.indeed.com/jobs?q=data+scientist&l=Atlanta%2C+GA")
+```
+
+```{r}
+url
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+x = py$get_url("Data Scince","Ny")
+
+download.file(x, destfile = "scrapedpage.html", quiet=TRUE)
+
+     target <- xml2::read_html("scrapedpage.html")
+```
+
+
+```{python}
+
+
+   
+soup = BeautifulSoup(open("C:/Users/zacha/Documents/CUNY SPS/Cuny-SPS/607/Projects/scrapedpage.html", encoding="utf8"),'html.parser')
+
+ 
+  
+cards = soup.find_all('div','jobsearch-SerpJobCard')  
+
+
+ soup.findAll('a', attrs={'href': re.compile("^http://")})
+links = []
+
+for link in soup.findAll('a', attrs={'href': re.compile("^/rc")}):
+    links.append(link.get('href'))
+
+links
+```
+
+
+
+
+
+
+
+```{python}
+ records = [] 
+  for card in cards:
+    record = get_record(card)
+    records.append(record)
+
+df = pd.DataFrame(records)   
+   
+```
+
+```{python}
+def test():
+  record  = [1,2,2]
+  return pd.DataFrame(record)
+
+x = test()
+```
+
+
+
+
+
+ 
+```{r}
+ 
+
+library(DBI)
+con <- dbConnect(RMariaDB::MariaDB(), 
+
+  database = "test",
+  user = 'zach',
+ password = 'cuny607',
+  host = "72.80.137.125",port = 3306)
+
+```
+
+
+```{r}
+con <- dbConnect(odbc::odbc(), .connection_string = "Driver={MySQL ODBC 8.0 Unicode Driver};", 
+                 timeout = 10, Server = "72.80.137.125", 
+                 UID = "zach", PWD = "cuny607", port = 3306, dbname = "PROJ3")
+
+```
+ 
+
+
+```{sql connection=con}
+
+SHOW databases;
+
+
+```
+```{sql connection=con}
+
+use PROJ3;
+```
+```{sql connection=con}
+
+
+CREATE TABLE  degrees
+(
+degreelevel INT NOT NULL,
+meaning TEXT   NOT NULL, 
+PRIMARY KEY(degreelevel)
+);
+
+   
+   
+   
+   
+```
+
+```{sql connection=con}
+
+SELECT * FROM CONNIN.Listings;
+   
+```
+
+
+
+
+
+```{r}
+
+indeed_scraper <- function(search,city)
+  
+{  
+  for (i in seq(10,100,10)){
+      
+      #first line is the landing page after search query
+      
+      url_start <- py$get_url(search,city)
+      
+      # provides url for subsequent pages
+      
+      url <- paste0(url_start, "&start=", i)
+      
+      # reads all info on each page
+      
+      target <- xml2::read_html(url)
+      #Sys.sleep(2)
+      
+      # Company names on each page
+      
+      Company <- target %>% 
+          rvest::html_nodes(".company") %>%
+          rvest::html_text() %>%
+          stringi::stri_trim_both()
+      
+      # Job Titles on each page
+      
+      Job_Title <- target %>% 
+          rvest::html_nodes("div") %>%
+          rvest::html_nodes(xpath = '//*[@data-tn-element = "jobTitle"]') %>%
+          rvest::html_attr("title")
+      
+      # Job Locations on each page
+      
+      Location<- target %>% 
+          rvest::html_nodes(".location") %>%
+          rvest::html_text()
+      
+      # Job Links on each page --> these should link to individual job pages
+      
+      Links <- target %>% 
+          rvest::html_nodes('[data-tn-element="jobTitle"]') %>%
+          rvest::html_attr("href")
+      
+      # Collect job descriptions from linked pages
+      
+      Job_Description <- c()
+      
+      for(i in seq_along(Links)) {
+          
+          p_url <- paste0("https://www.indeed.com", Links[i])
+          pg <- xml2::read_html(p_url)
+          
+          description <- pg %>%
+              rvest::html_nodes("span")  %>% 
+              rvest::html_nodes(xpath = '//*[@class="jobsearch-JobComponent-description icl-u-xs-mt--md"]') %>% 
+              rvest::html_text() %>%
+              stringi::stri_trim_both()
+          
+          Job_Description <- c(Job_Description, description)
+      }
+      
+      df <-data.frame(Job_Title, Company, Location, Links, Job_Description)
+      
+      listings <- rbind(listings, df) # build final dataframe
+  }
+
+}
+
+
+
+
+```
+
+
+
+
+
+
+
+```{r}
+for (i in 1:nrow(listings)) {
+      write(listings$Job_Description[i], paste0(listings$ID[i], ".txt")) 
+ }
+```
+
+```{r}
+Atlanta<-listings%>%select(Job_Title, Company, Location, Links)
+
+
+
+
+write.csv(Atlanta, file = "Atlanta_Table.csv")
+```
+
+
+
+
+
+```{r}
+
+atl <- Atlanta
+atl%<>%rename(Id = X1)
+# separate Location into relevant columns
+Atl <- atl%>%separate(Location, c("City", "State"), ",")%>%
+    separate(State, c("tmp", "State", "Zip_Code"), "\\s")%>%
+    select(-c( tmp, Links))
+# Create categories of job_level
+Atl%<>%mutate(Job_Level = case_when(grepl("Intern", Job_Title) ~ "Intern",
+    grepl("^Data Analyst|Entry Level", Job_Title, ignore.case=TRUE) ~ "Junior",
+    grepl("Senior Data Scientist|Director|Lead|Principal|Sr.|President", Job_Title, ignore.case=TRUE)~"Senior",
+    grepl("^Associate.+|Senior Data Analyst|Data Engineer|Senior Associate|Machine Learning|ML|AI|Data Engineer|Manage.+|Data Scientist|Specialist|Data Science", Job_Title, ignore.case=TRUE)~"Mid_Level"))%>%
+    relocate(Job_Level, .after=Job_Title)
+```
+
+
+
+
+```{r}
+find <- c("[^[[:alnum:]][Cc]\\#","[^[[:alnum:]][Cc]\\+\\+","computer science","data engineering","deep learning","machine learning","neural networks","project management","[^[[:alnum:]][Rr][^[[:alnum:]]","scikit-learn","software development","software engineering")
+
+repl <- c(" csharp"," cplusplus","computerscience","dataengineering","deeplearning","machinelearning","neuralnetworks","projectmanagement"," rrrr","scikitlearn","softwaredevelopment","softwareengineering")
+
+ds_skills_list <- c("ai","analysis","aws","azure","c","caffe","cassandra","communication","computerscience","cplusplus","csharp","d3","dataengineering","deeplearning","docker","excel","git","hadoop","hbase","hive","java","javascript","keras","linux","machinelearning","mathematics","matlab","mongodb","mysql","neuralnetworks","nlp","nosql","numpy","pandas","perl","pig","projectmanagement","python","pytorch","rrrr","sas","scala","scikitlearn","softwaredevelopment","softwareengineering","spark","spss","sql","statistics","tableau","tensorflow","visualization")
+
+
+```
+
+
+```{r}
+#Create corpus from Atlanta files#
+
+atlanta_corpus <- VCorpus(DirSource(atlanta, encoding = "UTF-8"), readerControl = list(language = "en"))
+
+#transform corpus#
+
+atlanta_corpus <- tm_map(atlanta_corpus, removeWords, stopwords("english"))
+atlanta_corpus <- tm_map(atlanta_corpus, stripWhitespace)
+atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(tolower))
+#atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) so I can detect C#, C++
+
+for (i in seq(length(find))) {
+  atlanta_corpus <- tm_map(atlanta_corpus, content_transformer(function(atlanta_corpus) gsub(atlanta_corpus, pattern = find[i], replacement = repl[i])))
+}
+
+atlanta_corpus <- tm_map(atlanta_corpus, removePunctuation) ###########
+
+#build document_term dataframe#
+
+document_term <- DocumentTermMatrix(atlanta_corpus)
+document_term <- document_term %>%
+  as.matrix() %>%
+  as.data.frame()
+
+#Find members of ds_skills_list in colnames(document_term)#
+##PROBLEM: R is not in colnames(document_term)
+ds_skills_in_document_term <- cbind(ds_skills_list, ds_skills_list %in% colnames(document_term))
+
+ds_skills_in_document_term <- as.data.frame(ds_skills_in_document_term)
+
+ds_skills_in_document_term <- ds_skills_in_document_term %>%
+  filter(V2 == "TRUE")
+
+#build ds_skills_df dataframe#
+
+ds_skills_df <- document_term %>%
+  select(ds_skills_in_document_term$ds_skills_list)
+
+#tidy ds_skills_df#
+
+ds_skills_df <- rownames_to_column(ds_skills_df)
+ds_skills_df <- rename(ds_skills_df, "listing" = "rowname")
+ds_skills_df <- ds_skills_df %>%
+  mutate("listing" = substr(listing,0,nchar(listing)-4))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
